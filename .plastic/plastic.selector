@@ -1,0 +1,4 @@
+repository "FifePilgrimWay/FifePilgrimWay@5773992804972@cloud"
+  path "/"
+    br "/main"
+    co "/main"
