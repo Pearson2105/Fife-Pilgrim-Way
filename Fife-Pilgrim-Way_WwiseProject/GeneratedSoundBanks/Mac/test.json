@@ -572,7 +572,7 @@
      {
       "Id": "3597291569",
       "Name": "Play_Scots_Speech",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Scots_Speech",
+      "ObjectPath": "\\Events\\Default Work Unit\\NPC\\Play_Scots_Speech",
       "GUID": "{734AE36B-C165-4372-A27E-AA68898A433B}",
       "DurationType": "OneShot",
       "DurationMin": "0.16929057",
@@ -1195,6 +1195,6 @@
     ]
    }
   ],
-  "FileHash": "{2E91C815-4736-66B0-4AAA-879FF9D24D06}"
+  "FileHash": "{7EB3843F-635D-BCEB-0697-56C159C6A207}"
  }
 }

@@ -29,7 +29,7 @@
      {
       "Id": "298480340",
       "Name": "Play_Dying_Sound_Lute",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Dying_Sound_Lute",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\Play_Dying_Sound_Lute",
       "GUID": "{1A813ED9-2D95-4DC9-9896-90B913EEE60D}",
       "DurationType": "OneShot",
       "DurationMin": "4.6615624",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{7BCB05FC-1BC5-4F93-D8C6-0EC514FE11BD}"
+  "FileHash": "{395C3605-4FCE-9F23-BEFC-EA8FEE8DD425}"
  }
 }

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2350077198",
+    "Type": "Event",
+    "GUID": "{213A7980-524B-4BDF-A94D-BAA720836903}",
+    "Language": "SFX",
+    "Hash": "{9ECBCF2E-4002-8708-7AC2-B45B3EBCB155}",
+    "ObjectPath": "Play_Sea_Ambience",
+    "ShortName": "Play_Sea_Ambience",
+    "Path": "Event/Play_Sea_Ambience.bnk",
+    "Media": [
+     {
+      "Id": "161914615",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Sea Ambience.wav",
+      "Path": "Media/161914615.wem",
+      "CachePath": "5F/{5F33155F-A000-CD92-C76F-ADB71FB3D47E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2350077198",
+      "Name": "Play_Sea_Ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Play_Sea_Ambience",
+      "GUID": "{213A7980-524B-4BDF-A94D-BAA720836903}",
+      "DurationType": "OneShot",
+      "DurationMin": "202.41963",
+      "DurationMax": "202.41963",
+      "MediaRefs": [
+       {
+        "Id": "161914615"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2D96FB1A-1EA5-9358-9C05-09EF8C7887B7}"
+ }
+}

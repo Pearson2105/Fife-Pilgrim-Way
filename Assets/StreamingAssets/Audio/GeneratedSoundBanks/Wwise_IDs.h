@@ -14,11 +14,20 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_BEAR = 1996054844U;
+        static const AkUniqueID PLAY_BIRDS_AND_WIND = 1324655209U;
         static const AkUniqueID PLAY_DYING_SOUND_LUTE = 298480340U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
+        static const AkUniqueID PLAY_HORSE_GALLOP = 1037036053U;
+        static const AkUniqueID PLAY_HORSE_NEIGH = 1320828253U;
+        static const AkUniqueID PLAY_MUSIC_SWITCH = 1228139402U;
         static const AkUniqueID PLAY_SCOTS_SPEECH = 3597291569U;
+        static const AkUniqueID PLAY_SEA_AMBIENCE = 2350077198U;
+        static const AkUniqueID PLAY_UI_SOUND_1 = 2794064168U;
+        static const AkUniqueID PLAY_UI_SOUND_2 = 2794064171U;
         static const AkUniqueID PLAY_WILD_BOAR = 3318202069U;
+        static const AkUniqueID PLAY_WINNING = 1958657586U;
         static const AkUniqueID PLAY_WOLF = 1523845998U;
+        static const AkUniqueID STOP_FOOTSTEPS = 2963349357U;
     } // namespace EVENTS
 
     namespace SWITCHES

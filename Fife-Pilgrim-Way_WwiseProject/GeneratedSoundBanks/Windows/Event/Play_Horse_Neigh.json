@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1320828253",
+    "Type": "Event",
+    "GUID": "{5E6AB206-793C-4F6A-99FE-FED0395275B6}",
+    "Language": "SFX",
+    "Hash": "{D8B18C3E-E7F2-F8D1-A48D-484ED3019870}",
+    "ObjectPath": "Play_Horse_Neigh",
+    "ShortName": "Play_Horse_Neigh",
+    "Path": "Event/Play_Horse_Neigh.bnk",
+    "Media": [
+     {
+      "Id": "414717533",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Horse Neighing.wav",
+      "Path": "Media/414717533.wem",
+      "CachePath": "51/{518428DD-6521-BC25-7950-84EF35FC0203}.wem"
+     },
+     {
+      "Id": "433146357",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Horse Neighing.wav",
+      "Path": "Media/433146357.wem",
+      "CachePath": "1B/{1B4367FC-02E7-6512-A420-4D7D4EA0D036}.wem"
+     },
+     {
+      "Id": "610598805",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Horse Neighing.wav",
+      "Path": "Media/610598805.wem",
+      "CachePath": "51/{51D9D000-E28D-7956-861B-6595CD3CD42A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1320828253",
+      "Name": "Play_Horse_Neigh",
+      "ObjectPath": "\\Events\\Default Work Unit\\Animals\\Play_Horse_Neigh",
+      "GUID": "{5E6AB206-793C-4F6A-99FE-FED0395275B6}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4226962",
+      "DurationMax": "2.4544225",
+      "MediaRefs": [
+       {
+        "Id": "414717533"
+       },
+       {
+        "Id": "433146357"
+       },
+       {
+        "Id": "610598805"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A9B0624C-E457-0A68-3FE1-905505DF32F8}"
+ }
+}

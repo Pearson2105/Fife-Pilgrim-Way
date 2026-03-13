@@ -1,0 +1,30 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1228139402",
+    "Type": "Event",
+    "GUID": "{5942155E-9C2B-483F-9E61-C365788FF032}",
+    "Language": "SFX",
+    "Hash": "{74076950-31FA-1058-A92E-8D7B03A431D7}",
+    "ObjectPath": "Play_Music_Switch",
+    "ShortName": "Play_Music_Switch",
+    "Path": "Event/Play_Music_Switch.bnk",
+    "Events": [
+     {
+      "Id": "1228139402",
+      "Name": "Play_Music_Switch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Music_Switch",
+      "GUID": "{5942155E-9C2B-483F-9E61-C365788FF032}",
+      "DurationType": "Infinite"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C0E331C2-7AEB-AABD-036F-F2619A9D70C2}"
+ }
+}

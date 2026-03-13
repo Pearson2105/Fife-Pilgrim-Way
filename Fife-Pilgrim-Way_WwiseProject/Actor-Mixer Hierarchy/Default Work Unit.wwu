@@ -390,6 +390,30 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Wild Boar" ID="{A8714727-F88C-4F1D-9364-667D0A2938C5}" ShortID="9394885">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wild Boar" ID="{3AADB04B-BFDC-45D6-BF75-CEC121F3896B}">
+											<Language>SFX</Language>
+											<AudioFile>Wild Boar.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="254597642"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wild Boar" ID="{3AADB04B-BFDC-45D6-BF75-CEC121F3896B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Wolf" ID="{37E036F3-46F7-4ABE-A4FF-A919DD5E42A1}" ShortID="205988351">
 							<ReferenceList>
@@ -1070,16 +1094,6 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Dirt" ID="{8309ABE6-C12F-46B5-84F0-B56621756E41}" ShortID="250956739">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
-										</Reference>
-									</ReferenceList>
-								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -1088,9 +1102,6 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Grass" ID="{66C46C79-74AF-46FF-B955-82C0E7EAACFF}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="Dirt" ID="{8309ABE6-C12F-46B5-84F0-B56621756E41}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 							</GroupingInfo>
@@ -1115,6 +1126,28 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Dying Sound Lute" ID="{D7FBFDDA-8BA0-4019-AE06-3FC767C041D8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Winning" ID="{76F102F3-2B53-48DC-B199-5F1956F36E1F}" ShortID="500589242">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Winning" ID="{73502D44-C80B-4C16-98FF-D2F3907EA76A}">
+									<Language>SFX</Language>
+									<AudioFile>Winning.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="875838737"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Winning" ID="{73502D44-C80B-4C16-98FF-D2F3907EA76A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -4077,6 +4110,76 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Sea Ambience" ID="{A0649442-1320-4C5C-8167-F232BDB87498}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Birds and Wind" ID="{F5ECB9EC-5F8D-4D1F-8BD9-48B97EC83014}" ShortID="209106555">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Birds and Wind" ID="{4EAA18D9-3AFB-4F78-931A-0A2B32102C68}">
+									<Language>SFX</Language>
+									<AudioFile>Birds and Wind.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="101589374"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Birds and Wind" ID="{4EAA18D9-3AFB-4F78-931A-0A2B32102C68}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{5FFC2306-E19F-4948-9E42-49F5BCD0CB45}" ShortID="892954491">
+					<ChildrenList>
+						<Sound Name="UI sound 1" ID="{202B26BA-AB01-47E7-A39D-02154E0AA14F}" ShortID="150211134">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI sound 1" ID="{6273F7BE-4E08-4339-829C-C9999B761839}">
+									<Language>SFX</Language>
+									<AudioFile>UI sound 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="419175076"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI sound 1" ID="{6273F7BE-4E08-4339-829C-C9999B761839}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI sound 2" ID="{921548D1-677A-42E7-AB60-88B35D7892FD}" ShortID="705205616">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI sound 2" ID="{9CB936F3-B79F-4B16-8C2F-671ECE267342}">
+									<Language>SFX</Language>
+									<AudioFile>UI sound 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="911578332"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI sound 2" ID="{9CB936F3-B79F-4B16-8C2F-671ECE267342}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
