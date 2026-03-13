@@ -1,0 +1,9 @@
+<?xml version='1.0'?>
+<WwiseSettings>
+    <WwiseProjectPath>../../Fife-Pilgrim-Way/Fife-Pilgrim-Way_WwiseProject/Fife-Pilgrim-Way_WwiseProject.wproj</WwiseProjectPath>
+    <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
+    <CreateWwiseGlobal>true</CreateWwiseGlobal>
+    <CreateWwiseListener>true</CreateWwiseListener>
+    <WwiseInstallationPathWindows>E:\Wwise2024.1.9.8920</WwiseInstallationPathWindows>
+    <WwiseInstallationPathMac></WwiseInstallationPathMac>
+</WwiseSettings>
