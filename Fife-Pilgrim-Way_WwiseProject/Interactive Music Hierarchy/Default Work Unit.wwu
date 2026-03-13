@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{000F2366-3633-49C0-AB8E-BAFDF9B25003}" SchemaVersion="123">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{000F2366-3633-49C0-AB8E-BAFDF9B25003}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="Menu Music wav" ID="{D1C465E7-3AE8-4348-902E-0E88C08ABDBC}" ShortID="325476154">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="71040"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Menu Music wav" ID="{6CCCB8ED-44B0-412C-9D0B-552C155E3798}" ShortID="877785679">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{B073D625-EA9D-4818-A183-903D5A666E46}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Menu Music wav" ID="{5ACFD453-C46B-4167-99A2-1D8FC0F87A84}">
+									<Language>SFX</Language>
+									<AudioFile>Menu Music wav.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="905895884"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{681FBDF1-58E3-4E7B-BD7A-C1605B7D924C}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="Menu Music wav" ID="{CB8A3EB6-673D-465A-BC88-DBFBEA504254}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="71040"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Menu Music wav" ID="{5ACFD453-C46B-4167-99A2-1D8FC0F87A84}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{8B278CC6-E15C-4DDB-B555-19E25CCFC549}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{3C2F6FB0-9585-4BF2-A3B7-FE6C04EA6356}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="71040"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+				<MusicSegment Name="Combat" ID="{E4D7C683-8F44-4ADD-85F3-B0559A89728F}" ShortID="508635373">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="231915.102040816"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Combat" ID="{88AA550D-ABF5-4B4A-A7AD-907BF5CF39BB}" ShortID="767328473">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{CB548E03-E3A5-407B-BA4C-4D18EFACD83E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Combat" ID="{300CD46C-4EA4-4967-8950-522FC9F0EED4}">
+									<Language>SFX</Language>
+									<AudioFile>Combat.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1047828154"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{6A554EC7-7619-4A95-8F18-AA198FC9FE7F}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="Combat" ID="{3915F9F1-B8EF-4F58-8E1B-A7DA2F6C737D}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="231915.102040816"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Combat" ID="{300CD46C-4EA4-4967-8950-522FC9F0EED4}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{E8703C6C-C7A7-4ABE-BECD-0B61B3926D0F}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{3136CDDC-C02C-4E23-8289-9504F18056C9}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="1000"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

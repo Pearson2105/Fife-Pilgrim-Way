@@ -1,0 +1,65 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3597291569	Play_Scots_Speech			\Default Work Unit\Play_Scots_Speech	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1683734824	Letters			\Default Work Unit\Letters	
+
+Switch	ID	Name	Switch Group			Notes
+	84696421	Z	Letters			
+	84696422	Y	Letters			
+	84696423	X	Letters			
+	84696424	W	Letters			
+	84696425	V	Letters			
+	84696426	U	Letters			
+	84696427	T	Letters			
+	84696428	S	Letters			
+	84696429	R	Letters			
+	84696430	Q	Letters			
+	84696431	P	Letters			
+	84696432	O	Letters			
+	84696433	N	Letters			
+	84696434	M	Letters			
+	84696435	L	Letters			
+	84696436	K	Letters			
+	84696437	J	Letters			
+	84696438	I	Letters			
+	84696439	H	Letters			
+	84696440	G	Letters			
+	84696441	F	Letters			
+	84696442	E	Letters			
+	84696443	D	Letters			
+	84696444	C	Letters			
+	84696445	B	Letters			
+	84696446	A	Letters			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1520455939	Voice_Gender			\Default Work Unit\Voice_Gender	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	9972579	Y	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\87\{875CE787-13D2-58FA-6C2F-52FDE9566C96}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\Y		176496
+	15363211	X	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\A7\{A767B5AC-15A6-A97C-9817-BF8C8034029D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\X		176496
+	27113040	F	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\7B\{7B7E19C2-E434-0F19-8A43-E88808DC6181}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\F		176496
+	144055770	V	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\FA\{FA147570-89F2-7FD8-F616-72268DFE326E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\V		176496
+	190394187	O	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\1F\{1F0EEA74-FFE7-798D-09CB-B63EA792F30E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\O		176496
+	215120476	T	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B9\{B925138F-8A1A-D4D7-556B-D9FFB78D9106}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\T		176496
+	346587513	P	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\9C\{9C472907-AE7B-B646-96EE-4F1AE778B8C4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\P		176496
+	348987034	E	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\AA\{AAD2DA4F-2D50-74D1-AF92-85F588558C25}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\E		176496
+	364750620	M	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\87\{873D11FF-2237-9D2B-5DF0-EC695FFE3810}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\M		176496
+	367769883	H	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B9\{B97A292A-B448-DB40-5EA6-99F8F47736FF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\H		176496
+	375781669	C	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\5F\{5F987ED6-8B27-A1FB-EC7D-C2D3585288BB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\C		176496
+	445688905	D	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\3B\{3B5ED3B6-5952-55C3-381E-6C233EB09F5F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\D		176496
+	461404774	S	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B8\{B8CF7DA3-EF5D-4944-F3F1-931FA7E9C29A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\S		176496
+	494699224	A	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\C7\{C78C5CAC-86C7-0E86-A031-AC58606E738B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\A		176496
+	515683094	N	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\8D\{8D5267A1-A41A-683A-8C6D-B4583D359623}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\N		176496
+	543039013	J	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\CA\{CA006545-0EB2-EF2D-72A3-5932A0506022}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\J		176496
+	638111851	G	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\87\{87B694F4-6022-12EE-9771-32D1735625FB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\G		176496
+	660556671	I	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\CF\{CF5727EB-0F0B-EEB1-1E22-D6799720D6E5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\I		176496
+	672441357	K	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\FB\{FB6FA3C0-4A1D-9198-0393-9A233DA64A48}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\K		176496
+	716611291	W	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\82\{82439038-C27E-52D2-62FC-6DABD6BA93BB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\W		176496
+	723047237	Z	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\25\{25426694-B9F2-2AE5-F9DF-1751FDD2A771}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\Z		176496
+	732400931	L	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\69\{692E4CC5-6653-3A55-F8B6-5012B52F37A5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\L		176496
+	797432608	Q	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E8\{E8DAA830-F7B6-9312-716D-1147B616FDBA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\Q		176496
+	808835054	R	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\D5\{D5AB7FB3-199E-1591-F879-C2728D79D242}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\R		176496
+	846888180	U	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\4C\{4C87E5F6-A079-35F6-F1B1-A282EC010A1D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\U		176496
+	908843806	B	C:\Users\finnj\OneDrive\Documents\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\43\{43F09652-939E-2481-519D-0D09E92DC9A3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scottish_Voice_Switch\B		176496
+
