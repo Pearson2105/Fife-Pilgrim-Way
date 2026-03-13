@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3318202069	Play_Wild_Boar			\Default Work Unit\Animals\Play_Wild_Boar	
+

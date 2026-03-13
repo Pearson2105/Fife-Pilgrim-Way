@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1523845998	Play_Wolf			\Default Work Unit\Animals\Play_Wolf	
+

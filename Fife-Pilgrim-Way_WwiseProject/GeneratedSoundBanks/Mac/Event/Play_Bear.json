@@ -1,0 +1,132 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1996054844",
+    "Type": "Event",
+    "GUID": "{655667E1-E91F-43B0-9B05-F1912182A9DD}",
+    "Language": "SFX",
+    "Hash": "{CC91F3B2-59CB-B83F-6759-5999165BCAC7}",
+    "ObjectPath": "Play_Bear",
+    "ShortName": "Play_Bear",
+    "Path": "Event/Play_Bear.bnk",
+    "Media": [
+     {
+      "Id": "126852145",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bear.wav",
+      "Path": "Media/126852145.wem",
+      "CachePath": "EE/{EE9E7D9B-D731-203A-1362-52770F379C91}.wem"
+     },
+     {
+      "Id": "306672692",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bear.wav",
+      "Path": "Media/306672692.wem",
+      "CachePath": "C6/{C6E761B9-2658-DBE8-5452-ACC3BE6B4320}.wem"
+     },
+     {
+      "Id": "331685624",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bear.wav",
+      "Path": "Media/331685624.wem",
+      "CachePath": "E3/{E32A6675-6275-DEF0-A985-7E91166EFF76}.wem"
+     },
+     {
+      "Id": "363875322",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bear.wav",
+      "Path": "Media/363875322.wem",
+      "CachePath": "22/{22844BF3-D9DF-20BD-8076-665E3E92668B}.wem"
+     },
+     {
+      "Id": "384744663",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bear.wav",
+      "Path": "Media/384744663.wem",
+      "CachePath": "53/{535C14D8-D137-4185-ED02-011176F4122E}.wem"
+     },
+     {
+      "Id": "558117256",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bear.wav",
+      "Path": "Media/558117256.wem",
+      "CachePath": "2C/{2CF842DB-6016-FA4E-EA42-E3B2B26C5EBD}.wem"
+     },
+     {
+      "Id": "686703559",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bear.wav",
+      "Path": "Media/686703559.wem",
+      "CachePath": "62/{621A973E-4289-CC0B-A1AB-C3B1B11EE101}.wem"
+     },
+     {
+      "Id": "1024706273",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bear.wav",
+      "Path": "Media/1024706273.wem",
+      "CachePath": "F6/{F6239955-E84F-BFCF-413F-EA8EDB1AC6DB}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1996054844",
+      "Name": "Play_Bear",
+      "ObjectPath": "\\Events\\Default Work Unit\\Animals\\Play_Bear",
+      "GUID": "{655667E1-E91F-43B0-9B05-F1912182A9DD}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5363154",
+      "DurationMax": "2.1320295",
+      "MediaRefs": [
+       {
+        "Id": "126852145"
+       },
+       {
+        "Id": "306672692"
+       },
+       {
+        "Id": "331685624"
+       },
+       {
+        "Id": "363875322"
+       },
+       {
+        "Id": "384744663"
+       },
+       {
+        "Id": "558117256"
+       },
+       {
+        "Id": "686703559"
+       },
+       {
+        "Id": "1024706273"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C24A4BC9-8247-D013-AFB3-B3BA39EE1A3D}"
+ }
+}

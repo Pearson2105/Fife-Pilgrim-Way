@@ -131,8 +131,8 @@ MonoBehaviour:
         guid: e16756651fe9b0439b05f1912182a9dd
       Path: Events\Default Work Unit\Animals\Play_Bear
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.1320295
+      minDuration: 1.5363154
     - name: Play_Dying_Sound_Lute
       guid: d93e811a952dc94d989690b913eee60d
       id: 298480340
@@ -148,8 +148,8 @@ MonoBehaviour:
         guid: d93e811a952dc94d989690b913eee60d
       Path: Events\Default Work Unit\Play_Dying_Sound_Lute
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.6615624
+      minDuration: 4.6615624
     - name: Play_Footsteps
       guid: 70e95935947ee142a765914db5dce819
       id: 3854155799
@@ -165,8 +165,8 @@ MonoBehaviour:
         guid: 70e95935947ee142a765914db5dce819
       Path: Events\Default Work Unit\Play_Footsteps
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Scots_Speech
       guid: 6be34a7365c17243a27eaa68898a433b
       id: 3597291569
@@ -182,8 +182,8 @@ MonoBehaviour:
         guid: 6be34a7365c17243a27eaa68898a433b
       Path: Events\Default Work Unit\Play_Scots_Speech
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.69804907
+      minDuration: 0.16929057
     - name: Play_Wild_Boar
       guid: a84bc49cf129cf4fb504a7e8e90164ab
       id: 3318202069
@@ -202,8 +202,8 @@ MonoBehaviour:
         guid: a84bc49cf129cf4fb504a7e8e90164ab
       Path: Events\Default Work Unit\Animals\Play_Wild_Boar
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Wolf
       guid: cfdd75e99fdfad4b8358068d02f09078
       id: 1523845998
@@ -222,8 +222,8 @@ MonoBehaviour:
         guid: cfdd75e99fdfad4b8358068d02f09078
       Path: Events\Default Work Unit\Animals\Play_Wolf
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.7045944
+      minDuration: 1.3640562
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

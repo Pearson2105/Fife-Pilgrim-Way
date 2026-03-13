@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3854155799",
+    "Type": "Event",
+    "GUID": "{3559E970-7E94-42E1-A765-914DB5DCE819}",
+    "Language": "SFX",
+    "Hash": "{9C10FB48-171B-57D1-41DC-14FC2E2705F9}",
+    "ObjectPath": "Play_Footsteps",
+    "ShortName": "Play_Footsteps",
+    "Path": "Event/Play_Footsteps.bnk",
+    "Events": [
+     {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "GUID": "{3559E970-7E94-42E1-A765-914DB5DCE819}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5D2231D1-C3D7-36D9-15A2-62DE602745A5}"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "298480340",
+    "Type": "Event",
+    "GUID": "{1A813ED9-2D95-4DC9-9896-90B913EEE60D}",
+    "Language": "SFX",
+    "Hash": "{7FC12FA5-4CAB-B761-449A-339E6D399924}",
+    "ObjectPath": "Play_Dying_Sound_Lute",
+    "ShortName": "Play_Dying_Sound_Lute",
+    "Path": "Event/Play_Dying_Sound_Lute.bnk",
+    "Media": [
+     {
+      "Id": "103315941",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Dying Sound Lute.wav",
+      "Path": "Media/103315941.wem",
+      "CachePath": "D3/{D302D4CB-7A02-AC98-A9DF-7D86D83254D9}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "298480340",
+      "Name": "Play_Dying_Sound_Lute",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Dying_Sound_Lute",
+      "GUID": "{1A813ED9-2D95-4DC9-9896-90B913EEE60D}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.6615624",
+      "DurationMax": "4.6615624",
+      "MediaRefs": [
+       {
+        "Id": "103315941"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7F27AE00-A7BD-79F2-0798-55A09F75E911}"
+ }
+}
