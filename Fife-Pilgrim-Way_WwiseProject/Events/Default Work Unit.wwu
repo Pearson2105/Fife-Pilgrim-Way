@@ -111,17 +111,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Birds_and_Wind" ID="{D8DDAF28-CD40-475B-84B2-3B84D5B481B4}">
-							<ChildrenList>
-								<Action Name="" ID="{D352B87D-90B2-4DB9-9A9C-26CAF55FE03E}" ShortID="762668258">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Birds and Wind" ID="{F5ECB9EC-5F8D-4D1F-8BD9-48B97EC83014}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambience" ID="{D816C0F6-C296-4838-9AB3-862DE2DAA954}" ShortID="390220624">
@@ -132,6 +121,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Sea Ambience" ID="{0B15961D-C160-41F5-AA00-FC268C2C5428}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Birds_and_Wind_01" ID="{F67D52A3-B184-4A36-990B-498A0B73955D}">
+							<ChildrenList>
+								<Action Name="" ID="{7C635888-8036-46F6-8BCD-966AD67E7AEF}" ShortID="64598442">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Birds and Wind" ID="{F5ECB9EC-5F8D-4D1F-8BD9-48B97EC83014}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

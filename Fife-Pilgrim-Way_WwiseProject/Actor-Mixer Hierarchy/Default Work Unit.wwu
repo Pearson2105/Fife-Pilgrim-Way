@@ -6,6 +6,13 @@
 				<Folder Name="Animals" ID="{2DD0C2FD-DF2D-4774-A996-EEA810700BA2}" ShortID="140121378">
 					<ChildrenList>
 						<RandomSequenceContainer Name="Bear" ID="{5B0E6415-40AD-46B4-A7F6-D34E845C88F2}" ShortID="1051852239">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -270,6 +277,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Horse Galloping" ID="{A37E9430-C515-4AB9-8560-364863566C16}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.800359712230216"/>
+												<Property Name="LoopBegin" Type="Real64" Value="16.263309352518"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="13.4780575539568"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Horse Galloping.wav</AudioFile>
 											<MediaIDList>
@@ -284,6 +297,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Horse_Neigh" ID="{A8DA684D-ED7A-4C8E-869C-6DB556BF41BD}" ShortID="72672965">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -402,6 +422,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Wild Boar" ID="{3AADB04B-BFDC-45D6-BF75-CEC121F3896B}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.06476769930814"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Wild Boar.wav</AudioFile>
 											<MediaIDList>
@@ -1107,6 +1131,13 @@
 							</GroupingInfo>
 						</SwitchContainer>
 						<Sound Name="Dying Sound Lute" ID="{B81F0D5F-A3AB-4CCD-80DD-124EEE906804}" ShortID="350297061">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -1117,6 +1148,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Dying Sound Lute" ID="{D7FBFDDA-8BA0-4019-AE06-3FC767C041D8}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.462802602232789"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.892068784013927"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0804874090839633"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.72315739789455"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Dying Sound Lute.wav</AudioFile>
 									<MediaIDList>
@@ -1129,6 +1167,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Winning" ID="{76F102F3-2B53-48DC-B199-5F1956F36E1F}" ShortID="500589242">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -1189,6 +1234,18 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="A" ID="{6E266F91-4A1B-4347-B282-15A3F782363D}" ShortID="644256136">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>22</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -1283,6 +1340,18 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="B" ID="{1B1047B4-0FEE-4020-AC71-333866954AE3}" ShortID="246986631">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -4091,6 +4160,14 @@
 				<Folder Name="Ambience" ID="{842B485F-2729-4FE9-8B18-9F3237373F6D}" ShortID="179583740">
 					<ChildrenList>
 						<Sound Name="Sea Ambience" ID="{0B15961D-C160-41F5-AA00-FC268C2C5428}" ShortID="231975106">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -4101,6 +4178,12 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sea Ambience" ID="{A0649442-1320-4C5C-8167-F232BDB87498}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="3.49501522805193"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="4.07751776606059"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="144.460622468139"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sea Ambience.wav</AudioFile>
 									<MediaIDList>
@@ -4113,6 +4196,14 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Birds and Wind" ID="{F5ECB9EC-5F8D-4D1F-8BD9-48B97EC83014}" ShortID="209106555">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -4123,6 +4214,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Birds and Wind" ID="{4EAA18D9-3AFB-4F78-931A-0A2B32102C68}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="4.84278582017199"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="3.96227930741345"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="43.1448191251686"/>
+										<Property Name="TrimEnd" Type="Real64" Value="152.767866780013"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Birds and Wind.wav</AudioFile>
 									<MediaIDList>
@@ -4138,7 +4236,7 @@
 				</Folder>
 				<Folder Name="UI" ID="{5FFC2306-E19F-4948-9E42-49F5BCD0CB45}" ShortID="892954491">
 					<ChildrenList>
-						<Sound Name="UI sound 1" ID="{202B26BA-AB01-47E7-A39D-02154E0AA14F}" ShortID="150211134">
+						<RandomSequenceContainer Name="UI " ID="{5064119B-5D3B-42BD-99F5-8012A0B51CDE}" ShortID="699232148">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -4148,40 +4246,169 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="UI sound 1" ID="{6273F7BE-4E08-4339-829C-C9999B761839}">
-									<Language>SFX</Language>
-									<AudioFile>UI sound 1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="419175076"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="UI sound 1_01" ID="{107F941D-A98C-4E49-8305-59061FF3B250}" ShortID="660124943">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI sound 1" ID="{4CDF38EA-1E15-4D94-B1DA-3C0133A7B030}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.782396009671602"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.29539563276571"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>UI sound 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="670057780"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI sound 1" ID="{4CDF38EA-1E15-4D94-B1DA-3C0133A7B030}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI sound 1" ID="{202B26BA-AB01-47E7-A39D-02154E0AA14F}" ShortID="150211134">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI sound 1" ID="{6273F7BE-4E08-4339-829C-C9999B761839}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.484340428600642"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>UI sound 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="419175076"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI sound 1" ID="{6273F7BE-4E08-4339-829C-C9999B761839}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI sound 1_02" ID="{1BEA35A4-6DEC-4486-8095-E45E12862A43}" ShortID="988686895">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI sound 1" ID="{D44C95B4-3601-4249-A98B-527C2D8341EB}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.51033954980562"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>UI sound 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="737303506"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI sound 1" ID="{D44C95B4-3601-4249-A98B-527C2D8341EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI sound 2" ID="{921548D1-677A-42E7-AB60-88B35D7892FD}" ShortID="705205616">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI sound 2" ID="{9CB936F3-B79F-4B16-8C2F-671ECE267342}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.312459826243009"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>UI sound 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="911578332"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI sound 2" ID="{9CB936F3-B79F-4B16-8C2F-671ECE267342}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI sound 2_01" ID="{95239860-EED6-4CDE-9ED6-004C4842C194}" ShortID="940940964">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI sound 2" ID="{DAACC821-2ED9-4614-AFB2-EFEF22C0CECE}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.20520281963211"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.36589636488441"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>UI sound 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="682223682"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI sound 2" ID="{DAACC821-2ED9-4614-AFB2-EFEF22C0CECE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI sound 2_02" ID="{8FCA3D5C-057D-4460-A709-0C941A34BCEA}" ShortID="340905023">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI sound 2" ID="{18F27EA7-D50E-403B-8BAA-F9C40759A6E5}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.18683583856486"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.00815924157341"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>UI sound 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="891267640"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI sound 2" ID="{18F27EA7-D50E-403B-8BAA-F9C40759A6E5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="UI sound 1" ID="{6273F7BE-4E08-4339-829C-C9999B761839}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="UI sound 2" ID="{921548D1-677A-42E7-AB60-88B35D7892FD}" ShortID="705205616">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="UI sound 2" ID="{9CB936F3-B79F-4B16-8C2F-671ECE267342}">
-									<Language>SFX</Language>
-									<AudioFile>UI sound 2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="911578332"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="UI sound 2" ID="{9CB936F3-B79F-4B16-8C2F-671ECE267342}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
