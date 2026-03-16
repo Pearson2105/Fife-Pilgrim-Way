@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1324655209	Play_Birds_and_Wind			\Default Work Unit\Character\Play_Birds_and_Wind	
+

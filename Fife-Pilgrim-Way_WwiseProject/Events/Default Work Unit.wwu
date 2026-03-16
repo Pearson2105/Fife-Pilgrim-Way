@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3579F144-97C7-4693-9A84-541C271BEB20}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3579F144-97C7-4693-9A84-541C271BEB20}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Animals" ID="{4E686882-69FA-42E3-8871-A1A5CFFAEB55}" ShortID="440406581">
+					<ChildrenList>
+						<Event Name="Play_Bear" ID="{655667E1-E91F-43B0-9B05-F1912182A9DD}">
+							<ChildrenList>
+								<Action Name="" ID="{FA33CFB4-257C-4387-9FE5-D2B73D02CC0F}" ShortID="384271500">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bear" ID="{5B0E6415-40AD-46B4-A7F6-D34E845C88F2}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wolf" ID="{E975DDCF-DF9F-4BAD-8358-068D02F09078}">
+							<ChildrenList>
+								<Action Name="" ID="{753BE848-CD75-47E6-8D96-6889758C3EF3}" ShortID="630886035">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wolf" ID="{37E036F3-46F7-4ABE-A4FF-A919DD5E42A1}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wild_Boar" ID="{12F956E2-5561-4520-8759-AC0336B2A040}">
+							<ChildrenList>
+								<Action Name="" ID="{BEA3AB96-9A08-494A-BF84-0EDFDF95601C}" ShortID="563272371">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wild_Boar" ID="{076124F0-1165-4825-A246-A3C25234BE4F}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Horse_Neigh" ID="{5E6AB206-793C-4F6A-99FE-FED0395275B6}">
+							<ChildrenList>
+								<Action Name="" ID="{AEDCC705-3D5F-41E5-BA68-208E3583391B}" ShortID="709095314">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Horse_Neigh" ID="{A8DA684D-ED7A-4C8E-869C-6DB556BF41BD}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Horse_Gallop" ID="{57E6DA6F-87B7-4903-A700-E26BBAC010C8}">
+							<ChildrenList>
+								<Action Name="" ID="{93C3C9DE-FBB7-46C8-A955-539480EB8D39}" ShortID="857084844">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Horse_Gallop" ID="{3CADF6A3-CD96-4845-AE7D-F9EED03820BA}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Character" ID="{A017DAE2-C125-4B33-8902-A56A3B0496D4}" ShortID="784531918">
+					<ChildrenList>
+						<Event Name="Play_Footsteps" ID="{3559E970-7E94-42E1-A765-914DB5DCE819}">
+							<ChildrenList>
+								<Action Name="" ID="{0EE3B5A9-CCFE-47EB-A570-5D213B5EEB00}" ShortID="560612970">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{E92280E0-BB79-4D4B-B2B8-05B87AC967A9}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Winning" ID="{E5FAF9F1-33E4-4B3E-A42D-E21FAC2BF3B4}">
+							<ChildrenList>
+								<Action Name="" ID="{D774CA89-7F2B-4ADF-A5CD-4C893EDAE40C}" ShortID="794227825">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Winning" ID="{76F102F3-2B53-48DC-B199-5F1956F36E1F}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Dying_Sound_Lute" ID="{1A813ED9-2D95-4DC9-9896-90B913EEE60D}">
+							<ChildrenList>
+								<Action Name="" ID="{A2D309D3-64B7-400F-AB19-FE0549497AAA}" ShortID="794718686">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dying Sound Lute" ID="{B81F0D5F-A3AB-4CCD-80DD-124EEE906804}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Footsteps" ID="{5FBBDB35-4221-4852-BD14-93272B475D7D}">
+							<ChildrenList>
+								<Action Name="" ID="{5670209F-662C-4F55-ACC6-879CAF08A5B2}" ShortID="187069721">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{E92280E0-BB79-4D4B-B2B8-05B87AC967A9}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Birds_and_Wind" ID="{D8DDAF28-CD40-475B-84B2-3B84D5B481B4}">
+							<ChildrenList>
+								<Action Name="" ID="{D352B87D-90B2-4DB9-9A9C-26CAF55FE03E}" ShortID="762668258">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Birds and Wind" ID="{F5ECB9EC-5F8D-4D1F-8BD9-48B97EC83014}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambience" ID="{D816C0F6-C296-4838-9AB3-862DE2DAA954}" ShortID="390220624">
+					<ChildrenList>
+						<Event Name="Play_Sea_Ambience" ID="{213A7980-524B-4BDF-A94D-BAA720836903}">
+							<ChildrenList>
+								<Action Name="" ID="{0E883665-3F3C-4C77-9055-732C6B888D6F}" ShortID="1062609969">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sea Ambience" ID="{0B15961D-C160-41F5-AA00-FC268C2C5428}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{F8EB5B38-B1CB-4E98-94BE-4A30E2404D08}" ShortID="819034919">
+					<ChildrenList>
+						<Event Name="Play_Music_Switch" ID="{5942155E-9C2B-483F-9E61-C365788FF032}">
+							<ChildrenList>
+								<Action Name="" ID="{04C1D0CE-5756-4299-A742-C94F93DC38AB}" ShortID="587347615">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music Switch" ID="{149D2C57-B356-43D2-87F1-62B9A6414B9A}" WorkUnitID="{000F2366-3633-49C0-AB8E-BAFDF9B25003}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{FBB90745-8FC2-4E07-8147-C1A57B61832B}" ShortID="412111096">
+					<ChildrenList>
+						<Event Name="Play_UI_sound_1" ID="{FCC35365-3D24-4F19-A971-316B79DDF947}">
+							<ChildrenList>
+								<Action Name="" ID="{DCD25B01-9B10-4E32-975D-ACA097320069}" ShortID="133811366">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI sound 1" ID="{202B26BA-AB01-47E7-A39D-02154E0AA14F}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_sound_2" ID="{98077629-57A2-4804-ABDA-1CAFFE42CA49}">
+							<ChildrenList>
+								<Action Name="" ID="{F73E7D2E-2FE7-4D23-A049-63FAD7E95CF2}" ShortID="1056638319">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI sound 2" ID="{921548D1-677A-42E7-AB60-88B35D7892FD}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="NPC" ID="{B293C224-4628-40F7-BE30-C75746CD9DB9}" ShortID="497129281">
+					<ChildrenList>
+						<Event Name="Play_Scots_Speech" ID="{734AE36B-C165-4372-A27E-AA68898A433B}">
+							<ChildrenList>
+								<Action Name="" ID="{7015CDD9-5B3A-4BB1-B608-E8364B53B1ED}" ShortID="1069978502">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Scottish_Voice_Switch" ID="{7F846242-1FC2-494D-9A7B-692E5BEB20B1}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

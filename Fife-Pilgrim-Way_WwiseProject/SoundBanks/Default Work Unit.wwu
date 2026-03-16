@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B6F2FCFF-575C-4184-AF23-F97F9337C199}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{B6F2FCFF-575C-4184-AF23-F97F9337C199}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="test" ID="{D8FD57E4-B5DD-4F65-A7D4-F44D97F3C311}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Scots_Speech" ID="{734AE36B-C165-4372-A27E-AA68898A433B}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

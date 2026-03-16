@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3854155799",
+    "Type": "Event",
+    "GUID": "{3559E970-7E94-42E1-A765-914DB5DCE819}",
+    "Language": "SFX",
+    "Hash": "{05F48B50-CD61-53BD-E6C0-A13E91E40BB6}",
+    "ObjectPath": "Play_Footsteps",
+    "ShortName": "Play_Footsteps",
+    "Path": "Event/Play_Footsteps.bnk",
+    "Events": [
+     {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\Play_Footsteps",
+      "GUID": "{3559E970-7E94-42E1-A765-914DB5DCE819}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9B719E56-5C1F-7859-FFB7-204DB31ACF94}"
+ }
+}

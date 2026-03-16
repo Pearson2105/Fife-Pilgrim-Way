@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3318202069",
+    "Type": "Event",
+    "GUID": "{12F956E2-5561-4520-8759-AC0336B2A040}",
+    "Language": "SFX",
+    "Hash": "{7D5CC3DD-0673-99D8-6D1A-9A64FF62024A}",
+    "ObjectPath": "Play_Wild_Boar",
+    "ShortName": "Play_Wild_Boar",
+    "Path": "Event/Play_Wild_Boar.bnk",
+    "Media": [
+     {
+      "Id": "254597642",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wild Boar.wav",
+      "Path": "Media/254597642.wem",
+      "CachePath": "F8/{F8B358F4-83DB-D2CD-74F0-7B55A589E02E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3318202069",
+      "Name": "Play_Wild_Boar",
+      "ObjectPath": "\\Events\\Default Work Unit\\Animals\\Play_Wild_Boar",
+      "GUID": "{12F956E2-5561-4520-8759-AC0336B2A040}",
+      "DurationType": "OneShot",
+      "DurationMin": "19.696327",
+      "DurationMax": "19.696327",
+      "MediaRefs": [
+       {
+        "Id": "254597642"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B74B9765-C638-EA82-EF73-E237AA6549CC}"
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1523845998",
+    "Type": "Event",
+    "GUID": "{E975DDCF-DF9F-4BAD-8358-068D02F09078}",
+    "Language": "SFX",
+    "Hash": "{4B78184B-E4FC-9447-7033-58579A7E489F}",
+    "ObjectPath": "Play_Wolf",
+    "ShortName": "Play_Wolf",
+    "Path": "Event/Play_Wolf.bnk",
+    "Media": [
+     {
+      "Id": "105621086",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wolf Growling.wav",
+      "Path": "Media/105621086.wem",
+      "CachePath": "D7/{D70EEF91-4A59-9C95-82F5-67D30590D255}.wem"
+     },
+     {
+      "Id": "139066290",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wolf Growling.wav",
+      "Path": "Media/139066290.wem",
+      "CachePath": "39/{390157B4-143C-146C-8927-286E093F5C19}.wem"
+     },
+     {
+      "Id": "139645069",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wolf Growling.wav",
+      "Path": "Media/139645069.wem",
+      "CachePath": "04/{0482ED54-7986-9049-E5CD-42B388303943}.wem"
+     },
+     {
+      "Id": "149248996",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wolf Growling.wav",
+      "Path": "Media/149248996.wem",
+      "CachePath": "B0/{B0DF9F18-7D1A-ED4C-B788-D79EA6368EDE}.wem"
+     },
+     {
+      "Id": "241980811",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wolf Growling.wav",
+      "Path": "Media/241980811.wem",
+      "CachePath": "33/{330861D2-EB1C-1CFE-F609-C1CBD68368CA}.wem"
+     },
+     {
+      "Id": "397116333",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wolf Growling.wav",
+      "Path": "Media/397116333.wem",
+      "CachePath": "AD/{ADBE82CC-9C7B-F974-8077-D0DDF45492F7}.wem"
+     },
+     {
+      "Id": "603217305",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wolf Growling.wav",
+      "Path": "Media/603217305.wem",
+      "CachePath": "07/{07B20F32-B248-CA2C-9E17-5CBACE74A60E}.wem"
+     },
+     {
+      "Id": "624300410",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wolf Growling.wav",
+      "Path": "Media/624300410.wem",
+      "CachePath": "B3/{B3F60D5A-CDE1-DE72-3669-B363F185DB8A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1523845998",
+      "Name": "Play_Wolf",
+      "ObjectPath": "\\Events\\Default Work Unit\\Animals\\Play_Wolf",
+      "GUID": "{E975DDCF-DF9F-4BAD-8358-068D02F09078}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3640562",
+      "DurationMax": "2.7045944",
+      "MediaRefs": [
+       {
+        "Id": "105621086"
+       },
+       {
+        "Id": "139066290"
+       },
+       {
+        "Id": "139645069"
+       },
+       {
+        "Id": "149248996"
+       },
+       {
+        "Id": "241980811"
+       },
+       {
+        "Id": "397116333"
+       },
+       {
+        "Id": "603217305"
+       },
+       {
+        "Id": "624300410"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{57503372-8678-C00A-6EB7-A0FD522D46F7}"
+ }
+}

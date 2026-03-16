@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1958657586",
+    "Type": "Event",
+    "GUID": "{E5FAF9F1-33E4-4B3E-A42D-E21FAC2BF3B4}",
+    "Language": "SFX",
+    "Hash": "{7055B150-F71C-4E90-2629-662C1847D438}",
+    "ObjectPath": "Play_Winning",
+    "ShortName": "Play_Winning",
+    "Path": "Event/Play_Winning.bnk",
+    "Media": [
+     {
+      "Id": "875838737",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Winning.wav",
+      "Path": "Media/875838737.wem",
+      "CachePath": "D2/{D2C76212-F615-3CFF-6CD1-FA2E1D2CA32E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1958657586",
+      "Name": "Play_Winning",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\Play_Winning",
+      "GUID": "{E5FAF9F1-33E4-4B3E-A42D-E21FAC2BF3B4}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.608186",
+      "DurationMax": "5.608186",
+      "MediaRefs": [
+       {
+        "Id": "875838737"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DB51A076-28A0-A549-C6A5-26A6508DD34D}"
+ }
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B32945B5-6C7F-4BE4-9555-ABF22A045B94}" SchemaVersion="123">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{B32945B5-6C7F-4BE4-9555-ABF22A045B94}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Letters" ID="{469B9C66-E6BD-43C7-8F5D-21D0D8BC0A49}">
+					<ChildrenList>
+						<Switch Name="A" ID="{C0365CD2-CE71-4775-8C73-C4868BCB65D3}"/>
+						<Switch Name="B" ID="{84110F12-5E8B-4D8C-8E16-F7A0818E756C}"/>
+						<Switch Name="C" ID="{62D0D67D-993A-4881-B802-617E056D2D9D}"/>
+						<Switch Name="D" ID="{32599125-7347-4788-9A5E-3BD841931C27}"/>
+						<Switch Name="E" ID="{5E17FBC3-0E90-4C11-A73A-8B38D3F96B80}"/>
+						<Switch Name="F" ID="{649EF11A-F3D4-44C8-BDF7-0D656617E8BB}"/>
+						<Switch Name="G" ID="{668A20E4-460C-4A18-AE68-7BCA5E802C96}"/>
+						<Switch Name="H" ID="{44240FA6-2534-437F-A565-8DFDC5D74B02}"/>
+						<Switch Name="I" ID="{3FFAE700-7EAC-4C03-98D0-4CB843C31945}"/>
+						<Switch Name="J" ID="{AB8E0B7B-38CC-4841-A242-B1B25E251E26}"/>
+						<Switch Name="K" ID="{48559FB3-B04E-4AB3-9A91-68A89DE9138B}"/>
+						<Switch Name="L" ID="{8CC63404-711B-4ECE-8EA5-943A8EE42995}"/>
+						<Switch Name="M" ID="{AA5A08FF-8427-4D70-8427-4F45294091AB}"/>
+						<Switch Name="N" ID="{92AB417A-21C8-4237-8454-6534C065F5E7}"/>
+						<Switch Name="O" ID="{6251E2D6-6427-471C-BC70-023C8AF89B32}"/>
+						<Switch Name="P" ID="{8F698B87-7C0A-4BDF-A6A4-F2B2E121C80A}"/>
+						<Switch Name="Q" ID="{51314AB1-C9C8-45E7-9B21-D5A0BBC6D1C0}"/>
+						<Switch Name="R" ID="{36C68AB9-879F-469B-832B-8A6F0FFFD652}"/>
+						<Switch Name="S" ID="{B1DA11C5-9D8F-42A2-8768-54E19889B921}"/>
+						<Switch Name="T" ID="{357E10AA-A4E6-47C4-96FD-E038FF9894AE}"/>
+						<Switch Name="U" ID="{7C130680-5376-45C5-9C01-0D02870D56AB}"/>
+						<Switch Name="V" ID="{E5ED4AE5-8631-458C-A9E7-C8CDF618443E}"/>
+						<Switch Name="W" ID="{F7A32A34-EB98-40D1-86BC-F1E41255158F}"/>
+						<Switch Name="X" ID="{81912603-949D-4CC7-89AA-11870FEEE6EC}"/>
+						<Switch Name="Y" ID="{07CE8E41-1607-4D5E-9533-852CAF49876E}"/>
+						<Switch Name="Z" ID="{9B83AD4D-6274-4B87-B762-7EE9BD6F6110}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

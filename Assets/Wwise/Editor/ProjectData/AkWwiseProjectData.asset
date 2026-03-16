@@ -1,0 +1,736 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce0daf819238b8a48948cb53ded26baf, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.Editor::AkWwiseProjectData
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 7ddbe648d772a54bbc15cd09dde5fe16
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 7ddbe648d772a54bbc15cd09dde5fe16
+    GuidInternal: 
+    m_lastTime: -8584282773393515743
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 0602ce41ed23c4459b2404b08b2225f8
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 0602ce41ed23c4459b2404b08b2225f8
+    GuidInternal: 
+    m_lastTime: -8584282773457126134
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0602ce41ed23c4459b2404b08b2225f8
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: fffcf2b65c578441af23f97f9337c199
+    ParentPath: SoundBanks\Default Work Unit
+    guid: fffcf2b65c578441af23f97f9337c199
+    GuidInternal: 
+    m_lastTime: -8584282773395435639
+    List:
+    - name: test
+      guid: e457fdd8ddb5654fa7d4f44d97f3c311
+      id: 3157003241
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fffcf2b65c578441af23f97f9337c199
+      - ElementName: test
+        ObjectType: 7
+        guid: e457fdd8ddb5654fa7d4f44d97f3c311
+      Path: SoundBanks\Default Work Unit\test
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 44f17935c79793469a84541c271beb20
+    ParentPath: Events\Default Work Unit
+    guid: 44f17935c79793469a84541c271beb20
+    GuidInternal: 
+    m_lastTime: -8584282584790366587
+    List:
+    - name: Animals
+      guid: 8268684efa69e3428871a1a5cffaeb55
+      id: 949388280
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 44f17935c79793469a84541c271beb20
+      - ElementName: Animals
+        ObjectType: 4
+        guid: 8268684efa69e3428871a1a5cffaeb55
+      Path: Events\Default Work Unit\Animals
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Bear
+      guid: e16756651fe9b0439b05f1912182a9dd
+      id: 1996054844
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 44f17935c79793469a84541c271beb20
+      - ElementName: Animals
+        ObjectType: 4
+        guid: 8268684efa69e3428871a1a5cffaeb55
+      - ElementName: Play_Bear
+        ObjectType: 3
+        guid: e16756651fe9b0439b05f1912182a9dd
+      Path: Events\Default Work Unit\Animals\Play_Bear
+      maxAttenuation: 0
+      maxDuration: 2.1320295
+      minDuration: 1.5363154
+    - name: Play_Dying_Sound_Lute
+      guid: d93e811a952dc94d989690b913eee60d
+      id: 298480340
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 44f17935c79793469a84541c271beb20
+      - ElementName: Play_Dying_Sound_Lute
+        ObjectType: 3
+        guid: d93e811a952dc94d989690b913eee60d
+      Path: Events\Default Work Unit\Play_Dying_Sound_Lute
+      maxAttenuation: 0
+      maxDuration: 4.6615624
+      minDuration: 4.6615624
+    - name: Play_Footsteps
+      guid: 70e95935947ee142a765914db5dce819
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 44f17935c79793469a84541c271beb20
+      - ElementName: Play_Footsteps
+        ObjectType: 3
+        guid: 70e95935947ee142a765914db5dce819
+      Path: Events\Default Work Unit\Play_Footsteps
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Scots_Speech
+      guid: 6be34a7365c17243a27eaa68898a433b
+      id: 3597291569
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 44f17935c79793469a84541c271beb20
+      - ElementName: Play_Scots_Speech
+        ObjectType: 3
+        guid: 6be34a7365c17243a27eaa68898a433b
+      Path: Events\Default Work Unit\Play_Scots_Speech
+      maxAttenuation: 0
+      maxDuration: 0.69804907
+      minDuration: 0.16929057
+    - name: Play_Wild_Boar
+      guid: a84bc49cf129cf4fb504a7e8e90164ab
+      id: 3318202069
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 44f17935c79793469a84541c271beb20
+      - ElementName: Animals
+        ObjectType: 4
+        guid: 8268684efa69e3428871a1a5cffaeb55
+      - ElementName: Play_Wild_Boar
+        ObjectType: 3
+        guid: a84bc49cf129cf4fb504a7e8e90164ab
+      Path: Events\Default Work Unit\Animals\Play_Wild_Boar
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Wolf
+      guid: cfdd75e99fdfad4b8358068d02f09078
+      id: 1523845998
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 44f17935c79793469a84541c271beb20
+      - ElementName: Animals
+        ObjectType: 4
+        guid: 8268684efa69e3428871a1a5cffaeb55
+      - ElementName: Play_Wolf
+        ObjectType: 3
+        guid: cfdd75e99fdfad4b8358068d02f09078
+      Path: Events\Default Work Unit\Animals\Play_Wolf
+      maxAttenuation: 0
+      maxDuration: 2.7045944
+      minDuration: 1.3640562
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 49f0b5533c440848b7c45c05713a24ec
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 49f0b5533c440848b7c45c05713a24ec
+    GuidInternal: 
+    m_lastTime: -8584282773459084496
+    List:
+    - name: Voice_Gender
+      guid: 4fd0b73fba51cc4d8d63bbdc8315fa56
+      id: 1520455939
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 49f0b5533c440848b7c45c05713a24ec
+      - ElementName: Voice_Gender
+        ObjectType: 13
+        guid: 4fd0b73fba51cc4d8d63bbdc8315fa56
+      Path: Game Parameters\Default Work Unit\Voice_Gender
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c11892c01874154684f1a0f4cfcee5a2
+    ParentPath: States\Default Work Unit
+    guid: c11892c01874154684f1a0f4cfcee5a2
+    GuidInternal: 
+    m_lastTime: -8584282773394796282
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: b54529b37f6ce44b9555abf22a045b94
+    ParentPath: Switches\Default Work Unit
+    guid: b54529b37f6ce44b9555abf22a045b94
+    GuidInternal: 
+    m_lastTime: -8584282773394071061
+    List:
+    - name: Letters
+      guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+      id: 1683734824
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b54529b37f6ce44b9555abf22a045b94
+      - ElementName: Letters
+        ObjectType: 11
+        guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+      Path: Switches\Default Work Unit\Letters
+      values:
+      - name: A
+        guid: d25c36c071ce75478c73c4868bcb65d3
+        id: 84696446
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: A
+          ObjectType: 10
+          guid: d25c36c071ce75478c73c4868bcb65d3
+      - name: B
+        guid: 120f11848b5e8c4d8e16f7a0818e756c
+        id: 84696445
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: B
+          ObjectType: 10
+          guid: 120f11848b5e8c4d8e16f7a0818e756c
+      - name: C
+        guid: 7dd6d0623a998148b802617e056d2d9d
+        id: 84696444
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: C
+          ObjectType: 10
+          guid: 7dd6d0623a998148b802617e056d2d9d
+      - name: D
+        guid: 25915932477388479a5e3bd841931c27
+        id: 84696443
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: D
+          ObjectType: 10
+          guid: 25915932477388479a5e3bd841931c27
+      - name: E
+        guid: c3fb175e900e114ca73a8b38d3f96b80
+        id: 84696442
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: E
+          ObjectType: 10
+          guid: c3fb175e900e114ca73a8b38d3f96b80
+      - name: F
+        guid: 1af19e64d4f3c844bdf70d656617e8bb
+        id: 84696441
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: F
+          ObjectType: 10
+          guid: 1af19e64d4f3c844bdf70d656617e8bb
+      - name: G
+        guid: e4208a660c46184aae687bca5e802c96
+        id: 84696440
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: G
+          ObjectType: 10
+          guid: e4208a660c46184aae687bca5e802c96
+      - name: H
+        guid: a60f244434257f43a5658dfdc5d74b02
+        id: 84696439
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: H
+          ObjectType: 10
+          guid: a60f244434257f43a5658dfdc5d74b02
+      - name: I
+        guid: 00e7fa3fac7e034c98d04cb843c31945
+        id: 84696438
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: I
+          ObjectType: 10
+          guid: 00e7fa3fac7e034c98d04cb843c31945
+      - name: J
+        guid: 7b0b8eabcc384148a242b1b25e251e26
+        id: 84696437
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: J
+          ObjectType: 10
+          guid: 7b0b8eabcc384148a242b1b25e251e26
+      - name: K
+        guid: b39f55484eb0b34a9a9168a89de9138b
+        id: 84696436
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: K
+          ObjectType: 10
+          guid: b39f55484eb0b34a9a9168a89de9138b
+      - name: L
+        guid: 0434c68c1b71ce4e8ea5943a8ee42995
+        id: 84696435
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: L
+          ObjectType: 10
+          guid: 0434c68c1b71ce4e8ea5943a8ee42995
+      - name: M
+        guid: ff085aaa2784704d84274f45294091ab
+        id: 84696434
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: M
+          ObjectType: 10
+          guid: ff085aaa2784704d84274f45294091ab
+      - name: N
+        guid: 7a41ab92c821374284546534c065f5e7
+        id: 84696433
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: N
+          ObjectType: 10
+          guid: 7a41ab92c821374284546534c065f5e7
+      - name: O
+        guid: d6e2516227641c47bc70023c8af89b32
+        id: 84696432
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: O
+          ObjectType: 10
+          guid: d6e2516227641c47bc70023c8af89b32
+      - name: P
+        guid: 878b698f0a7cdf4ba6a4f2b2e121c80a
+        id: 84696431
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: P
+          ObjectType: 10
+          guid: 878b698f0a7cdf4ba6a4f2b2e121c80a
+      - name: Q
+        guid: b14a3151c8c9e7459b21d5a0bbc6d1c0
+        id: 84696430
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: Q
+          ObjectType: 10
+          guid: b14a3151c8c9e7459b21d5a0bbc6d1c0
+      - name: R
+        guid: b98ac6369f879b46832b8a6f0fffd652
+        id: 84696429
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: R
+          ObjectType: 10
+          guid: b98ac6369f879b46832b8a6f0fffd652
+      - name: S
+        guid: c511dab18f9da242876854e19889b921
+        id: 84696428
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: S
+          ObjectType: 10
+          guid: c511dab18f9da242876854e19889b921
+      - name: T
+        guid: aa107e35e6a4c44796fde038ff9894ae
+        id: 84696427
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: T
+          ObjectType: 10
+          guid: aa107e35e6a4c44796fde038ff9894ae
+      - name: U
+        guid: 8006137c7653c5459c010d02870d56ab
+        id: 84696426
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: U
+          ObjectType: 10
+          guid: 8006137c7653c5459c010d02870d56ab
+      - name: V
+        guid: e54aede531868c45a9e7c8cdf618443e
+        id: 84696425
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: V
+          ObjectType: 10
+          guid: e54aede531868c45a9e7c8cdf618443e
+      - name: W
+        guid: 342aa3f798ebd14086bcf1e41255158f
+        id: 84696424
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: W
+          ObjectType: 10
+          guid: 342aa3f798ebd14086bcf1e41255158f
+      - name: X
+        guid: 032691819d94c74c89aa11870feee6ec
+        id: 84696423
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: X
+          ObjectType: 10
+          guid: 032691819d94c74c89aa11870feee6ec
+      - name: Y
+        guid: 418ece0707165e4d9533852caf49876e
+        id: 84696422
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: Y
+          ObjectType: 10
+          guid: 418ece0707165e4d9533852caf49876e
+      - name: Z
+        guid: 4dad839b7462874bb7627ee9bd6f6110
+        id: 84696421
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b54529b37f6ce44b9555abf22a045b94
+        - ElementName: Letters
+          ObjectType: 11
+          guid: 669c9b46bde6c7438f5d21d0d8bc0a49
+        - ElementName: Z
+          ObjectType: 10
+          guid: 4dad839b7462874bb7627ee9bd6f6110
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 41a1de58ba19be4caaf1e91dce8b7a4a
+    ParentPath: Triggers\Default Work Unit
+    guid: 41a1de58ba19be4caaf1e91dce8b7a4a
+    GuidInternal: 
+    m_lastTime: -8584282773393793545
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 
