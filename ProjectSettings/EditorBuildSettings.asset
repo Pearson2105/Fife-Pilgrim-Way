@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/cuross.unity
+    path: Assets/Scenes/1.cuross.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/MainMenu.unity
     guid: 57d3d6704ad279743b3010582377a7ce
   - enabled: 1
-    path: Assets/GameScene1.unity
+    path: Assets/Scenes/0.5 priest intro.unity
     guid: 66a142c34731dec46bc7960dff4ef714
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
