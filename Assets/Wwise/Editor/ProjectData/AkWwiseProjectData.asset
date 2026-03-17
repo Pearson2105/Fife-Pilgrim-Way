@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: AK.Wwise.Unity.API.Editor::AkWwiseProjectData
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 7ddbe648d772a54bbc15cd09dde5fe16
-    ParentPath: Virtual Acoustics/Default Work Unit
+    ParentPath: Virtual Acoustics\Default Work Unit
     guid: 7ddbe648d772a54bbc15cd09dde5fe16
     GuidInternal: 
-    m_lastTime: -8584279345741238085
+    m_lastTime: -8584282773393515743
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 0602ce41ed23c4459b2404b08b2225f8
-    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 0602ce41ed23c4459b2404b08b2225f8
     GuidInternal: 
-    m_lastTime: -8584279345754973049
+    m_lastTime: -8584282773457126134
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -53,9 +53,9 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -63,10 +63,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: fffcf2b65c578441af23f97f9337c199
-    ParentPath: SoundBanks/Default Work Unit
+    ParentPath: SoundBanks\Default Work Unit
     guid: fffcf2b65c578441af23f97f9337c199
     GuidInternal: 
-    m_lastTime: -8584279345741244156
+    m_lastTime: -8584282773395435639
     List:
     - name: test
       guid: e457fdd8ddb5654fa7d4f44d97f3c311
@@ -81,9 +81,9 @@ MonoBehaviour:
       - ElementName: test
         ObjectType: 7
         guid: e457fdd8ddb5654fa7d4f44d97f3c311
-      Path: SoundBanks/Default Work Unit/test
+      Path: SoundBanks\Default Work Unit\test
   EventWwu:
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -91,10 +91,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 44f17935c79793469a84541c271beb20
-    ParentPath: Events/Default Work Unit
+    ParentPath: Events\Default Work Unit
     guid: 44f17935c79793469a84541c271beb20
     GuidInternal: 
-    m_lastTime: -8584279345762134748
+    m_lastTime: -8584278670680296022
     List:
     - name: Ambience
       guid: f6c016d896c238489ab3862de2daa954
@@ -109,7 +109,7 @@ MonoBehaviour:
       - ElementName: Ambience
         ObjectType: 4
         guid: f6c016d896c238489ab3862de2daa954
-      Path: Events/Default Work Unit/Ambience
+      Path: Events\Default Work Unit\Ambience
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -126,7 +126,7 @@ MonoBehaviour:
       - ElementName: Animals
         ObjectType: 4
         guid: 8268684efa69e3428871a1a5cffaeb55
-      Path: Events/Default Work Unit/Animals
+      Path: Events\Default Work Unit\Animals
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -143,7 +143,7 @@ MonoBehaviour:
       - ElementName: Character
         ObjectType: 4
         guid: e2da17a025c1334b8902a56a3b0496d4
-      Path: Events/Default Work Unit/Character
+      Path: Events\Default Work Unit\Character
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -160,7 +160,7 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 4
         guid: 385bebf8cbb1984e94be4a30e2404d08
-      Path: Events/Default Work Unit/Music
+      Path: Events\Default Work Unit\Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -177,7 +177,7 @@ MonoBehaviour:
       - ElementName: NPC
         ObjectType: 4
         guid: 24c293b22846f740be30c75746cd9db9
-      Path: Events/Default Work Unit/NPC
+      Path: Events\Default Work Unit\NPC
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -197,13 +197,13 @@ MonoBehaviour:
       - ElementName: Play_Bear
         ObjectType: 3
         guid: e16756651fe9b0439b05f1912182a9dd
-      Path: Events/Default Work Unit/Animals/Play_Bear
+      Path: Events\Default Work Unit\Animals\Play_Bear
       maxAttenuation: 0
       maxDuration: 2.1320295
       minDuration: 1.5363154
-    - name: Play_Birds_and_Wind
-      guid: 28afddd840cd5b4784b23b84d5b481b4
-      id: 1324655209
+    - name: Play_Birds_and_Wind_01
+      guid: a3527df684b1364a990b498a0b73955d
+      id: 755525525
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -211,16 +211,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 44f17935c79793469a84541c271beb20
-      - ElementName: Character
+      - ElementName: Ambience
         ObjectType: 4
-        guid: e2da17a025c1334b8902a56a3b0496d4
-      - ElementName: Play_Birds_and_Wind
+        guid: f6c016d896c238489ab3862de2daa954
+      - ElementName: Play_Birds_and_Wind_01
         ObjectType: 3
-        guid: 28afddd840cd5b4784b23b84d5b481b4
-      Path: Events/Default Work Unit/Character/Play_Birds_and_Wind
+        guid: a3527df684b1364a990b498a0b73955d
+      Path: Events\Default Work Unit\Ambience\Play_Birds_and_Wind_01
       maxAttenuation: 0
-      maxDuration: 305.976
-      minDuration: 305.976
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Dying_Sound_Lute
       guid: d93e811a952dc94d989690b913eee60d
       id: 298480340
@@ -237,7 +237,7 @@ MonoBehaviour:
       - ElementName: Play_Dying_Sound_Lute
         ObjectType: 3
         guid: d93e811a952dc94d989690b913eee60d
-      Path: Events/Default Work Unit/Character/Play_Dying_Sound_Lute
+      Path: Events\Default Work Unit\Character\Play_Dying_Sound_Lute
       maxAttenuation: 0
       maxDuration: 4.6615624
       minDuration: 4.6615624
@@ -257,7 +257,7 @@ MonoBehaviour:
       - ElementName: Play_Footsteps
         ObjectType: 3
         guid: 70e95935947ee142a765914db5dce819
-      Path: Events/Default Work Unit/Character/Play_Footsteps
+      Path: Events\Default Work Unit\Character\Play_Footsteps
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -277,7 +277,7 @@ MonoBehaviour:
       - ElementName: Play_Horse_Gallop
         ObjectType: 3
         guid: 6fdae657b7870349a700e26bbac010c8
-      Path: Events/Default Work Unit/Animals/Play_Horse_Gallop
+      Path: Events\Default Work Unit\Animals\Play_Horse_Gallop
       maxAttenuation: 0
       maxDuration: 22.25
       minDuration: 22.25
@@ -297,7 +297,7 @@ MonoBehaviour:
       - ElementName: Play_Horse_Neigh
         ObjectType: 3
         guid: 06b26a5e3c796a4f99fefed0395275b6
-      Path: Events/Default Work Unit/Animals/Play_Horse_Neigh
+      Path: Events\Default Work Unit\Animals\Play_Horse_Neigh
       maxAttenuation: 0
       maxDuration: 2.4544225
       minDuration: 1.4226962
@@ -317,7 +317,7 @@ MonoBehaviour:
       - ElementName: Play_Music_Switch
         ObjectType: 3
         guid: 5e1542592b9c3f489e61c365788ff032
-      Path: Events/Default Work Unit/Music/Play_Music_Switch
+      Path: Events\Default Work Unit\Music\Play_Music_Switch
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -337,7 +337,7 @@ MonoBehaviour:
       - ElementName: Play_Scots_Speech
         ObjectType: 3
         guid: 6be34a7365c17243a27eaa68898a433b
-      Path: Events/Default Work Unit/NPC/Play_Scots_Speech
+      Path: Events\Default Work Unit\NPC\Play_Scots_Speech
       maxAttenuation: 0
       maxDuration: 0.69804907
       minDuration: 0.16929057
@@ -357,7 +357,7 @@ MonoBehaviour:
       - ElementName: Play_Sea_Ambience
         ObjectType: 3
         guid: 80793a214b52df4ba94dbaa720836903
-      Path: Events/Default Work Unit/Ambience/Play_Sea_Ambience
+      Path: Events\Default Work Unit\Ambience\Play_Sea_Ambience
       maxAttenuation: 0
       maxDuration: 202.41963
       minDuration: 202.41963
@@ -377,7 +377,7 @@ MonoBehaviour:
       - ElementName: Play_UI_sound_1
         ObjectType: 3
         guid: 6553c3fc243d194fa971316b79ddf947
-      Path: Events/Default Work Unit/UI/Play_UI_sound_1
+      Path: Events\Default Work Unit\UI\Play_UI_sound_1
       maxAttenuation: 0
       maxDuration: 1.991814
       minDuration: 1.991814
@@ -397,7 +397,7 @@ MonoBehaviour:
       - ElementName: Play_UI_sound_2
         ObjectType: 3
         guid: 29760798a2570448abda1caffe42ca49
-      Path: Events/Default Work Unit/UI/Play_UI_sound_2
+      Path: Events\Default Work Unit\UI\Play_UI_sound_2
       maxAttenuation: 0
       maxDuration: 6.2045627
       minDuration: 6.2045627
@@ -417,7 +417,7 @@ MonoBehaviour:
       - ElementName: Play_Wild_Boar
         ObjectType: 3
         guid: e256f912615520458759ac0336b2a040
-      Path: Events/Default Work Unit/Animals/Play_Wild_Boar
+      Path: Events\Default Work Unit\Animals\Play_Wild_Boar
       maxAttenuation: 0
       maxDuration: 19.696327
       minDuration: 19.696327
@@ -437,7 +437,7 @@ MonoBehaviour:
       - ElementName: Play_Winning
         ObjectType: 3
         guid: f1f9fae5e4333e4ba42de21fac2bf3b4
-      Path: Events/Default Work Unit/Character/Play_Winning
+      Path: Events\Default Work Unit\Character\Play_Winning
       maxAttenuation: 0
       maxDuration: 5.608186
       minDuration: 5.608186
@@ -457,7 +457,7 @@ MonoBehaviour:
       - ElementName: Play_Wolf
         ObjectType: 3
         guid: cfdd75e99fdfad4b8358068d02f09078
-      Path: Events/Default Work Unit/Animals/Play_Wolf
+      Path: Events\Default Work Unit\Animals\Play_Wolf
       maxAttenuation: 0
       maxDuration: 2.7045944
       minDuration: 1.3640562
@@ -477,7 +477,7 @@ MonoBehaviour:
       - ElementName: Stop_Footsteps
         ObjectType: 3
         guid: 35dbbb5f21425248bd1493272b475d7d
-      Path: Events/Default Work Unit/Character/Stop_Footsteps
+      Path: Events\Default Work Unit\Character\Stop_Footsteps
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -494,12 +494,12 @@ MonoBehaviour:
       - ElementName: UI
         ObjectType: 4
         guid: 4507b9fbc28f074e8147c1a57b61832b
-      Path: Events/Default Work Unit/UI
+      Path: Events\Default Work Unit\UI
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -507,10 +507,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 49f0b5533c440848b7c45c05713a24ec
-    ParentPath: Game Parameters/Default Work Unit
+    ParentPath: Game Parameters\Default Work Unit
     guid: 49f0b5533c440848b7c45c05713a24ec
     GuidInternal: 
-    m_lastTime: -8584279345762127690
+    m_lastTime: -8584282773459084496
     List:
     - name: Voice_Gender
       guid: 4fd0b73fba51cc4d8d63bbdc8315fa56
@@ -525,9 +525,9 @@ MonoBehaviour:
       - ElementName: Voice_Gender
         ObjectType: 13
         guid: 4fd0b73fba51cc4d8d63bbdc8315fa56
-      Path: Game Parameters/Default Work Unit/Voice_Gender
+      Path: Game Parameters\Default Work Unit\Voice_Gender
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -535,13 +535,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: c11892c01874154684f1a0f4cfcee5a2
-    ParentPath: States/Default Work Unit
+    ParentPath: States\Default Work Unit
     guid: c11892c01874154684f1a0f4cfcee5a2
     GuidInternal: 
-    m_lastTime: -8584279345741241826
+    m_lastTime: -8584282773394796282
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -549,10 +549,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: b54529b37f6ce44b9555abf22a045b94
-    ParentPath: Switches/Default Work Unit
+    ParentPath: Switches\Default Work Unit
     guid: b54529b37f6ce44b9555abf22a045b94
     GuidInternal: 
-    m_lastTime: -8584279345741240587
+    m_lastTime: -8584282773394071061
     List:
     - name: Letters
       guid: 669c9b46bde6c7438f5d21d0d8bc0a49
@@ -567,7 +567,7 @@ MonoBehaviour:
       - ElementName: Letters
         ObjectType: 11
         guid: 669c9b46bde6c7438f5d21d0d8bc0a49
-      Path: Switches/Default Work Unit/Letters
+      Path: Switches\Default Work Unit\Letters
       values:
       - name: A
         guid: d25c36c071ce75478c73c4868bcb65d3
@@ -989,7 +989,7 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -997,10 +997,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 41a1de58ba19be4caaf1e91dce8b7a4a
-    ParentPath: Triggers/Default Work Unit
+    ParentPath: Triggers\Default Work Unit
     guid: 41a1de58ba19be4caaf1e91dce8b7a4a
     GuidInternal: 
-    m_lastTime: -8584279345741239304
+    m_lastTime: -8584282773393793545
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
