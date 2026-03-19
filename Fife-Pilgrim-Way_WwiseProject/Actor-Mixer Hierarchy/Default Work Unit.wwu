@@ -1203,7 +1203,7 @@
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>570</Value>
+										<Value>1070</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1216,6 +1216,11 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -1267,10 +1272,9 @@
 											<ChildrenList>
 												<AudioFileSource Name="A" ID="{C7576009-CF0E-4F40-8539-29544EC8EE4A}">
 													<PropertyList>
-														<Property Name="LoopBegin" Type="Real64" Value="2.71318542087538"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.68917543905146"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.04933279580483"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.75877109437983"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.9943888573877"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>A.wav</AudioFile>
@@ -1296,8 +1300,8 @@
 												<AudioFileSource Name="A" ID="{B8026240-B7AC-44B1-9956-3C2371243AC4}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="4.24985731831607"/>
-														<Property Name="TrimEnd" Type="Real64" Value="4.63402516551967"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.28164306781358"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.58710334483286"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>A.wav</AudioFile>
@@ -1323,8 +1327,8 @@
 												<AudioFileSource Name="A" ID="{F2141480-67E4-4C21-88AC-B841FA09ABE3}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="5.69048674532956"/>
-														<Property Name="TrimEnd" Type="Real64" Value="6.14668606388382"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.78799392137383"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.11255855226833"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>A.wav</AudioFile>
@@ -1383,8 +1387,8 @@
 												<AudioFileSource Name="B" ID="{8C4FAB04-B7A3-46B4-B9DB-5A68B14C0F19}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.864377656208087"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.39260895473933"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.962525332514999"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.27090583611876"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>B.wav</AudioFile>
@@ -1420,7 +1424,7 @@
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="2.28099659277134"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.54511198772381"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.48800788514524"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>B.wav</AudioFile>
@@ -1458,8 +1462,8 @@
 												<AudioFileSource Name="C" ID="{BD3C638A-12FA-49FE-805B-17426DE30C15}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.16094414052022"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.64115445815102"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.23894988135564"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.61433998473885"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>C.wav</AudioFile>
@@ -1485,8 +1489,8 @@
 												<AudioFileSource Name="C" ID="{062C0C8B-B2EF-4DD1-8395-193E51C846D2}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.33745817258123"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.79365749113549"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.3945622751598"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.74012239496808"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>C.wav</AudioFile>
@@ -1524,8 +1528,8 @@
 												<AudioFileSource Name="D" ID="{311B0EDA-70DE-4C79-946D-0C6E86D61E34}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.67229373260629"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.17651454068731"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.746918412112372"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.13433537400996"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>D.wav</AudioFile>
@@ -1551,8 +1555,8 @@
 												<AudioFileSource Name="D" ID="{BA899476-9D13-4E4B-9E0B-3DA008423C94}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.72875531241618"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.44907002592291"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.92991749195431"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.39391265411407"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>D.wav</AudioFile>
@@ -1578,7 +1582,7 @@
 												<AudioFileSource Name="D" ID="{BE78E608-E9F0-491F-B26D-B110B7CD3F65}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.1213637585292"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.21165962073156"/>
 														<Property Name="TrimEnd" Type="Real64" Value="3.67360503888437"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -1617,8 +1621,8 @@
 												<AudioFileSource Name="E" ID="{70581452-ACAE-41E7-B133-9CD6375F8EEA}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.912398637108537"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.60870336879135"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.00015509554838"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.42587741370834"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>E.wav</AudioFile>
@@ -1644,8 +1648,8 @@
 												<AudioFileSource Name="E" ID="{4520C175-F66C-43F5-9458-F1F623F10810}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.11292315961977"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.95329032537763"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.17551801403071"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.7098658915573"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>E.wav</AudioFile>
@@ -1671,8 +1675,8 @@
 												<AudioFileSource Name="E" ID="{2AB64C08-EA6D-441B-838D-4A6E172EE5FD}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.24141621078033"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.98574141473729"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.35919342234862"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.94648234421452"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>E.wav</AudioFile>
@@ -1710,8 +1714,8 @@
 												<AudioFileSource Name="F" ID="{15FAEC10-A891-4C38-8E33-EC58C350BA7C}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.60870286016505"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.1369341586963"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.73825779289017"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.01601622148618"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>F.wav</AudioFile>
@@ -1737,8 +1741,8 @@
 												<AudioFileSource Name="F" ID="{CBD26236-B55D-4EB3-A398-0BBCBD2E65D4}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.64115394952471"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.26542670123056"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.75795779570814"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.02532990629795"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>F.wav</AudioFile>
@@ -1764,8 +1768,8 @@
 												<AudioFileSource Name="F" ID="{CA7B13C5-46CE-4E39-831E-E7DBCF51D50F}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.6015735675337"/>
-														<Property Name="TrimEnd" Type="Real64" Value="4.20183582878932"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.76146864563454"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.07560287239392"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>F.wav</AudioFile>
@@ -1812,8 +1816,8 @@
 												<AudioFileSource Name="G" ID="{F978A0CF-ECEF-4796-9623-C3AEB3569FA3}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.44907002592291"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.02532230535461"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.51688114773496"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.88256204890819"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>G.wav</AudioFile>
@@ -1848,8 +1852,8 @@
 												<AudioFileSource Name="G" ID="{4A8D93C0-BA14-4660-9DAB-2B61D46C3487}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.48152111528257"/>
-														<Property Name="TrimEnd" Type="Real64" Value="4.05777288608797"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.59682335095492"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.0014624919224"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>G.wav</AudioFile>
@@ -1884,8 +1888,8 @@
 												<AudioFileSource Name="G" ID="{BAE8DA30-0ECA-4F38-AFA0-95D5CEA7DADD}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="4.58600367599291"/>
-														<Property Name="TrimEnd" Type="Real64" Value="5.11423446589786"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.62169374010451"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.06783738255278"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>G.wav</AudioFile>
@@ -1923,8 +1927,8 @@
 												<AudioFileSource Name="H" ID="{E177EFE0-3DD6-4D1D-ABCF-0E6DE579A891}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.40104904502246"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.14537475760573"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.51764848447507"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.10650827778819"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>H.wav</AudioFile>
@@ -1950,8 +1954,8 @@
 												<AudioFileSource Name="H" ID="{D3D8F409-132D-4682-9F02-FE480D01F732}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.48152111528257"/>
-														<Property Name="TrimEnd" Type="Real64" Value="4.34589877149067"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.56483486650353"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.21629960292473"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>H.wav</AudioFile>
@@ -1977,8 +1981,8 @@
 												<AudioFileSource Name="H" ID="{163FA3DC-B0A1-4EC5-BA99-D72256CD4856}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="4.89814005184583"/>
-														<Property Name="TrimEnd" Type="Real64" Value="5.5464232940019"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.94453713519092"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.45719813372289"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>H.wav</AudioFile>
@@ -2016,8 +2020,8 @@
 												<AudioFileSource Name="I" ID="{96A2FB8C-A53A-4C40-A720-9A54F23CDD83}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.51266089836415"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.11292366824608"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.63785060718603"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.02250887854139"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>I.wav</AudioFile>
@@ -2043,8 +2047,8 @@
 												<AudioFileSource Name="I" ID="{857EACE2-9887-4C9A-AC19-D4FA4446E191}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.54511198772381"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.14537424897943"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.65619698935176"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.08057466469646"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>I.wav</AudioFile>
@@ -2070,8 +2074,8 @@
 												<AudioFileSource Name="I" ID="{12DA61D2-363F-4C8F-A8A6-74E314F508A5}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.74563651023504"/>
-														<Property Name="TrimEnd" Type="Real64" Value="4.32188828104044"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.78736641317567"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.19669857221856"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>I.wav</AudioFile>
@@ -2109,8 +2113,8 @@
 												<AudioFileSource Name="J" ID="{A29B7480-1ED8-41BE-A7C8-B90163747A99}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.4646399174637"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.28099710139765"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.58245734343274"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.15476414500225"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>J.wav</AudioFile>
@@ -2136,8 +2140,8 @@
 												<AudioFileSource Name="J" ID="{EF3CAEF7-52F5-4A26-B14A-134E0608AB42}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.49709100682336"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.2174057203301"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.55829486446961"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.14090089827228"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>J.wav</AudioFile>
@@ -2163,8 +2167,8 @@
 												<AudioFileSource Name="J" ID="{5FA02D25-3C68-4D35-9269-77212D8262B2}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.48152111528257"/>
-														<Property Name="TrimEnd" Type="Real64" Value="4.10579386698842"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.52854955586179"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.0326385149763"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>J.wav</AudioFile>
@@ -2211,8 +2215,8 @@
 												<AudioFileSource Name="K" ID="{22A579C6-2885-4B1F-870A-0F52187938B2}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.41661893656325"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.16094464914652"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.54185537153087"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.97093074781634"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>K.wav</AudioFile>
@@ -2247,8 +2251,8 @@
 												<AudioFileSource Name="K" ID="{FC8F1E70-B50D-45ED-B097-AD04FFA55FB9}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.42505953547269"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.04933228717853"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.50106509600476"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.95432533651344"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>K.wav</AudioFile>
@@ -2283,8 +2287,8 @@
 												<AudioFileSource Name="K" ID="{C1CE0EFB-8A6B-49BE-B7E3-00DAB5911745}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.4094896439319"/>
-														<Property Name="TrimEnd" Type="Real64" Value="4.00975190518751"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.48408187792515"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.93908557824653"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>K.wav</AudioFile>
@@ -2322,8 +2326,8 @@
 												<AudioFileSource Name="L" ID="{1A06A8E0-DCF4-458A-A334-D4D7F2D5A398}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.36859795566281"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.08891317779585"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.469761356731"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.94349078876033"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L.wav</AudioFile>
@@ -2349,7 +2353,7 @@
 												<AudioFileSource Name="L" ID="{657AF3E6-0181-42F3-A610-9FB91976591D}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.30500708322157"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.36211118580014"/>
 														<Property Name="TrimEnd" Type="Real64" Value="2.85724836357673"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -2376,8 +2380,8 @@
 												<AudioFileSource Name="L" ID="{CAE9D4FD-C67F-4C02-9644-FC14C7DD9A87}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.14537424897943"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.69761552933459"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.19287772431198"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.67386379166832"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>L.wav</AudioFile>
@@ -2416,7 +2420,7 @@
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="1.48865040791393"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.18495513959675"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.06717792802846"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>M.wav</AudioFile>
@@ -2442,8 +2446,8 @@
 												<AudioFileSource Name="M" ID="{3C79CF70-202C-4D9B-8348-312268D3AF17}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.40104904502246"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.00131130627808"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.43517655663795"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.96474611526148"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>M.wav</AudioFile>
@@ -2470,7 +2474,7 @@
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="3.313447682131"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.96173092428707"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.86074455917075"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>M.wav</AudioFile>
@@ -2508,8 +2512,8 @@
 												<AudioFileSource Name="N" ID="{3BAA57EE-2389-4174-89F8-0E7F05562534}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.696304223056515"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.27255650248821"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.751846723870491"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.20775691820524"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>N.wav</AudioFile>
@@ -2535,8 +2539,8 @@
 												<AudioFileSource Name="N" ID="{C2E1541B-759E-4971-B478-4BEAE33A89C8}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.51266089836415"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.32901757367179"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.6681268176343"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.17355165440164"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>N.wav</AudioFile>
@@ -2562,8 +2566,8 @@
 												<AudioFileSource Name="N" ID="{87C2C1D0-BFB8-46F6-BAFC-EE85F5E2F519}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.52110149727359"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.16938473942965"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.60256383180075"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.09810519671838"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>N.wav</AudioFile>
@@ -2589,8 +2593,8 @@
 												<AudioFileSource Name="N" ID="{365D27B7-9F24-4061-AB91-715E83BA3988}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.38547915348168"/>
-														<Property Name="TrimEnd" Type="Real64" Value="4.08178337653819"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.51373853687955"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.00577781600612"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>N.wav</AudioFile>
@@ -2637,8 +2641,8 @@
 												<AudioFileSource Name="O" ID="{05259A97-1764-4DA5-B9F2-6764F1B6883A}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.29656648431213"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.8488082732936"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.33645578360297"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.78675825217452"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>O.wav</AudioFile>
@@ -2673,8 +2677,8 @@
 												<AudioFileSource Name="O" ID="{C69BFE27-0A48-4ACF-9FFC-817243407866}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.16094414052022"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.76120640177583"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.23870611341553"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.69417021824539"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>O.wav</AudioFile>
@@ -2709,8 +2713,8 @@
 												<AudioFileSource Name="O" ID="{B846685A-264E-48DA-8AA5-472729CD1449}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.00131130627808"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.57756307708347"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.11791074573069"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.55165209053844"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>O.wav</AudioFile>
@@ -2748,8 +2752,8 @@
 												<AudioFileSource Name="P" ID="{17B38387-FA80-4548-B799-A4B92D963B8F}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.456199318554268"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.03245159798596"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.556780408323335"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.974049674894244"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>P.wav</AudioFile>
@@ -2775,8 +2779,8 @@
 												<AudioFileSource Name="P" ID="{83B34D98-5B36-430A-BD70-C778F909B544}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.60870286016505"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.23297561187089"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.75146311661147"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.21156157340393"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>P.wav</AudioFile>
@@ -2802,8 +2806,8 @@
 												<AudioFileSource Name="P" ID="{851089B1-43C7-4273-BF1A-D441D89C9890}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.88125885402696"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.6015735675337"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.97897350278601"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.51535475980513"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>P.wav</AudioFile>
@@ -2829,8 +2833,8 @@
 												<AudioFileSource Name="P" ID="{4C21E201-A000-4BED-AB3C-C46BE3B90401}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="4.10579386698842"/>
-														<Property Name="TrimEnd" Type="Real64" Value="4.68204563779381"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.16746715583642"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.66863840108772"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>P.wav</AudioFile>
@@ -2869,7 +2873,7 @@
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.67229373260629"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.20052503113753"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.09433971642532"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Q.wav</AudioFile>
@@ -2895,7 +2899,7 @@
 												<AudioFileSource Name="Q" ID="{12532F3D-823F-4AC6-ADB8-DB3DDCF7F7F7}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.5606818792646"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.64312592736241"/>
 														<Property Name="TrimEnd" Type="Real64" Value="2.11292315961977"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -2922,13 +2926,13 @@
 												<AudioFileSource Name="Q" ID="{75A3D80D-B548-485E-9798-E2C84E711E03}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.52110149727359"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.58177460626332"/>
 														<Property Name="TrimEnd" Type="Real64" Value="3.00131130627808"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Q.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="848357187"/>
+														<MediaID ID="681358442"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -2949,7 +2953,7 @@
 												<AudioFileSource Name="Q" ID="{9EA19416-9C4F-4A82-9312-E80717959A3B}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.52110149727359"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.57625886908243"/>
 														<Property Name="TrimEnd" Type="Real64" Value="3.00131130627808"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -2988,8 +2992,8 @@
 												<AudioFileSource Name="R" ID="{07479ACD-3BEB-4A75-AA8E-6AF99A94ADE6}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.44062942701348"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.99287121599495"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.52138533507881"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.95011808819566"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>R.wav</AudioFile>
@@ -3015,7 +3019,7 @@
 												<AudioFileSource Name="R" ID="{54E93EE7-8099-4B14-BAD2-D74D9387E0DE}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="6.48283242156066"/>
+														<Property Name="TrimBegin" Type="Real64" Value="6.55657222344414"/>
 														<Property Name="TrimEnd" Type="Real64" Value="6.96304223056515"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -3042,8 +3046,8 @@
 												<AudioFileSource Name="R" ID="{FD109644-B903-45FD-91A2-155FB78876FC}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="7.41924154911942"/>
-														<Property Name="TrimEnd" Type="Real64" Value="8.04351430082526"/>
+														<Property Name="TrimBegin" Type="Real64" Value="7.50846670939843"/>
+														<Property Name="TrimEnd" Type="Real64" Value="7.98997920465785"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>R.wav</AudioFile>
@@ -3090,8 +3094,8 @@
 												<AudioFileSource Name="S" ID="{B04B050D-4CA0-40A3-A66D-4436D7720F77}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.70474482196595"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.3290180822981"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.9612635887617"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.44302642309621"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>S.wav</AudioFile>
@@ -3127,7 +3131,7 @@
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="3.93772043383684"/>
-														<Property Name="TrimEnd" Type="Real64" Value="4.56199318554269"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.51332491629959"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>S.wav</AudioFile>
@@ -3162,8 +3166,8 @@
 												<AudioFileSource Name="S" ID="{676D7E07-E842-48E1-9C01-1889291AB489}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="4.82610858049516"/>
-														<Property Name="TrimEnd" Type="Real64" Value="5.61845476535258"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.96381726019923"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.54960042550054"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>S.wav</AudioFile>
@@ -3198,7 +3202,7 @@
 												<AudioFileSource Name="S" ID="{3138D75C-47F0-4EA4-BE18-F02B86F1D68A}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="5.95460163165571"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.98785406438849"/>
 														<Property Name="TrimEnd" Type="Real64" Value="6.53085340246111"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -3237,8 +3241,8 @@
 												<AudioFileSource Name="T" ID="{A1C9827F-F90C-431A-A346-FDE8ED893BDE}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.792346184857413"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.34458797383888"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.878152499776372"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.28827757967331"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>T.wav</AudioFile>
@@ -3264,8 +3268,8 @@
 												<AudioFileSource Name="T" ID="{54386D04-299B-4EEC-AE9E-4145D9AE0DEA}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.70474482196595"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.30500708322157"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.81181501430076"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.2657480126988"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>T.wav</AudioFile>
@@ -3291,8 +3295,8 @@
 												<AudioFileSource Name="T" ID="{8A31FE75-4DF9-4314-A26B-5EA5470A825F}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.71318542087539"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.33745817258123"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.77018959127444"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.26620295958241"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>T.wav</AudioFile>
@@ -3339,8 +3343,8 @@
 												<AudioFileSource Name="U" ID="{C658FA71-F127-4F6C-91E6-228127F765D1}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.32057697476236"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.0408921968954"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.42978746455188"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.97766507122778"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>U.wav</AudioFile>
@@ -3375,8 +3379,8 @@
 												<AudioFileSource Name="U" ID="{6BF6C861-D858-4E49-B805-58E1177DA95D}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.40104904502246"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.04933228717853"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.48349309312027"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.96688823908072"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>U.wav</AudioFile>
@@ -3411,7 +3415,7 @@
 												<AudioFileSource Name="U" ID="{EF8F7218-E6D3-4049-879E-8C9442A000AD}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.5055316057328"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.54576704933947"/>
 														<Property Name="TrimEnd" Type="Real64" Value="4.05777288608796"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -3450,8 +3454,8 @@
 												<AudioFileSource Name="V" ID="{A736159F-752E-4026-AF02-E120331AE7CD}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.70474482196595"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.35302857274832"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.78585860403778"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.23946927784776"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>V.wav</AudioFile>
@@ -3477,8 +3481,8 @@
 												<AudioFileSource Name="V" ID="{2977BB4C-D7C7-45B3-83EA-55DBECDB3DEC}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.85724836357673"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.6976155293346"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.00031238082485"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.58821363379192"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>V.wav</AudioFile>
@@ -3504,7 +3508,7 @@
 												<AudioFileSource Name="V" ID="{B5EAF5DD-0FBC-49D7-8EA5-6AFCD3FEC068}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="4.00975190518752"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.0993604731674"/>
 														<Property Name="TrimEnd" Type="Real64" Value="4.75407710914449"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -3597,8 +3601,8 @@
 												<AudioFileSource Name="W" ID="{0992936B-77C1-4930-8D3C-40AFBAC3A6D0}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="11.2849305116056"/>
-														<Property Name="TrimEnd" Type="Real64" Value="12.0292557155625"/>
+														<Property Name="TrimBegin" Type="Real64" Value="11.3151599959081"/>
+														<Property Name="TrimEnd" Type="Real64" Value="11.9601597514424"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>W.wav</AudioFile>
@@ -3636,7 +3640,7 @@
 												<AudioFileSource Name="X" ID="{60FD327C-CA35-4426-A614-46E48F0C3645}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.36859795566281"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.39541242907498"/>
 														<Property Name="TrimEnd" Type="Real64" Value="2.0408921968954"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -3729,8 +3733,8 @@
 												<AudioFileSource Name="Y" ID="{40F7FF66-375E-4C1E-B97A-8FC757EE46A7}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.432188828104044"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.984430617085519"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.509751354502896"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.953405606525978"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Y.wav</AudioFile>
@@ -3757,7 +3761,7 @@
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="1.51266089836415"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.06490217871932"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.98281503126263"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Y.wav</AudioFile>
@@ -3783,8 +3787,8 @@
 												<AudioFileSource Name="Y" ID="{8F56D9D7-08A3-46F2-9535-3F94720CADE4}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.59313296862426"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.19339522987988"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.6601691521547"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.10222602027849"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Y.wav</AudioFile>
@@ -3822,8 +3826,8 @@
 												<AudioFileSource Name="Z" ID="{F18E552C-E0D4-4B11-801D-6A7DC0E692F7}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.456199318554268"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.984430617085513"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.491889382665872"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.919539591428051"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Z.wav</AudioFile>
@@ -3849,8 +3853,8 @@
 												<AudioFileSource Name="Z" ID="{162EC1BF-0C57-49E1-BCEB-0830795B4622}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="1.41661893656326"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.92083923601797"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.4678102039865"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.88183636560026"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Z.wav</AudioFile>
@@ -3876,8 +3880,8 @@
 												<AudioFileSource Name="Z" ID="{2E451C7F-C274-4999-BF4F-F27DE6E381C8}">
 													<PropertyList>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.47308051637314"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.02532179672831"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.57302537181852"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.95219141469511"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Z.wav</AudioFile>
@@ -3893,45 +3897,6 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{7B084F9C-205A-44FD-B72E-77EDF275A442}" ShortID="385438712">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Pitch"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Voice_Gender" ID="{3FB7D04F-51BA-4DCC-8D63-BBDC8315FA56}" WorkUnitID="{53B5F049-443C-4808-B7C4-5C05713A24EC}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{52A14643-8DA9-48E5-985B-AFD83334FBC9}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="65537"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-1466</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>398</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
@@ -4087,6 +4052,12 @@
 										</ItemList>
 									</Grouping>
 									<Grouping>
+										<SwitchRef Name="U" ID="{7C130680-5376-45C5-9C01-0D02870D56AB}"/>
+										<ItemList>
+											<ItemRef Name="U" ID="{848EAB09-4604-420F-B8D0-37782B54657F}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
 										<SwitchRef Name="P" ID="{8F698B87-7C0A-4BDF-A6A4-F2B2E121C80A}"/>
 										<ItemList>
 											<ItemRef Name="P" ID="{40609A48-C897-4BD9-B3AB-A83005D8449E}"/>
@@ -4096,6 +4067,12 @@
 										<SwitchRef Name="H" ID="{44240FA6-2534-437F-A565-8DFDC5D74B02}"/>
 										<ItemList>
 											<ItemRef Name="H" ID="{D73960D6-CD02-4451-A5AE-4EF9A59F28DB}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="T" ID="{357E10AA-A4E6-47C4-96FD-E038FF9894AE}"/>
+										<ItemList>
+											<ItemRef Name="T" ID="{90B50290-9BBA-43A1-AB3A-87C5E98F0C1C}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -4120,6 +4097,12 @@
 										<SwitchRef Name="E" ID="{5E17FBC3-0E90-4C11-A73A-8B38D3F96B80}"/>
 										<ItemList>
 											<ItemRef Name="E" ID="{EC8F64BC-E574-4878-955C-962BBE307875}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="S" ID="{B1DA11C5-9D8F-42A2-8768-54E19889B921}"/>
+										<ItemList>
+											<ItemRef Name="S" ID="{769592B9-B487-4219-9DD6-27F10C704A49}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>

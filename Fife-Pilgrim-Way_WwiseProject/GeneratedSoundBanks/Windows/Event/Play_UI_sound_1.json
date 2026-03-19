@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{FCC35365-3D24-4F19-A971-316B79DDF947}",
     "Language": "SFX",
-    "Hash": "{76FACB92-E952-3EE9-D939-B187B4518CD5}",
+    "Hash": "{D7AE5B22-C66B-0030-5317-1E3167B0F26E}",
     "ObjectPath": "Play_UI_sound_1",
     "ShortName": "Play_UI_sound_1",
     "Path": "Event/Play_UI_sound_1.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "UI sound 1.wav",
       "Path": "Media/419175076.wem",
-      "CachePath": "FC/{FCAB63BD-417C-DC64-54AC-5BA535431381}.wem"
+      "CachePath": "9B/{9BF5A356-C52D-3438-338B-03A34E2CE078}.wem"
      }
     ],
     "Events": [
@@ -32,8 +32,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UI_sound_1",
       "GUID": "{FCC35365-3D24-4F19-A971-316B79DDF947}",
       "DurationType": "OneShot",
-      "DurationMin": "1.991814",
-      "DurationMax": "1.991814",
+      "DurationMin": "0.48434043",
+      "DurationMax": "0.48434043",
       "MediaRefs": [
        {
         "Id": "419175076"
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{B5478C91-F208-E402-C06F-B64859D45EDE}"
+  "FileHash": "{07E1C778-293C-5189-E35A-2BEDBF5CA933}"
  }
 }

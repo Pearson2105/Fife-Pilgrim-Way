@@ -1,5 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3597291569	Play_Scots_Speech			\Default Work Unit\Play_Scots_Speech	
+	3597291569	Play_Scots_Speech			\Default Work Unit\NPC\Play_Scots_Speech	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1683734824	Letters			\Default Work Unit\Letters	
@@ -32,77 +32,85 @@ Switch	ID	Name	Switch Group			Notes
 	84696445	B	Letters			
 	84696446	A	Letters			
 
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	1520455939	Voice_Gender			\Default Work Unit\Voice_Gender	
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	9972579	Y	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\84\{8409B8D3-8B3C-DD82-5CD0-6BB56BF66C0A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Y\Y		97508
-	15363211	X	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\A2\{A2D11E3F-E67D-6598-0DF7-77D73AF98510}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\X\X		118688
-	16220357	G_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\27\{27F4A70E-7DDE-3B1D-2EC3-B8F01991526C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\G\G_01		101748
-	27113040	F	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\FB\{FB613AF4-AC65-7EA1-46C2-BFD65A06A465}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\F\F		93276
-	36870435	F_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\DF\{DF4469DE-FE9F-CAE9-D8E3-CE514F2C2913}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\F\F_01		110216
-	94524749	Z_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\4B\{4B6B3B77-EA3C-1DD2-AF56-ADA8D126BB9C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Z\Z_01		89040
-	113315932	E_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F3\{F3085895-6437-97B8-7FF3-4555D6948D3B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\E\E_02		131396
-	119903257	W_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E2\{E2B36985-71EA-D2FB-CA1A-B2D7889EA86F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\W\W_02		131396
-	130395003	Z_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\DA\{DAC95EFB-82BB-568B-8FFA-46A27B12A98F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Z\Z_02		97512
-	142243562	Y_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\47\{47A06775-7BE9-D233-E9D8-4D0F337B88E6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Y\Y_01		97512
-	144055770	V	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\C2\{C2EC115B-3518-110E-FB00-49C934A89303}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\V\V		114456
-	190394187	O	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\6C\{6C7CCF4F-66D5-4EDB-F43C-1AB520D5CC68}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\O\O		97508
-	244261289	N_03	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E6\{E6752629-CB1B-1C25-66A5-B86DC43E09FE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\N\N_03		122924
-	297296482	J_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\AB\{AB0C52C8-7078-5057-8F82-5413A24FF2E7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\J\J_01		127160
-	311314663	H_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B3\{B39C1B49-B2EB-79FA-1B2A-FB52B566B535}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\H\H_02		114452
-	346587513	P	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\1C\{1C8684CB-07A2-1668-EF3D-1DBBE692EE73}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\P\P		101748
-	348987034	E	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\0C\{0CBE4169-0923-1E19-733A-C7BC17D2A218}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\E\E		122924
-	364750620	M	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\2A\{2AE7BA6D-A6C8-78C3-9F38-98CFE90639A3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\M\M		122924
-	367769883	H	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\24\{2451BAB6-6AEB-E124-9ACA-BAB16771300F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\H\H		131396
-	375781669	C	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\82\{822F14D5-0955-F9CD-6C5B-CC81C383AA23}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\C\C		84804
-	388201503	A_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\36\{36150425-2E28-B580-94C1-95CA7194CAC1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\A\A_01		67860
-	395630811	X_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\28\{28B42EA9-2A62-E21E-0791-1D20F962D10D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\X\X_01		114452
-	412733861	X_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\93\{93767787-0A6F-806D-E228-DDF50C12C3C3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\X\X_02		122924
-	437373597	V_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\59\{5926F88C-13E4-2E9B-1565-95EC206E60A9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\V\V_02		131396
-	439240163	P_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\0F\{0FE8115C-7D12-2920-718C-167D1AECBA70}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\P\P_01		110216
-	444658195	O_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\86\{86724EE4-DF7B-DBC4-C9EE-616D231E8A28}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\O\O_02		101744
-	445688905	D	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\09\{0965005D-E4EE-85D5-4550-F502C61FDD67}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\D\D		89040
-	447131487	N_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\23\{237846A2-8A5F-0F96-5006-A6572C611AE8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\N\N_01		144104
-	494699224	A	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B0\{B0CB07C2-A867-9CAF-E1E4-47A81570235A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\A\A		63676
-	498916285	D_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\C8\{C85F7EBC-251E-BEB4-A9C9-052F43178857}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\D\D_01		127160
-	500537968	P_03	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\74\{744F177C-1404-AD16-19B5-86564F90D42D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\P\P_03		101744
-	515683094	N	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\88\{884DEC1A-3FFE-7992-8894-214255191AFF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\N\N		101748
-	530438502	I_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F3\{F3F876BB-FCB1-A28B-EA0D-1D89E90F2A3F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\I\I_01		105984
-	539406211	H_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\3E\{3EDD0D35-5E38-C733-0008-351B25CF8B8C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\H\H_01		152572
-	543039013	J	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\DC\{DC540A10-4233-4139-99ED-5F3AD050F6C4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\J\J		144100
-	549572574	G_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B8\{B87B281D-5BBF-84DB-BDAD-64E9777241ED}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\G\G_02		93276
-	549752229	O_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\BB\{BB1FF3F6-C5D5-81ED-B7AB-D92335F660C5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\O\O_01		105980
-	580668177	L_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E3\{E31116AE-6CE5-D013-E53A-B0D5C120C00F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\L\L_01		97512
-	587096188	M_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\32\{321F0343-DFE5-FB56-9226-6EDE02F7CA98}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\M\M_01		105984
-	638111851	G	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E0\{E07A3D24-83D3-2259-6E43-3AB4749CAC2D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\G\G		101748
-	649333727	P_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\48\{48AC36EA-A7C1-5266-0D38-B07A2D5E6A97}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\P\P_02		127156
-	660556671	I	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\84\{84F2E936-DC1D-CD1F-8763-AF0799EC8967}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\I\I		105984
-	672441357	K	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E4\{E47E4004-1FA6-7172-4764-9F4E77795B54}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\K\K		131396
-	703531417	F_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\9B\{9B2E460D-DDDD-5261-77F6-6862E59A4773}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\F\F_02		105984
-	716449695	C_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\93\{93DC3845-659A-D6F7-1E38-9D0436EB9FB3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\C\C_01		80568
-	716611291	W	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F0\{F0E91093-C034-7D9A-0E10-61286C090531}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\W\W		144104
-	723047237	Z	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\18\{1800E0C8-F4AE-466D-5B81-952437900DF4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Z\Z		93276
-	732400931	L	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\25\{250902BF-3FC4-0A10-4D90-DE75BE4FD405}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\L\L		127160
-	736225940	K_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\02\{024EC9F5-E15C-7571-8E79-D1794A53205F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\K\K_01		110220
-	744303002	R_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F8\{F8D95050-6967-FB02-195E-4FCFE9AA0502}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\R\R_01		84804
-	744474628	M_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\55\{5543FD77-2156-9F63-1EB8-1BE2DBF7366A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\M\M_02		114452
-	771493562	I_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\05\{0531C77D-4A46-E6C0-D980-66486E20A16B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\I\I_02		101744
-	797432608	Q	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\00\{00989D9F-3BC9-E5BD-1B03-42C8FABC3D94}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Q\Q		93276
-	808835054	R	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F3\{F35928DB-3127-7EF8-20A1-2AC50B459512}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\R\R		97512
-	847475031	W_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\40\{405677E7-3840-BB6F-1AB2-47B96DCB8552}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\W\W_01		135632
-	848357187	Q_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\68\{68AAE905-30A8-733B-DA95-7788C092C5EC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Q\Q_02		84804
-	870776309	J_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\21\{2150598D-814F-ABFC-34D6-35A412DF30D4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\J\J_02		110216
-	877320181	Y_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\24\{2402301A-1564-C7BF-2D41-CA30A7B22A54}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Y\Y_02		105984
-	891946148	B_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\BF\{BFA2187B-F726-AF9F-A69F-BDF8BBC6007C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\B\B_01		46684
-	894796798	R_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\91\{917A3AB1-C046-FD29-CB21-A3A2E779BC8D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\R\R_02		110216
-	895977869	Q_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\90\{90FFC75C-0AB0-3FD3-0F27-FE3538013272}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Q\Q_01		97512
-	908843806	B	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\50\{5080B246-8C71-D7DE-5FE2-41530B530CDC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\B\B		93276
-	919984162	V_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\4D\{4DD99EE8-90BC-8CD8-4DCA-298652D259BA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\V\V_01		148336
-	933222657	A_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\DB\{DBD19EB1-6F25-BA35-20A7-AE8AD017172D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\A\A_02		80572
-	952084069	E_01	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\24\{24674AD1-5F67-9740-E230-C46D74AE7703}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\E\E_01		148336
-	977617816	D_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\45\{450163FC-2092-6AF2-7DB5-EDC0D931C170}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\D\D_02		97512
-	984270791	N_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\90\{90A93A23-5B4F-6711-A197-7CFB77D5906B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\N\N_02		114452
-	1026754156	L_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F9\{F9101BB5-594D-6B49-D39B-97CCD7DC6F76}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\L\L_02		97512
-	1065150331	K_02	E:\GitHub\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\6E\{6E6A7F51-53DD-7205-43C4-7B13785B7C1A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\K\K_02		105980
+	9972579	Y	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\5E\{5E8BA7BD-11D0-AF14-645A-D5AFF2DC27D0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Y\Y		78356
+	15363211	X	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\6F\{6F805061-7D7C-D51A-7DF1-6A90E98AAC0E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\X\X		113956
+	16220357	G_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B1\{B10F327A-E4B6-7F6D-0456-1CAB1C8D19BE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\G\G_01		71472
+	27113040	F	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F9\{F90B2991-FC44-FA4C-F0FA-6079014C9FE6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\F\F		49092
+	36870435	F_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\2D\{2D6DC228-175A-0A50-93A3-E1DDDC845C42}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\F\F_01		47260
+	67431101	T_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\4B\{4B625105-E329-BE74-68F8-57AE963537B0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\T\T_02		87596
+	67520789	U_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\69\{6927FD69-61C9-8ED3-0E40-57F1E8BD1B0B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\U\U_01		85368
+	94524749	Z_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\57\{57B827C2-25FD-1DEC-C695-0E1F66FAAE25}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Z\Z_01		73132
+	113315932	E_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\76\{76A156E3-5CE9-0E38-82A5-1F53C038F9E2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\E\E_02		103696
+	119903257	W_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B8\{B811C26C-513B-27EE-D586-8155DE6F1E76}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\W\W_02		113872
+	130395003	Z_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\89\{8921EA9F-ECD9-6D92-A016-B5C912C63777}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Z\Z_02		66984
+	142243562	Y_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\4A\{4A9B4149-37A7-2D73-FBCE-DE19963CC8FF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Y\Y_01		83032
+	143325305	U_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\07\{074E3186-D098-E137-1C85-0871DA94672E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\U\U_02		90416
+	144055770	V	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\34\{3475BE60-6528-6281-F4D9-4C89AC4644B0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\V\V		80116
+	190394187	O	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\76\{76136EA2-6C55-BCA5-3355-6E932B55120A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\O\O		79528
+	215120476	T	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\D2\{D235737E-4AAB-5E98-9848-05E45442D1C8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\T\T		72440
+	244261289	N_03	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\A6\{A600ABA1-1401-6C6B-56A0-89189A34E025}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\N\N_03		86892
+	297296482	J_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\FF\{FF172B42-DCF7-BBFC-B37D-BFD5CD67A8ED}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\J\J_01		102868
+	311314663	H_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\6A\{6A935F90-D09C-1A55-4F8E-CD1D65868674}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\H\H_02		90528
+	346587513	P	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\55\{55D431BE-8E51-6F74-C612-2F7261D44696}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\P\P		73704
+	348987034	E	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\24\{2464EAD6-FB43-6FEB-F98C-3669EA708EFC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\E\E		75192
+	364750620	M	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\AB\{ABD44823-DB61-0F05-374E-98C468184041}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\M\M		102152
+	367769883	H	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B8\{B89E2DF8-F23A-3FB2-C89D-C3155B873D61}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\H\H		103972
+	375781669	C	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\3B\{3BADACB1-58A1-0E14-288C-73E12BD9D4C7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\C\C		66312
+	388201503	A_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\55\{555500B6-4880-0601-EE4D-B1A7BFE7CC54}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\A\A_01		53980
+	395630811	X_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\28\{28B42EA9-2A62-E21E-0791-1D20F962D10D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\X\X_01		114452
+	412733861	X_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\93\{93767787-0A6F-806D-E228-DDF50C12C3C3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\X\X_02		122924
+	437373597	V_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\28\{28AB7CF1-20FD-B8EC-44B3-FEF28D1BF9D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\V\V_02		115588
+	439240163	P_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\66\{66338B2F-C541-E3CB-0390-FAA8FF904E0A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\P\P_01		81256
+	444658195	O_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\37\{377CE3CC-B16F-CC14-F4E4-7F96412B592F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\O\O_02		76608
+	445688905	D	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\D4\{D453FBC8-2A78-8401-88C7-D6C261B904FE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\D\D		68436
+	447131487	N_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\D4\{D4584B64-5F17-2A32-9717-4EF8FB7B548B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\N\N_01		89256
+	451482109	S_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\DE\{DE633CF6-4839-402F-5C48-C936442A44D2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\S\S_01		101636
+	461404774	S	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B0\{B0F9B5E4-A8D5-61C0-8FB1-68BF0A23054F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\S\S		85076
+	494699224	A	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\29\{293A72EB-5325-5700-4D7F-A7129FB6029E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\A\A		41660
+	498916285	D_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\05\{055D8837-EACA-782F-726B-EE5A68CFE067}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\D\D_01		81948
+	500537968	P_03	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\AD\{ADC0D505-612E-94BE-5397-C31319EDDE07}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\P\P_03		88504
+	515683094	N	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\C1\{C104EE79-BBAB-3A07-7967-922998E7DB5E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\N\N		80520
+	530438502	I_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\BD\{BDC4158A-E21B-B67E-B72B-6FC69C43663D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\I\I_01		74956
+	539406211	H_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\AB\{ABA9913E-38CC-E7BC-8E71-00CEFB99F3CA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\H\H_01		115016
+	543039013	J	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F2\{F2AC6E07-6327-2FCF-AA18-FE7D98182DB4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\J\J		101052
+	549572574	G_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\DB\{DB300D33-2316-BBAA-4977-3AEEF0D84DB2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\G\G_02		78796
+	549752229	O_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\64\{6448889A-76D6-8D95-2498-43DF05040795}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\O\O_01		80440
+	580668177	L_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\01\{012EBB45-5D93-171B-CEBB-AA18A23D6C5D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\L\L_01		87440
+	587096188	M_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\95\{952AB380-4E7D-96C9-E03A-B8BA85DC5333}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\M\M_01		93512
+	638111851	G	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F0\{F0E622A5-4EB3-52B6-02B6-09A88418D2B2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\G\G		64604
+	649333727	P_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\39\{3916124B-603B-EB83-5A2B-58294D1CB212}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\P\P_02		94712
+	660556671	I	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\0F\{0FAED079-CE52-1FDF-B2BA-F5FABBC68347}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\I\I		67952
+	672441357	K	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\A3\{A3267582-6DD0-267A-25E7-2DABDD7DF106}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\K\K		75784
+	681358442	Q_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\46\{46E9A381-8D64-818F-586E-B2F96E952FC3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Q\Q_02		74104
+	703531417	F_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\54\{54CE1BFB-81B1-7BBB-EC24-F5877B1DCB1B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\F\F_02		55508
+	716449695	C_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B0\{B080D5D0-D7D1-D997-0387-ADD7C7E387D3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\C\C_01		61052
+	716611291	W	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F0\{F0E91093-C034-7D9A-0E10-61286C090531}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\W\W		144104
+	723047237	Z	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E1\{E1DD0F75-E304-1D6C-013A-E35F369E5EEB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Z\Z		75536
+	732400931	L	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\39\{39EDDC6B-C584-F275-AAFC-2C3D006F47E2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\L\L		83664
+	736225940	K_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\39\{398490A5-DCFF-4468-8BFE-06BE68EA2612}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\K\K_01		80052
+	744303002	R_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\7E\{7E365E24-CBB2-4861-8171-C3A0B8885C83}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\R\R_01		71796
+	744474628	M_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F3\{F3C77179-89A4-8207-8634-D141BC0DE662}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\M\M_02		96640
+	758340521	T_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E0\{E06845DA-1777-996A-3C01-E536E3FCCAE8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\T\T_01		80168
+	771493562	I_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E4\{E4375B67-9B7A-02F2-44EA-80754AE4B92B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\I\I_02		72300
+	797432608	Q	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\34\{349AC7F3-68BF-0F86-A5CE-EC7E9DF2F07E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Q\Q		74544
+	804073980	S_03	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\AA\{AAA8BBCE-7117-5713-4096-3D658CA8CABB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\S\S_03		95884
+	808835054	R	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\94\{94EEC5D6-9D01-681F-4000-5D4CC45E280B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\R\R		75724
+	846888180	U	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\38\{3844DF22-C32A-1A9A-8FF3-8808C2D4B624}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\U\U		96740
+	847475031	W_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\40\{405677E7-3840-BB6F-1AB2-47B96DCB8552}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\W\W_01		135632
+	848357187	Q_03	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\93\{93527152-EA20-2948-2A0A-C5BD022C1AAD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Q\Q_03		75076
+	870776309	J_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\85\{85A5387A-B923-F215-EBF0-69F519EF2C31}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\J\J_02		89016
+	877320181	Y_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\54\{5450E8B3-997F-8114-6F00-24ECC1DC8226}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Y\Y_02		78076
+	891946148	B_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E6\{E62382E4-0A71-CBFC-17D9-0D1FC74B5FCA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\B\B_01		36612
+	894796798	R_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\4A\{4A97E2B1-7335-8C8D-D004-FD14D33550E0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\R\R_02		85036
+	895977869	Q_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\36\{366DFE7B-AC86-93BE-1B52-B55CDADF2F0C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\Q\Q_01		82968
+	908843806	B	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\FC\{FC1D6BEB-15B8-E308-5A2B-283B8B93F0EA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\B\B		54496
+	919984162	V_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\73\{73E396DC-C43D-B09C-5723-2E06C3C12CE6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\V\V_01		103800
+	933222657	A_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\3E\{3E0A332A-9EB5-1A5C-C8CF-D3BABD3CE1F9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\A\A_02		57348
+	952084069	E_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\95\{95641224-1201-2CA8-C9A8-715AAAB8DF62}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\E\E_01		94356
+	977617816	D_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\9A\{9A638D82-6AAA-68A4-06AB-DBDF49BA2E19}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\D\D_02		81584
+	984270791	N_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\BB\{BBA3C596-83E5-963B-C459-DD667AD0097F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\N\N_02		87508
+	1026754156	L_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\ED\{EDDB8090-8B77-4A99-AE54-212B42E046A7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\L\L_02		84940
+	1033564892	S_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\21\{21477A35-EAD3-FEB2-795A-20AFD71219A6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\S\S_02		103428
+	1065150331	K_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\A8\{A8540065-E6CD-8A5C-AACA-B020602BF006}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Scottish_Voice_Switch\K\K_02		80360
 

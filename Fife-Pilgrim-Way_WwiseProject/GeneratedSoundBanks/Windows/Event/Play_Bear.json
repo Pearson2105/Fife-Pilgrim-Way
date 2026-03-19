@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{655667E1-E91F-43B0-9B05-F1912182A9DD}",
     "Language": "SFX",
-    "Hash": "{CC91F3B2-59CB-B83F-6759-5999165BCAC7}",
+    "Hash": "{152A5D33-885A-B03B-6743-57C7900FAB93}",
     "ObjectPath": "Play_Bear",
     "ShortName": "Play_Bear",
     "Path": "Event/Play_Bear.bnk",
@@ -127,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{870CC6D1-C702-664B-B6E9-66EB0DCDB6E9}"
+  "FileHash": "{E4CA4C7F-1E2C-7A40-1509-05EF9B565C8F}"
  }
 }

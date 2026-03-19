@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "755525525",
+    "Type": "Event",
+    "GUID": "{F67D52A3-B184-4A36-990B-498A0B73955D}",
+    "Language": "SFX",
+    "Hash": "{10A8DEF5-282C-030D-9879-3DA94B7F959F}",
+    "ObjectPath": "Play_Birds_and_Wind_01",
+    "ShortName": "Play_Birds_and_Wind_01",
+    "Path": "Event/Play_Birds_and_Wind_01.bnk",
+    "Media": [
+     {
+      "Id": "101589374",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Birds and Wind.wav",
+      "Path": "Media/101589374.wem",
+      "CachePath": "B2/{B2969F8F-52C7-A1FD-0694-B7066826D9E0}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "755525525",
+      "Name": "Play_Birds_and_Wind_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Play_Birds_and_Wind_01",
+      "GUID": "{F67D52A3-B184-4A36-990B-498A0B73955D}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "101589374"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{46A77513-7F74-CF55-B359-A9581B6B44DB}"
+ }
+}

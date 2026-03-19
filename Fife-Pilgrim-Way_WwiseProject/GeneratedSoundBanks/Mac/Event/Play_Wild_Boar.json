@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{12F956E2-5561-4520-8759-AC0336B2A040}",
     "Language": "SFX",
-    "Hash": "{7D5CC3DD-0673-99D8-6D1A-9A64FF62024A}",
+    "Hash": "{1018BD97-5077-524E-334A-55EBCF8BB639}",
     "ObjectPath": "Play_Wild_Boar",
     "ShortName": "Play_Wild_Boar",
     "Path": "Event/Play_Wild_Boar.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "Wild Boar.wav",
       "Path": "Media/254597642.wem",
-      "CachePath": "F8/{F8B358F4-83DB-D2CD-74F0-7B55A589E02E}.wem"
+      "CachePath": "77/{77E5B661-A33B-8B71-F9E6-3A175102D18F}.wem"
      }
     ],
     "Events": [
@@ -32,8 +32,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Animals\\Play_Wild_Boar",
       "GUID": "{12F956E2-5561-4520-8759-AC0336B2A040}",
       "DurationType": "OneShot",
-      "DurationMin": "19.696327",
-      "DurationMax": "19.696327",
+      "DurationMin": "6.064768",
+      "DurationMax": "6.064768",
       "MediaRefs": [
        {
         "Id": "254597642"
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{E332B3C9-15E7-0B51-45C8-3E1A6FE18BBE}"
+  "FileHash": "{721CF6EF-5CB7-49F8-A974-ECFB88A26A11}"
  }
 }

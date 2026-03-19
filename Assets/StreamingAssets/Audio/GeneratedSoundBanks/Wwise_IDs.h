@@ -14,7 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_BEAR = 1996054844U;
-        static const AkUniqueID PLAY_BIRDS_AND_WIND = 1324655209U;
+        static const AkUniqueID PLAY_BIRDS_AND_WIND_01 = 755525525U;
         static const AkUniqueID PLAY_DYING_SOUND_LUTE = 298480340U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_HORSE_GALLOP = 1037036053U;

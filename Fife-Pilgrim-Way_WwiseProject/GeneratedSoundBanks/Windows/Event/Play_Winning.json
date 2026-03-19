@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E5FAF9F1-33E4-4B3E-A42D-E21FAC2BF3B4}",
     "Language": "SFX",
-    "Hash": "{7055B150-F71C-4E90-2629-662C1847D438}",
+    "Hash": "{5AB01D45-874B-ECD1-CB91-C869425D6982}",
     "ObjectPath": "Play_Winning",
     "ShortName": "Play_Winning",
     "Path": "Event/Play_Winning.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{EC0EFB34-EED5-5436-7475-6561DAA3307A}"
+  "FileHash": "{4DFABFAF-F08E-6CD2-DA69-2E8E9FBF6C8C}"
  }
 }

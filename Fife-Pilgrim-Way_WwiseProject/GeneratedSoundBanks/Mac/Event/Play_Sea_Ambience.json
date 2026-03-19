@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{213A7980-524B-4BDF-A94D-BAA720836903}",
     "Language": "SFX",
-    "Hash": "{9ECBCF2E-4002-8708-7AC2-B45B3EBCB155}",
+    "Hash": "{9DF16494-4241-CC33-849B-057F16C64BEF}",
     "ObjectPath": "Play_Sea_Ambience",
     "ShortName": "Play_Sea_Ambience",
     "Path": "Event/Play_Sea_Ambience.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "Sea Ambience.wav",
       "Path": "Media/161914615.wem",
-      "CachePath": "5F/{5F33155F-A000-CD92-C76F-ADB71FB3D47E}.wem"
+      "CachePath": "A5/{A5E3746F-86FC-1E71-A545-8F08850688AC}.wem"
      }
     ],
     "Events": [
@@ -31,9 +31,7 @@
       "Name": "Play_Sea_Ambience",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Play_Sea_Ambience",
       "GUID": "{213A7980-524B-4BDF-A94D-BAA720836903}",
-      "DurationType": "OneShot",
-      "DurationMin": "202.41963",
-      "DurationMax": "202.41963",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "161914615"
@@ -43,6 +41,6 @@
     ]
    }
   ],
-  "FileHash": "{2D96FB1A-1EA5-9358-9C05-09EF8C7887B7}"
+  "FileHash": "{1771BB46-B473-BFE7-DF28-572132066F87}"
  }
 }

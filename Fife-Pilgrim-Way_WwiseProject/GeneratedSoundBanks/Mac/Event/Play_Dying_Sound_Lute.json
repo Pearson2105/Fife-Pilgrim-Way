@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1A813ED9-2D95-4DC9-9896-90B913EEE60D}",
     "Language": "SFX",
-    "Hash": "{7FC12FA5-4CAB-B761-449A-339E6D399924}",
+    "Hash": "{D76303F0-469A-595B-FDE8-AFC8C9CF9D22}",
     "ObjectPath": "Play_Dying_Sound_Lute",
     "ShortName": "Play_Dying_Sound_Lute",
     "Path": "Event/Play_Dying_Sound_Lute.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "Dying Sound Lute.wav",
       "Path": "Media/103315941.wem",
-      "CachePath": "D3/{D302D4CB-7A02-AC98-A9DF-7D86D83254D9}.wem"
+      "CachePath": "D4/{D4D7EC73-9B0B-6DB0-2B1C-52BD75009EEE}.wem"
      }
     ],
     "Events": [
@@ -32,8 +32,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Play_Dying_Sound_Lute",
       "GUID": "{1A813ED9-2D95-4DC9-9896-90B913EEE60D}",
       "DurationType": "OneShot",
-      "DurationMin": "4.6615624",
-      "DurationMax": "4.6615624",
+      "DurationMin": "2.64267",
+      "DurationMax": "2.64267",
       "MediaRefs": [
        {
         "Id": "103315941"
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{395C3605-4FCE-9F23-BEFC-EA8FEE8DD425}"
+  "FileHash": "{1F207CD1-16BA-0C75-12C0-49BE567FD902}"
  }
 }

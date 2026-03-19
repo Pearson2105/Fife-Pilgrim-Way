@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{57E6DA6F-87B7-4903-A700-E26BBAC010C8}",
     "Language": "SFX",
-    "Hash": "{0E1BA289-DC3E-7E20-0BD5-AD2B19D45618}",
+    "Hash": "{217379ED-7841-D48C-35AF-FABEDD533953}",
     "ObjectPath": "Play_Horse_Gallop",
     "ShortName": "Play_Horse_Gallop",
     "Path": "Event/Play_Horse_Gallop.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "Horse Galloping.wav",
       "Path": "Media/30857813.wem",
-      "CachePath": "76/{76C5B60E-B07D-5239-C392-E819A157C808}.wem"
+      "CachePath": "8B/{8B1783C2-50F6-772D-B29C-0DBEB4DA3FD4}.wem"
      }
     ],
     "Events": [
@@ -32,8 +32,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Animals\\Play_Horse_Gallop",
       "GUID": "{57E6DA6F-87B7-4903-A700-E26BBAC010C8}",
       "DurationType": "OneShot",
-      "DurationMin": "22.25",
-      "DurationMax": "22.25",
+      "DurationMin": "8.771942",
+      "DurationMax": "8.771942",
       "MediaRefs": [
        {
         "Id": "30857813"
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{4BEB9571-1BCA-8342-F319-8A42076D409B}"
+  "FileHash": "{01B17FFF-5C90-FBE3-F356-EFB32326A454}"
  }
 }

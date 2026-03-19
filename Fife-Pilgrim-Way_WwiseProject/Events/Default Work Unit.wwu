@@ -184,6 +184,22 @@
 					<ChildrenList>
 						<Event Name="Play_Scots_Speech" ID="{734AE36B-C165-4372-A27E-AA68898A433B}">
 							<ChildrenList>
+								<Action Name="" ID="{953C3BDF-4E6D-4AB7-B953-2ED51DCEA51D}" ShortID="828291997">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Scottish_Voice_Switch" ID="{7F846242-1FC2-494D-9A7B-692E5BEB20B1}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{7015CDD9-5B3A-4BB1-B608-E8364B53B1ED}" ShortID="1069978502">
 									<ReferenceList>
 										<Reference Name="Target">

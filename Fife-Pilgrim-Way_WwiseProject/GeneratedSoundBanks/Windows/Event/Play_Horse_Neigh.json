@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5E6AB206-793C-4F6A-99FE-FED0395275B6}",
     "Language": "SFX",
-    "Hash": "{D8B18C3E-E7F2-F8D1-A48D-484ED3019870}",
+    "Hash": "{57019154-25C4-E3EE-1567-D72AD127A1E6}",
     "ObjectPath": "Play_Horse_Neigh",
     "ShortName": "Play_Horse_Neigh",
     "Path": "Event/Play_Horse_Neigh.bnk",
@@ -67,6 +67,6 @@
     ]
    }
   ],
-  "FileHash": "{A9B0624C-E457-0A68-3FE1-905505DF32F8}"
+  "FileHash": "{1CAF7017-BDCE-E434-3BE6-5B2D007D902F}"
  }
 }
