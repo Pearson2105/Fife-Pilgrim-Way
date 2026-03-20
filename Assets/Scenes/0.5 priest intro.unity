@@ -448,10 +448,10 @@ MonoBehaviour:
   dialogueText: {fileID: 1095497884}
   nameTagText: {fileID: 0}
   dialogueBox: {fileID: 845266834}
-  Play_Scots_Speech:
+  playLetterSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: f48477db3fcf159468bedb9d886cf421, type: 2}
   pitchRtpcName: Voice_Gender
 --- !u!4 &672591891
 Transform:
