@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8d9c0674e49bb4cba68fc8e05eff60, type: 3}
   m_Name: Priest_Intro
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
-  lines:
-  - 'The Sea has a habit of keeping what it takes, but it spat you out on our pier
-    last night. '
+  characterName: Priest
+  dialogueLines:
+  - hello there how are yoyu
+  - hello there how are yoyu
+  genderPitch: 100
+  typingSpeed: 0.1

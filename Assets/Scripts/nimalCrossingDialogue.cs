@@ -1,73 +1,59 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 using TMPro;
-using UnityEngine.InputSystem; // Using the New Input System
 
 public class AnimalCrossingDialogue : MonoBehaviour
 {
     [Header("UI Components")]
-    public TextMeshProUGUI uiText;      
-    public TextMeshProUGUI nameTagText; // Drag your Name Text here
-    public GameObject dialogueBox;     
-    public float typingSpeed = 0.05f;  
+    public TextMeshProUGUI dialogueText;
+    public TextMeshProUGUI nameTagText;
+    public GameObject dialogueBox;
 
     [Header("Wwise Settings")]
-    public string switchGroupName = "Letters"; 
-    public AK.Wwise.Event playLetterSound;    
+    public AK.Wwise.Event Play_Scots_Speech;
+    public string pitchRtpcName = "Voice_Gender";
 
-    [Header("Priest Animation")]
-    public Animator priestAnimator;           
-    public string talkingBoolName = "isTalking"; 
+    private bool isTyping = false; // The warning was here!
 
     public void PlayCard(DialogueData card)
     {
-        // Set Character Name from the Card
+        // 1. ADDED THIS: Use the variable to stop double-typing
+        if (isTyping) return; 
+
         if (nameTagText != null) nameTagText.text = card.characterName;
+
+        // 2. Set the Pitch (0 = High, 100 = Deep)
+        AkUnitySoundEngine.SetRTPCValue(pitchRtpcName, card.genderPitch);
 
         dialogueBox.SetActive(true);
         StopAllCoroutines();
-        StartCoroutine(TypeLines(card));
+        
+        if (card.dialogueLines.Length > 0)
+        {
+            StartCoroutine(TypeLines(card.dialogueLines[0], card.typingSpeed));
+        }
     }
 
-    IEnumerator TypeLines(DialogueData card)
+    IEnumerator TypeLines(string lineToType, float speed)
     {
-        foreach (string line in card.lines)
+        isTyping = true; // Now Unity sees this is used!
+        dialogueText.text = "";
+
+        float finalSpeed = speed <= 0 ? 0.05f : speed;
+
+        foreach (char c in lineToType.ToCharArray())
         {
-            uiText.text = "";
-            
-            if (priestAnimator != null)
-                priestAnimator.SetBool(talkingBoolName, true);
+            dialogueText.text += c;
 
-            foreach (char letter in line.ToCharArray())
+            if (char.IsLetterOrDigit(c))
             {
-                uiText.text += letter;
-
-                if (char.IsLetterOrDigit(letter))
-                {
-                    // Convert to Uppercase to match Wwise Switch names
-                    string upperLetter = letter.ToString().ToUpper();
-                    AkUnitySoundEngine.SetSwitch(switchGroupName, upperLetter, gameObject);
-                    playLetterSound.Post(gameObject);
-                }
-
-                // Small pause logic for punctuation (Animal Crossing Style)
-                if (letter == ',' || letter == '.' || letter == '!')
-                    yield return new WaitForSeconds(typingSpeed * 3);
-                else
-                    yield return new WaitForSeconds(typingSpeed);
+                AkUnitySoundEngine.SetState("Letters", c.ToString().ToUpper());
+                Play_Scots_Speech.Post(gameObject);
             }
 
-            if (priestAnimator != null)
-                priestAnimator.SetBool(talkingBoolName, false);
-
-            // WAIT FOR INPUT (New Input System)
-            yield return new WaitUntil(() => 
-                Mouse.current.leftButton.wasPressedThisFrame || 
-                Keyboard.current.spaceKey.wasPressedThisFrame);
-            
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(finalSpeed);
         }
 
-        dialogueBox.SetActive(false);
+        isTyping = false; 
     }
 }

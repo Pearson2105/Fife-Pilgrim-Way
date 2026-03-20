@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D8FD57E4-B5DD-4F65-A7D4-F44D97F3C311}",
     "Language": "SFX",
-    "Hash": "{B35F7B99-4F4E-873F-09BF-929A672E89E5}",
+    "Hash": "{09E54850-CAE8-FD17-EB61-11067082B2C3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\test",
     "ShortName": "test",
     "Path": "test.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Y.wav",
-      "CachePath": "5E/{5E8BA7BD-11D0-AF14-645A-D5AFF2DC27D0}.wem"
+      "CachePath": "FD/{FDC4941A-C837-3021-DA4C-25F201212A47}.wem"
      },
      {
       "Id": "15363211",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "X.wav",
-      "CachePath": "6F/{6F805061-7D7C-D51A-7DF1-6A90E98AAC0E}.wem"
+      "CachePath": "52/{52D11318-6990-4D45-2DA1-66D5F4093AA8}.wem"
      },
      {
       "Id": "16220357",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "G.wav",
-      "CachePath": "B1/{B10F327A-E4B6-7F6D-0456-1CAB1C8D19BE}.wem"
+      "CachePath": "CD/{CD1F5028-0DEF-3F6D-4A9D-B7D0E20F3228}.wem"
      },
      {
       "Id": "27113040",
@@ -45,7 +45,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "F.wav",
-      "CachePath": "F9/{F90B2991-FC44-FA4C-F0FA-6079014C9FE6}.wem"
+      "CachePath": "E8/{E815440B-8F97-FD52-F0DC-43EE971B4A6A}.wem"
      },
      {
       "Id": "36870435",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "F.wav",
-      "CachePath": "2D/{2D6DC228-175A-0A50-93A3-E1DDDC845C42}.wem"
+      "CachePath": "4B/{4BA8965D-3F2F-55C8-DC88-FEDF43110F19}.wem"
      },
      {
       "Id": "67431101",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "T.wav",
-      "CachePath": "4B/{4B625105-E329-BE74-68F8-57AE963537B0}.wem"
+      "CachePath": "4F/{4F52E105-5728-F0C5-78B4-25E780936C2F}.wem"
      },
      {
       "Id": "67520789",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "U.wav",
-      "CachePath": "69/{6927FD69-61C9-8ED3-0E40-57F1E8BD1B0B}.wem"
+      "CachePath": "E0/{E0AC8FC1-DDE1-3E9E-052D-4C19B954E405}.wem"
      },
      {
       "Id": "94524749",
@@ -77,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Z.wav",
-      "CachePath": "57/{57B827C2-25FD-1DEC-C695-0E1F66FAAE25}.wem"
+      "CachePath": "F4/{F4A54DA8-B7D9-E5CA-B40F-ADFAE13CA2C5}.wem"
      },
      {
       "Id": "113315932",
@@ -85,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "E.wav",
-      "CachePath": "76/{76A156E3-5CE9-0E38-82A5-1F53C038F9E2}.wem"
+      "CachePath": "22/{224ACA28-38C4-3DF3-DF9A-AE61D6385DFC}.wem"
      },
      {
       "Id": "119903257",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "W.wav",
-      "CachePath": "B8/{B811C26C-513B-27EE-D586-8155DE6F1E76}.wem"
+      "CachePath": "1F/{1FA76377-7422-6E99-356F-E4C8C16A5EF6}.wem"
      },
      {
       "Id": "130395003",
@@ -101,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Z.wav",
-      "CachePath": "89/{8921EA9F-ECD9-6D92-A016-B5C912C63777}.wem"
+      "CachePath": "73/{739138D9-F871-5F95-59E4-77D61C192B9C}.wem"
      },
      {
       "Id": "142243562",
@@ -109,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Y.wav",
-      "CachePath": "4A/{4A9B4149-37A7-2D73-FBCE-DE19963CC8FF}.wem"
+      "CachePath": "43/{4332049E-B052-26BC-9172-4D29BE46A428}.wem"
      },
      {
       "Id": "143325305",
@@ -117,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "U.wav",
-      "CachePath": "07/{074E3186-D098-E137-1C85-0871DA94672E}.wem"
+      "CachePath": "55/{55ED1CD9-4B90-9C6F-F06A-DD0B9E0C1C7D}.wem"
      },
      {
       "Id": "144055770",
@@ -125,7 +125,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "V.wav",
-      "CachePath": "34/{3475BE60-6528-6281-F4D9-4C89AC4644B0}.wem"
+      "CachePath": "22/{228E2746-79E5-780A-C152-88A77F908872}.wem"
      },
      {
       "Id": "190394187",
@@ -133,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "O.wav",
-      "CachePath": "76/{76136EA2-6C55-BCA5-3355-6E932B55120A}.wem"
+      "CachePath": "96/{968B9766-D13A-E90C-B921-05A8EE3AFCA4}.wem"
      },
      {
       "Id": "215120476",
@@ -141,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "T.wav",
-      "CachePath": "D2/{D235737E-4AAB-5E98-9848-05E45442D1C8}.wem"
+      "CachePath": "E9/{E9CB605E-2181-16AF-BD4D-14FA7EC4F57C}.wem"
      },
      {
       "Id": "244261289",
@@ -149,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "N.wav",
-      "CachePath": "A6/{A600ABA1-1401-6C6B-56A0-89189A34E025}.wem"
+      "CachePath": "A2/{A2A8A282-1CA0-F7CF-D347-FD26D8137269}.wem"
      },
      {
       "Id": "297296482",
@@ -157,7 +157,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "J.wav",
-      "CachePath": "FF/{FF172B42-DCF7-BBFC-B37D-BFD5CD67A8ED}.wem"
+      "CachePath": "53/{53755B87-F2AE-ECE8-760B-E8788D1606CC}.wem"
      },
      {
       "Id": "311314663",
@@ -165,7 +165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "H.wav",
-      "CachePath": "6A/{6A935F90-D09C-1A55-4F8E-CD1D65868674}.wem"
+      "CachePath": "7F/{7FC9ED64-C2E7-6D68-B96F-78244E3E89EC}.wem"
      },
      {
       "Id": "346587513",
@@ -173,7 +173,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "P.wav",
-      "CachePath": "55/{55D431BE-8E51-6F74-C612-2F7261D44696}.wem"
+      "CachePath": "87/{87B4BC2B-5C0A-94C8-78F6-32631852C8AA}.wem"
      },
      {
       "Id": "348987034",
@@ -181,7 +181,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "E.wav",
-      "CachePath": "24/{2464EAD6-FB43-6FEB-F98C-3669EA708EFC}.wem"
+      "CachePath": "AE/{AEDDBB20-C38C-013A-5BFA-A1B1C0361F31}.wem"
      },
      {
       "Id": "364750620",
@@ -189,7 +189,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "M.wav",
-      "CachePath": "AB/{ABD44823-DB61-0F05-374E-98C468184041}.wem"
+      "CachePath": "08/{080667F4-5FE6-1AAB-388C-B5E819677752}.wem"
      },
      {
       "Id": "367769883",
@@ -197,7 +197,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "H.wav",
-      "CachePath": "B8/{B89E2DF8-F23A-3FB2-C89D-C3155B873D61}.wem"
+      "CachePath": "EE/{EE2802DF-B518-A16A-1501-152EDAFF3A0E}.wem"
      },
      {
       "Id": "375781669",
@@ -205,7 +205,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "C.wav",
-      "CachePath": "3B/{3BADACB1-58A1-0E14-288C-73E12BD9D4C7}.wem"
+      "CachePath": "A9/{A9CC7F38-095A-C014-3658-EFEAAC5EDCA8}.wem"
      },
      {
       "Id": "388201503",
@@ -213,7 +213,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "A.wav",
-      "CachePath": "55/{555500B6-4880-0601-EE4D-B1A7BFE7CC54}.wem"
+      "CachePath": "D5/{D5A77B92-17E1-DFB9-9FB2-F8BB67A38774}.wem"
      },
      {
       "Id": "395630811",
@@ -237,7 +237,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "V.wav",
-      "CachePath": "28/{28AB7CF1-20FD-B8EC-44B3-FEF28D1BF9D1}.wem"
+      "CachePath": "6D/{6D1C4651-F1D2-FF74-39A1-EE93CB5D7BBE}.wem"
      },
      {
       "Id": "439240163",
@@ -245,7 +245,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "P.wav",
-      "CachePath": "66/{66338B2F-C541-E3CB-0390-FAA8FF904E0A}.wem"
+      "CachePath": "01/{013B504F-AD1B-7B6E-E782-2C33590DDC9D}.wem"
      },
      {
       "Id": "444658195",
@@ -253,7 +253,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "O.wav",
-      "CachePath": "37/{377CE3CC-B16F-CC14-F4E4-7F96412B592F}.wem"
+      "CachePath": "35/{35299253-8AE7-0674-1BDB-3508300BD24F}.wem"
      },
      {
       "Id": "445688905",
@@ -261,7 +261,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "D.wav",
-      "CachePath": "D4/{D453FBC8-2A78-8401-88C7-D6C261B904FE}.wem"
+      "CachePath": "FA/{FACD5570-45FE-0523-9FBC-6C5A4B0A3D03}.wem"
      },
      {
       "Id": "447131487",
@@ -269,7 +269,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "N.wav",
-      "CachePath": "D4/{D4584B64-5F17-2A32-9717-4EF8FB7B548B}.wem"
+      "CachePath": "66/{661DC0FE-5184-7C33-3262-C1AE8B83BBA1}.wem"
      },
      {
       "Id": "451482109",
@@ -277,7 +277,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "S.wav",
-      "CachePath": "DE/{DE633CF6-4839-402F-5C48-C936442A44D2}.wem"
+      "CachePath": "EF/{EF9F07C2-8D1B-BF28-62EE-A5E27A495CE5}.wem"
      },
      {
       "Id": "461404774",
@@ -285,7 +285,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "S.wav",
-      "CachePath": "B0/{B0F9B5E4-A8D5-61C0-8FB1-68BF0A23054F}.wem"
+      "CachePath": "57/{5794F8FF-66F0-7D60-F942-35BA2FB73C11}.wem"
      },
      {
       "Id": "494699224",
@@ -293,7 +293,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "A.wav",
-      "CachePath": "29/{293A72EB-5325-5700-4D7F-A7129FB6029E}.wem"
+      "CachePath": "BF/{BFCBA92F-3DE5-94F0-D95F-C2500341436E}.wem"
      },
      {
       "Id": "498916285",
@@ -301,7 +301,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "D.wav",
-      "CachePath": "05/{055D8837-EACA-782F-726B-EE5A68CFE067}.wem"
+      "CachePath": "0C/{0C335721-CCA2-8761-A03A-DC8A1B935433}.wem"
      },
      {
       "Id": "500537968",
@@ -309,7 +309,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "P.wav",
-      "CachePath": "AD/{ADC0D505-612E-94BE-5397-C31319EDDE07}.wem"
+      "CachePath": "6E/{6E0A446B-1695-00B0-AFC3-53FC02DBDABD}.wem"
      },
      {
       "Id": "515683094",
@@ -317,7 +317,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "N.wav",
-      "CachePath": "C1/{C104EE79-BBAB-3A07-7967-922998E7DB5E}.wem"
+      "CachePath": "92/{928D6198-CD48-FF92-87CA-318B9767305B}.wem"
      },
      {
       "Id": "530438502",
@@ -325,7 +325,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "I.wav",
-      "CachePath": "BD/{BDC4158A-E21B-B67E-B72B-6FC69C43663D}.wem"
+      "CachePath": "A7/{A74DD4FF-746C-E0D1-C96F-3E01FB012716}.wem"
      },
      {
       "Id": "539406211",
@@ -333,7 +333,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "H.wav",
-      "CachePath": "AB/{ABA9913E-38CC-E7BC-8E71-00CEFB99F3CA}.wem"
+      "CachePath": "01/{01CAD339-74CE-0D4A-EAAE-53EB9C352E9C}.wem"
      },
      {
       "Id": "543039013",
@@ -341,7 +341,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "J.wav",
-      "CachePath": "F2/{F2AC6E07-6327-2FCF-AA18-FE7D98182DB4}.wem"
+      "CachePath": "8A/{8A7CC1B3-7D6D-BFFB-7BF0-9B4EDDF70683}.wem"
      },
      {
       "Id": "549572574",
@@ -349,7 +349,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "G.wav",
-      "CachePath": "DB/{DB300D33-2316-BBAA-4977-3AEEF0D84DB2}.wem"
+      "CachePath": "9C/{9C702863-610E-D98F-F8FB-E368847E9646}.wem"
      },
      {
       "Id": "549752229",
@@ -357,7 +357,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "O.wav",
-      "CachePath": "64/{6448889A-76D6-8D95-2498-43DF05040795}.wem"
+      "CachePath": "76/{7613941D-9DCE-DC52-0823-26A37D70E9E8}.wem"
      },
      {
       "Id": "580668177",
@@ -365,7 +365,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "L.wav",
-      "CachePath": "01/{012EBB45-5D93-171B-CEBB-AA18A23D6C5D}.wem"
+      "CachePath": "92/{9202CB8C-6B0C-1CAF-3DE3-A64340A833D7}.wem"
      },
      {
       "Id": "587096188",
@@ -373,7 +373,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "M.wav",
-      "CachePath": "95/{952AB380-4E7D-96C9-E03A-B8BA85DC5333}.wem"
+      "CachePath": "04/{0424BE28-6E7E-9DEC-16DF-9AB6CF1E8170}.wem"
      },
      {
       "Id": "638111851",
@@ -381,7 +381,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "G.wav",
-      "CachePath": "F0/{F0E622A5-4EB3-52B6-02B6-09A88418D2B2}.wem"
+      "CachePath": "A2/{A2649B7C-17E1-DD03-78E4-EC973BBB5FB6}.wem"
      },
      {
       "Id": "649333727",
@@ -389,7 +389,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "P.wav",
-      "CachePath": "39/{3916124B-603B-EB83-5A2B-58294D1CB212}.wem"
+      "CachePath": "9E/{9E6B8062-DE27-1456-755D-7C1BAA4A85D7}.wem"
      },
      {
       "Id": "660556671",
@@ -397,7 +397,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "I.wav",
-      "CachePath": "0F/{0FAED079-CE52-1FDF-B2BA-F5FABBC68347}.wem"
+      "CachePath": "07/{07873517-6C07-8FB6-657A-8515931D3853}.wem"
      },
      {
       "Id": "672441357",
@@ -405,7 +405,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "K.wav",
-      "CachePath": "A3/{A3267582-6DD0-267A-25E7-2DABDD7DF106}.wem"
+      "CachePath": "DE/{DE54267D-CDD7-9181-F3AD-BD682E3C80F1}.wem"
      },
      {
       "Id": "681358442",
@@ -413,7 +413,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Q.wav",
-      "CachePath": "46/{46E9A381-8D64-818F-586E-B2F96E952FC3}.wem"
+      "CachePath": "97/{97D11965-4947-34D6-F14F-D57F7F13E073}.wem"
      },
      {
       "Id": "703531417",
@@ -421,7 +421,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "F.wav",
-      "CachePath": "54/{54CE1BFB-81B1-7BBB-EC24-F5877B1DCB1B}.wem"
+      "CachePath": "CC/{CC1B9CC8-505A-FFF0-865C-3A88A1CD7D14}.wem"
      },
      {
       "Id": "716449695",
@@ -429,7 +429,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "C.wav",
-      "CachePath": "B0/{B080D5D0-D7D1-D997-0387-ADD7C7E387D3}.wem"
+      "CachePath": "B5/{B523E1F7-131D-5D7E-79B8-504542A1851B}.wem"
      },
      {
       "Id": "716611291",
@@ -445,7 +445,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Z.wav",
-      "CachePath": "E1/{E1DD0F75-E304-1D6C-013A-E35F369E5EEB}.wem"
+      "CachePath": "B4/{B41ADF5A-D4C3-86C2-5E62-E5062A0C0BC1}.wem"
      },
      {
       "Id": "732400931",
@@ -453,7 +453,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "L.wav",
-      "CachePath": "39/{39EDDC6B-C584-F275-AAFC-2C3D006F47E2}.wem"
+      "CachePath": "E0/{E077523C-A4C7-F61D-FE4C-F47CD10A0D7A}.wem"
      },
      {
       "Id": "736225940",
@@ -461,7 +461,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "K.wav",
-      "CachePath": "39/{398490A5-DCFF-4468-8BFE-06BE68EA2612}.wem"
+      "CachePath": "8A/{8ADD35A9-BE6A-C50C-A1A3-1645043C015A}.wem"
      },
      {
       "Id": "744303002",
@@ -469,7 +469,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "R.wav",
-      "CachePath": "7E/{7E365E24-CBB2-4861-8171-C3A0B8885C83}.wem"
+      "CachePath": "63/{63387255-C84E-508B-5B61-4FE7C1291CF8}.wem"
      },
      {
       "Id": "744474628",
@@ -477,7 +477,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "M.wav",
-      "CachePath": "F3/{F3C77179-89A4-8207-8634-D141BC0DE662}.wem"
+      "CachePath": "51/{510067C8-2CBB-B2A0-DB7B-F1A778E945EC}.wem"
      },
      {
       "Id": "758340521",
@@ -485,7 +485,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "T.wav",
-      "CachePath": "E0/{E06845DA-1777-996A-3C01-E536E3FCCAE8}.wem"
+      "CachePath": "CB/{CB658895-C691-03D0-481B-29020F470B25}.wem"
      },
      {
       "Id": "771493562",
@@ -493,7 +493,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "I.wav",
-      "CachePath": "E4/{E4375B67-9B7A-02F2-44EA-80754AE4B92B}.wem"
+      "CachePath": "6E/{6E532090-0A59-8CA8-26EB-E2020CE3C1FD}.wem"
      },
      {
       "Id": "797432608",
@@ -501,7 +501,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Q.wav",
-      "CachePath": "34/{349AC7F3-68BF-0F86-A5CE-EC7E9DF2F07E}.wem"
+      "CachePath": "20/{2092EB90-143B-E8C0-983F-035B0557D4D2}.wem"
      },
      {
       "Id": "804073980",
@@ -509,7 +509,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "S.wav",
-      "CachePath": "AA/{AAA8BBCE-7117-5713-4096-3D658CA8CABB}.wem"
+      "CachePath": "A3/{A3F658EC-68D6-2E4A-D4F7-FC57DEB524C9}.wem"
      },
      {
       "Id": "808835054",
@@ -517,7 +517,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "R.wav",
-      "CachePath": "94/{94EEC5D6-9D01-681F-4000-5D4CC45E280B}.wem"
+      "CachePath": "A7/{A7FDEC6E-038F-5624-016B-D61518B44179}.wem"
      },
      {
       "Id": "846888180",
@@ -525,7 +525,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "U.wav",
-      "CachePath": "38/{3844DF22-C32A-1A9A-8FF3-8808C2D4B624}.wem"
+      "CachePath": "43/{43649D48-7175-FA0F-2A38-3A3BDB72430F}.wem"
      },
      {
       "Id": "847475031",
@@ -541,7 +541,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Q.wav",
-      "CachePath": "93/{93527152-EA20-2948-2A0A-C5BD022C1AAD}.wem"
+      "CachePath": "76/{768194C3-9179-6400-E070-7EBD582EDBD0}.wem"
      },
      {
       "Id": "870776309",
@@ -549,7 +549,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "J.wav",
-      "CachePath": "85/{85A5387A-B923-F215-EBF0-69F519EF2C31}.wem"
+      "CachePath": "32/{329EFB5A-5BAE-421E-FE1A-8AFECE091E21}.wem"
      },
      {
       "Id": "877320181",
@@ -557,7 +557,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Y.wav",
-      "CachePath": "54/{5450E8B3-997F-8114-6F00-24ECC1DC8226}.wem"
+      "CachePath": "B6/{B638BB38-FD9B-0123-322D-9E0B7C744283}.wem"
      },
      {
       "Id": "891946148",
@@ -565,7 +565,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "B.wav",
-      "CachePath": "E6/{E62382E4-0A71-CBFC-17D9-0D1FC74B5FCA}.wem"
+      "CachePath": "0A/{0ABE5D3C-3230-50D4-1B28-BC830B3036C8}.wem"
      },
      {
       "Id": "894796798",
@@ -573,7 +573,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "R.wav",
-      "CachePath": "4A/{4A97E2B1-7335-8C8D-D004-FD14D33550E0}.wem"
+      "CachePath": "0D/{0DB83099-1129-4262-C940-7A7E8D6E97AB}.wem"
      },
      {
       "Id": "895977869",
@@ -581,7 +581,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Q.wav",
-      "CachePath": "36/{366DFE7B-AC86-93BE-1B52-B55CDADF2F0C}.wem"
+      "CachePath": "8D/{8DF61064-F6F7-0CFC-9411-8AE2A71F4584}.wem"
      },
      {
       "Id": "908843806",
@@ -589,7 +589,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "B.wav",
-      "CachePath": "FC/{FC1D6BEB-15B8-E308-5A2B-283B8B93F0EA}.wem"
+      "CachePath": "E9/{E9E93E5B-26E6-785A-C55D-F6FAF610DAF5}.wem"
      },
      {
       "Id": "919984162",
@@ -597,7 +597,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "V.wav",
-      "CachePath": "73/{73E396DC-C43D-B09C-5723-2E06C3C12CE6}.wem"
+      "CachePath": "04/{04A2A7A2-BC68-FB7D-269D-0F9025122B6B}.wem"
      },
      {
       "Id": "933222657",
@@ -605,7 +605,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "A.wav",
-      "CachePath": "3E/{3E0A332A-9EB5-1A5C-C8CF-D3BABD3CE1F9}.wem"
+      "CachePath": "31/{3190FC66-0194-E7BE-951F-0CB6CBB5F64A}.wem"
      },
      {
       "Id": "952084069",
@@ -613,7 +613,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "E.wav",
-      "CachePath": "95/{95641224-1201-2CA8-C9A8-715AAAB8DF62}.wem"
+      "CachePath": "1F/{1FCA2D58-9F7F-6B1E-156E-4A2D2C3D6E62}.wem"
      },
      {
       "Id": "977617816",
@@ -621,7 +621,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "D.wav",
-      "CachePath": "9A/{9A638D82-6AAA-68A4-06AB-DBDF49BA2E19}.wem"
+      "CachePath": "F0/{F0C93F65-BE49-A1AA-6163-2F584EB176FB}.wem"
      },
      {
       "Id": "984270791",
@@ -629,7 +629,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "N.wav",
-      "CachePath": "BB/{BBA3C596-83E5-963B-C459-DD667AD0097F}.wem"
+      "CachePath": "39/{39E68285-3E20-5434-1D54-25D168C65FB7}.wem"
      },
      {
       "Id": "1026754156",
@@ -637,7 +637,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "L.wav",
-      "CachePath": "ED/{EDDB8090-8B77-4A99-AE54-212B42E046A7}.wem"
+      "CachePath": "1C/{1CB487A6-03A5-AC62-FD4B-8CE1FD8D6194}.wem"
      },
      {
       "Id": "1033564892",
@@ -645,7 +645,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "S.wav",
-      "CachePath": "21/{21477A35-EAD3-FEB2-795A-20AFD71219A6}.wem"
+      "CachePath": "1B/{1B2E3E9D-1ECE-648B-82D0-A1E5A0E90A88}.wem"
      },
      {
       "Id": "1065150331",
@@ -653,7 +653,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "K.wav",
-      "CachePath": "A8/{A8540065-E6CD-8A5C-AACA-B020602BF006}.wem"
+      "CachePath": "4B/{4BF3A31F-8E26-C672-FE8E-54EB02F4F45D}.wem"
      }
     ],
     "Events": [
@@ -663,8 +663,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\NPC\\Play_Scots_Speech",
       "GUID": "{734AE36B-C165-4372-A27E-AA68898A433B}",
       "DurationType": "OneShot",
-      "DurationMin": "0.09940402",
-      "DurationMax": "0.49389368",
+      "DurationMin": "0.2070113",
+      "DurationMax": "0.8163572",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -1170,6 +1170,14 @@
       ]
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "1520455939",
+      "Name": "Voice_Gender",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Voice_Gender",
+      "GUID": "{3FB7D04F-51BA-4DCC-8D63-BBDC8315FA56}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "1683734824",
@@ -1338,6 +1346,6 @@
     ]
    }
   ],
-  "FileHash": "{82A3DB64-E1C3-1BE5-2D74-A907684022D7}"
+  "FileHash": "{8C07FAE5-9953-B3B8-239E-90212AD4DF66}"
  }
 }

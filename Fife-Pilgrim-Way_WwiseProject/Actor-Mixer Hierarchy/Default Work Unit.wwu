@@ -1202,14 +1202,10 @@
 						<SwitchContainer Name="Scottish_Voice_Switch" ID="{7F846242-1FC2-494D-9A7B-692E5BEB20B1}" ShortID="275970621">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>1070</Value>
-									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{A6960007-EEF2-45B5-A6F8-47968C430C98}">
 												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="200"/>
 													<Property Name="Min" Type="Real64" Value="-200"/>
 												</PropertyList>
@@ -3897,6 +3893,45 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{72597E9A-A417-491D-8E08-CB1C455B7A2B}" ShortID="499490206">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Voice_Gender" ID="{3FB7D04F-51BA-4DCC-8D63-BBDC8315FA56}" WorkUnitID="{53B5F049-443C-4808-B7C4-5C05713A24EC}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{977A4492-512D-4E78-9F15-C59B1E6F57A4}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>1679</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-1208</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>

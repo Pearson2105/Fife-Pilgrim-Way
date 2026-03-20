@@ -303,11 +303,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &403598043 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 400ff1074cbaaa640ac7bd5f12bb4fcf, type: 3}
-  m_PrefabInstance: {fileID: 674295117}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &648297925
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,17 +445,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52390104cbbffb349aedf4f8546a56be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimalCrossingDialogue
-  uiText: {fileID: 1095497884}
+  dialogueText: {fileID: 1095497884}
   nameTagText: {fileID: 0}
   dialogueBox: {fileID: 845266834}
-  typingSpeed: 0.1
-  switchGroupName: Letters
-  playLetterSound:
+  Play_Scots_Speech:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: f48477db3fcf159468bedb9d886cf421, type: 2}
-  priestAnimator: {fileID: 403598043}
-  talkingBoolName: isTalking
+    WwiseObjectReference: {fileID: 0}
+  pitchRtpcName: Voice_Gender
 --- !u!4 &672591891
 Transform:
   m_ObjectHideFlags: 0

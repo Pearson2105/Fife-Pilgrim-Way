@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 44f17935c79793469a84541c271beb20
     GuidInternal: 
-    m_lastTime: -8584276544868914034
+    m_lastTime: -8584275761829245767
     List:
     - name: Ambience
       guid: f6c016d896c238489ab3862de2daa954
@@ -339,8 +339,8 @@ MonoBehaviour:
         guid: 6be34a7365c17243a27eaa68898a433b
       Path: Events\Default Work Unit\NPC\Play_Scots_Speech
       maxAttenuation: 0
-      maxDuration: 0.49389368
-      minDuration: 0.09940402
+      maxDuration: 0.8163572
+      minDuration: 0.2070113
     - name: Play_Sea_Ambience
       guid: 80793a214b52df4ba94dbaa720836903
       id: 2350077198
