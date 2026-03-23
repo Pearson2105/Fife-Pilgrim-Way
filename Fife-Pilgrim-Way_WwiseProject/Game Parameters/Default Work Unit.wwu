@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{53B5F049-443C-4808-B7C4-5C05713A24EC}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{53B5F049-443C-4808-B7C4-5C05713A24EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Voice_Gender" ID="{3FB7D04F-51BA-4DCC-8D63-BBDC8315FA56}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

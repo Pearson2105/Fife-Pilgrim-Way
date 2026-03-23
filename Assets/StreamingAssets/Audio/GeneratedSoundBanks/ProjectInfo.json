@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Fife-Pilgrim-Way_WwiseProject",
+   "GUID": "{A8CC168A-17B6-4086-9BCE-53D8E9EBDE3D}",
+   "Generator": "2024.1.9.8920"
+  },
+  "CacheRoot": "../../../../Fife-Pilgrim-Way_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{A15A1777-B9AE-4015-8906-000CBA0C161F}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../Fife-Pilgrim-Way_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{9784726F-CA7F-4237-A021-E76413F49BD9}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../Fife-Pilgrim-Way_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{1743AD19-C657-4CBB-AF2A-3A8EA10B672D}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{B10E3D32-5265-2EF9-AE34-01229ACDABAE}"
+ }
+}

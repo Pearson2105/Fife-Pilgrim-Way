@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1958657586	Play_Winning			\Default Work Unit\Character\Play_Winning	
+

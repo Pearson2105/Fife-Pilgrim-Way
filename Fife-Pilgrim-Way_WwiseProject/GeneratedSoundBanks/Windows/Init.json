@@ -1,0 +1,223 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{9AF7DFAE-0E50-CB84-E03C-CB7DA84EB9E0}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{C00AD337-9E9C-4057-9D8C-B7DAA5ED5E85}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{DE5D5CF3-B06D-4F5F-86C7-CD9FA6A5350F}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1520455939",
+      "Name": "Voice_Gender",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Voice_Gender",
+      "GUID": "{3FB7D04F-51BA-4DCC-8D63-BBDC8315FA56}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1683734824",
+      "Name": "Letters",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Letters",
+      "GUID": "{469B9C66-E6BD-43C7-8F5D-21D0D8BC0A49}",
+      "Switches": [
+       {
+        "Id": "84696421",
+        "Name": "Z",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\Z",
+        "GUID": "{9B83AD4D-6274-4B87-B762-7EE9BD6F6110}"
+       },
+       {
+        "Id": "84696422",
+        "Name": "Y",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\Y",
+        "GUID": "{07CE8E41-1607-4D5E-9533-852CAF49876E}"
+       },
+       {
+        "Id": "84696423",
+        "Name": "X",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\X",
+        "GUID": "{81912603-949D-4CC7-89AA-11870FEEE6EC}"
+       },
+       {
+        "Id": "84696424",
+        "Name": "W",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\W",
+        "GUID": "{F7A32A34-EB98-40D1-86BC-F1E41255158F}"
+       },
+       {
+        "Id": "84696425",
+        "Name": "V",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\V",
+        "GUID": "{E5ED4AE5-8631-458C-A9E7-C8CDF618443E}"
+       },
+       {
+        "Id": "84696426",
+        "Name": "U",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\U",
+        "GUID": "{7C130680-5376-45C5-9C01-0D02870D56AB}"
+       },
+       {
+        "Id": "84696427",
+        "Name": "T",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\T",
+        "GUID": "{357E10AA-A4E6-47C4-96FD-E038FF9894AE}"
+       },
+       {
+        "Id": "84696428",
+        "Name": "S",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\S",
+        "GUID": "{B1DA11C5-9D8F-42A2-8768-54E19889B921}"
+       },
+       {
+        "Id": "84696429",
+        "Name": "R",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\R",
+        "GUID": "{36C68AB9-879F-469B-832B-8A6F0FFFD652}"
+       },
+       {
+        "Id": "84696430",
+        "Name": "Q",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\Q",
+        "GUID": "{51314AB1-C9C8-45E7-9B21-D5A0BBC6D1C0}"
+       },
+       {
+        "Id": "84696431",
+        "Name": "P",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\P",
+        "GUID": "{8F698B87-7C0A-4BDF-A6A4-F2B2E121C80A}"
+       },
+       {
+        "Id": "84696432",
+        "Name": "O",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\O",
+        "GUID": "{6251E2D6-6427-471C-BC70-023C8AF89B32}"
+       },
+       {
+        "Id": "84696433",
+        "Name": "N",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\N",
+        "GUID": "{92AB417A-21C8-4237-8454-6534C065F5E7}"
+       },
+       {
+        "Id": "84696434",
+        "Name": "M",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\M",
+        "GUID": "{AA5A08FF-8427-4D70-8427-4F45294091AB}"
+       },
+       {
+        "Id": "84696435",
+        "Name": "L",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\L",
+        "GUID": "{8CC63404-711B-4ECE-8EA5-943A8EE42995}"
+       },
+       {
+        "Id": "84696436",
+        "Name": "K",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\K",
+        "GUID": "{48559FB3-B04E-4AB3-9A91-68A89DE9138B}"
+       },
+       {
+        "Id": "84696437",
+        "Name": "J",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\J",
+        "GUID": "{AB8E0B7B-38CC-4841-A242-B1B25E251E26}"
+       },
+       {
+        "Id": "84696438",
+        "Name": "I",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\I",
+        "GUID": "{3FFAE700-7EAC-4C03-98D0-4CB843C31945}"
+       },
+       {
+        "Id": "84696439",
+        "Name": "H",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\H",
+        "GUID": "{44240FA6-2534-437F-A565-8DFDC5D74B02}"
+       },
+       {
+        "Id": "84696440",
+        "Name": "G",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\G",
+        "GUID": "{668A20E4-460C-4A18-AE68-7BCA5E802C96}"
+       },
+       {
+        "Id": "84696441",
+        "Name": "F",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\F",
+        "GUID": "{649EF11A-F3D4-44C8-BDF7-0D656617E8BB}"
+       },
+       {
+        "Id": "84696442",
+        "Name": "E",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\E",
+        "GUID": "{5E17FBC3-0E90-4C11-A73A-8B38D3F96B80}"
+       },
+       {
+        "Id": "84696443",
+        "Name": "D",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\D",
+        "GUID": "{32599125-7347-4788-9A5E-3BD841931C27}"
+       },
+       {
+        "Id": "84696444",
+        "Name": "C",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\C",
+        "GUID": "{62D0D67D-993A-4881-B802-617E056D2D9D}"
+       },
+       {
+        "Id": "84696445",
+        "Name": "B",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\B",
+        "GUID": "{84110F12-5E8B-4D8C-8E16-F7A0818E756C}"
+       },
+       {
+        "Id": "84696446",
+        "Name": "A",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Letters\\A",
+        "GUID": "{C0365CD2-CE71-4775-8C73-C4868BCB65D3}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6DB26BA0-60B6-0749-73D4-2D11F94159A2}"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1037036053",
+    "Type": "Event",
+    "GUID": "{57E6DA6F-87B7-4903-A700-E26BBAC010C8}",
+    "Language": "SFX",
+    "Hash": "{217379ED-7841-D48C-35AF-FABEDD533953}",
+    "ObjectPath": "Play_Horse_Gallop",
+    "ShortName": "Play_Horse_Gallop",
+    "Path": "Event/Play_Horse_Gallop.bnk",
+    "Media": [
+     {
+      "Id": "30857813",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Horse Galloping.wav",
+      "Path": "Media/30857813.wem",
+      "CachePath": "8B/{8B1783C2-50F6-772D-B29C-0DBEB4DA3FD4}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1037036053",
+      "Name": "Play_Horse_Gallop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Animals\\Play_Horse_Gallop",
+      "GUID": "{57E6DA6F-87B7-4903-A700-E26BBAC010C8}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.771942",
+      "DurationMax": "8.771942",
+      "MediaRefs": [
+       {
+        "Id": "30857813"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{51C27D70-D0B5-1009-C7C5-E9C48A975459}"
+ }
+}
