@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
-using UnityEngine.InputSystem; // Required for Keyboard
+using UnityEngine.InputSystem; 
 
 public class DialogueManager : MonoBehaviour
 {
@@ -16,7 +16,12 @@ public class DialogueManager : MonoBehaviour
     private bool isTyping = false;
     private Animator activeAnimator;
 
-    // This is the "Entrance" for ALL dialogue (Cutscenes or Clicks)
+    // This is the function the Player script looks for!
+    public bool IsTalking()
+    {
+        return isTyping;
+    }
+
     public void PlayCard(DialogueData card, Animator npcAnim)
     {
         if (!isTyping)
@@ -32,8 +37,8 @@ public class DialogueManager : MonoBehaviour
         
         if (nameText != null) nameText.text = card.characterName;
 
-        // Wwise Settings from the Scriptable Object
-        AkUnitySoundEngine.SetSwitch("Toice_Types", card.voiceType, gameObject);
+        // Wwise Audio Setup
+        AkUnitySoundEngine.SetSwitch("Voice_Types", card.voiceType, gameObject);
         AkUnitySoundEngine.SetRTPCValue("Voice_Gender", card.genderPitch);
         
 
@@ -42,7 +47,6 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text = ""; 
             if (continueIcon != null) continueIcon.SetActive(false); 
             
-            // Start the talking animation
             if (activeAnimator != null) activeAnimator.SetBool("isTalking", true);
 
             int letterCount = 0;
@@ -52,14 +56,12 @@ public class DialogueManager : MonoBehaviour
 
                 if (char.IsLetterOrDigit(c))
                 {
-                    // Every 2nd letter audio
                     if (letterCount % 2 == 0) playLetterEvent.Post(gameObject);
                     letterCount++;
                 }
                 yield return new WaitForSeconds(card.typingSpeed);
             }
 
-            // Line finished: Stop animation and show "Next" icon
             if (activeAnimator != null) activeAnimator.SetBool("isTalking", false);
             if (continueIcon != null) continueIcon.SetActive(true); 
             
@@ -68,7 +70,6 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
 
-        // Cleanup after all lines are done
         dialogueText.text = "";
         if (nameText != null) nameText.text = "";
         if (continueIcon != null) continueIcon.SetActive(false);
