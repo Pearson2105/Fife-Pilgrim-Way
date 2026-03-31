@@ -1241,6 +1241,13 @@
 												<Value>22</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6BDEEB0E-3E4D-407E-8296-BFBC626760FD}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>3</Value>
@@ -1346,6 +1353,13 @@
 												<Value>30</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BF25A765-969D-48AC-8302-73FAEB5DAD40}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>4</Value>
@@ -1436,6 +1450,15 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="C" ID="{EB7E2F2B-B789-4722-8A5F-ADCD8B510F4F}" ShortID="892407111">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D89CF8C7-45F3-4962-8503-F94542C2DA50}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -1502,6 +1525,15 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="D" ID="{91122350-4F2F-4E6C-ADC6-0695C9994D83}" ShortID="996519185">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FBA4DE89-09D3-4072-BE75-C7A5D2457A30}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -2180,6 +2212,15 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="K" ID="{D3CC8701-EC5F-427A-94E3-096CAFB07AD6}" ShortID="601034237">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3B424651-CD8F-4DAC-A584-1A2C329EF619}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -2486,6 +2527,15 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="N" ID="{F77EF6AD-1479-4617-856E-D3EB8CA20B27}" ShortID="420038662">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4E729688-0C27-4999-9A57-178A8A4C8D36}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -2606,6 +2656,15 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="O" ID="{B6FCDB5D-4BD0-4EFB-8B63-CE0C5A6EF660}" ShortID="658216493">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D1F22280-F056-49F8-9788-0CAA580ACF7C}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -3521,6 +3580,15 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="W" ID="{5F74A54E-E52E-423C-B4EA-AB796BF15D60}" ShortID="823207070">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7D1EAA00-18BF-4F8E-AA79-1BBA10E9D257}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
@@ -4168,6 +4236,1078 @@
 										<SwitchRef Name="M" ID="{AA5A08FF-8427-4D70-8427-4F45294091AB}"/>
 										<ItemList>
 											<ItemRef Name="M" ID="{86458A19-AAD6-45BF-94E4-68FF508324CB}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Instrument_Voice" ID="{A1C8096A-083E-45A2-886D-72A8EF8CE243}" ShortID="283378278">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8E10A4CC-5A68-4D56-9523-1720996D42C8}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Organ" ID="{0A8DEC13-3F83-40B8-A757-FB594DE8402F}" WorkUnitID="{B32945B5-6C7F-4BE4-9555-ABF22A045B94}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Dialogue" ID="{EFF8742C-6F4E-4338-BE57-ACB25E1765C1}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Voice_Types" ID="{CB98CA5F-3247-4E70-AED9-F92111B4BE48}" WorkUnitID="{B32945B5-6C7F-4BE4-9555-ABF22A045B94}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Organ" ID="{59DF1844-2889-481E-8359-FA98C21E632F}" ShortID="546502623">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9BC92AA3-2F2E-4AF9-BD51-FEA26281480B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="575"/>
+															<Property Name="Min" Type="Real64" Value="-325"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Organ" ID="{E24D425A-318B-4313-9C4E-2C9AE3C50865}" ShortID="236643070">
+											<PropertyList>
+												<Property Name="HdrEnableEnvelope" Type="bool" Value="True"/>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="OverrideHdrEnvelope" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A1B9116D-B3F1-4F56-A70D-DEE966BB28BE}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Organ" ID="{808C87C3-C1D6-4FED-87D9-EE42CF73354F}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.198576939464127"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.198576939464127"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.99860683107491"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.76179804999376"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Organ.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="918025919"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Organ" ID="{808C87C3-C1D6-4FED-87D9-EE42CF73354F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Organ_01" ID="{7C75689B-222F-4470-B626-4F43E36DC9CE}" ShortID="868123827">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1C423265-AF59-49CF-BC62-16641A7E7175}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Organ" ID="{C9DBE96C-3806-434E-A6E6-BDAC0860987D}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.198576939464127"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.198576939464127"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="6.71290125338702"/>
+														<Property Name="TrimEnd" Type="Real64" Value="7.3858831266616"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Organ.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="496575118"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Organ" ID="{C9DBE96C-3806-434E-A6E6-BDAC0860987D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{CCB6D718-C9F5-4FDE-B138-0FDAA9B555B8}" ShortID="823687965">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Voice_Gender" ID="{3FB7D04F-51BA-4DCC-8D63-BBDC8315FA56}" WorkUnitID="{53B5F049-443C-4808-B7C4-5C05713A24EC}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{3B898089-1B75-4476-BA0D-83190DBD739A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-1200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>1200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Bagpipe" ID="{297DEB44-22F5-4B4C-830A-F3531B49F2A4}" ShortID="849003404">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F930F3FA-FE55-40EA-A69B-D421DC474A3B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Bagpipe" ID="{A9771332-DC01-47A0-B20D-9E2A49F54BC3}" ShortID="856944387">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{298F870F-3776-4E73-A9D1-833CC8F72394}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bagpipe" ID="{06566700-1F98-4F07-8497-EE86D6F812B6}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.076560006445848"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.139200011719725"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.55633246131209"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.81450434195359"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Bagpipe.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="919005796"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bagpipe" ID="{06566700-1F98-4F07-8497-EE86D6F812B6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bagpipe_01" ID="{262AFEAB-0D46-404D-9B0C-CEB6435F495C}" ShortID="931983086">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2E252F74-A635-4B84-B581-877EB1B02848}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bagpipe" ID="{77035601-CCAC-4D81-8265-E1FF8FE82B0E}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.076560006445848"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.139200011719725"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="6.01543986835275"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.28493109104213"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Bagpipe.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1064032655"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bagpipe" ID="{77035601-CCAC-4D81-8265-E1FF8FE82B0E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bagpipe_02" ID="{28F907E3-6AE3-43E7-B650-3329D0E311CE}" ShortID="909897270">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{448226BE-B07F-4C6C-B8B8-C11BC8D50A83}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bagpipe" ID="{0BDBBF13-0360-4821-B2D1-2A2849B209D1}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.076560006445848"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.139200011719725"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="7.74152001367733"/>
+														<Property Name="TrimEnd" Type="Real64" Value="8.0616800406327"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Bagpipe.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="719751144"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bagpipe" ID="{0BDBBF13-0360-4821-B2D1-2A2849B209D1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{F9C7275B-F925-40D5-85FF-5BB00B61B68D}" ShortID="593921019">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Voice_Gender" ID="{3FB7D04F-51BA-4DCC-8D63-BBDC8315FA56}" WorkUnitID="{53B5F049-443C-4808-B7C4-5C05713A24EC}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{66276254-0279-4D6A-A2D3-014AB307BADA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-1610</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>1141</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Bouzouki" ID="{BA9ED2C4-D250-4A5C-A342-BBEB672753CC}" ShortID="503570543">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{13B262B9-A4A9-4DEA-9CE2-3234971010FB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Bouzouki" ID="{9D7B13DA-3F96-45EF-A4AE-9A8E3DD441B6}" ShortID="777201470">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9C4D3F61-8B43-4A22-BDBA-4B1B4F48E15E}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bouzouki" ID="{A6CF6E9F-3007-4FB7-BB2D-10382B7B658A}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.144419592337547"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.144419592337547"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.407398298013594"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.805048241922063"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Bouzouki.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="938197383"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bouzouki" ID="{A6CF6E9F-3007-4FB7-BB2D-10382B7B658A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bouzouki_01" ID="{9E558609-D3AF-4FDB-8B00-E0512EA25689}" ShortID="810177040">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{96026503-FFCD-4F91-860B-D4949E4D3BF3}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bouzouki" ID="{7BC1FE38-C009-40C8-8503-2EAA5213DB68}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.144419592337547"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.144419592337547"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.04374858545131"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.60337450575931"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Bouzouki.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="773391323"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bouzouki" ID="{7BC1FE38-C009-40C8-8503-2EAA5213DB68}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bouzouki_02" ID="{A51BD2E1-310D-4D9F-AA2E-655B99AF459E}" ShortID="175730883">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{70E043D8-712A-4D82-A917-1D2C6F3143DB}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bouzouki" ID="{1B061F9F-440F-4E5F-B541-ECC3D2281D4C}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.144419592337547"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.144419592337547"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.06891633717287"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.82711919694499"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Bouzouki.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="929479274"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bouzouki" ID="{1B061F9F-440F-4E5F-B541-ECC3D2281D4C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{576D0ED6-F88C-4699-A388-D968ABDDBC0C}" ShortID="700666867">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Voice_Gender" ID="{3FB7D04F-51BA-4DCC-8D63-BBDC8315FA56}" WorkUnitID="{53B5F049-443C-4808-B7C4-5C05713A24EC}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{634C4FA9-893F-41E0-A23C-5E1B2FD844BA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-1200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>1200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Guitar" ID="{96ABEA44-05F2-4135-B2A2-54E1480B739B}" ShortID="198715660">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{45685DB4-0E51-4A6C-B53E-6C5D9D21E9C8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Guitar" ID="{900B68FF-0347-4E89-9C1C-F2CEF1221B6B}" ShortID="22965226">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{95DC25B5-9B86-488E-9BE2-7D535A4AD1C1}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guitar" ID="{BB07C732-1BDF-4331-B554-29DAF11B50BC}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0902622452109668"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0902622452109669"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.884570003067475"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.42614372535938"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Guitar.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="879209774"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guitar" ID="{BB07C732-1BDF-4331-B554-29DAF11B50BC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guitar_01" ID="{4CCA2D38-76BE-40F3-9994-E11EBCEDD476}" ShortID="3820387">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{EE55B113-4510-41A9-9EF2-A2DA6FCBCFFC}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guitar" ID="{EB95A743-1247-429E-BFE0-D30812D7E292}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0902622452109668"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0902622452109669"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.74397225441339"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.24944082759481"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Guitar.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="7854584"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guitar" ID="{EB95A743-1247-429E-BFE0-D30812D7E292}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{5443612F-1BC1-4734-9CAB-2049C03F80BD}" ShortID="734346579">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Voice_Gender" ID="{3FB7D04F-51BA-4DCC-8D63-BBDC8315FA56}" WorkUnitID="{53B5F049-443C-4808-B7C4-5C05713A24EC}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{27021781-3024-4FF0-B31D-B286A395E784}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-1200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>1200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Harp" ID="{EB5029DE-D885-4F11-81C5-6127FC95B931}" ShortID="380810467">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0DC9739F-5AD3-487D-8C27-2F081B045969}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Harp" ID="{AD935621-0956-4056-9A06-345A9D789C04}" ShortID="672657080">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{19D81E49-6633-42FF-AF9E-17A9F55AF748}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Harp" ID="{F8E85365-1D5A-47B8-985B-5EB24F574B98}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.144419592337547"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.21662938850632"/>
+														<Property Name="LoopBegin" Type="Real64" Value="1.3539336781645"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.26367143295354"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.9316122985408"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Harp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="926031194"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Harp" ID="{F8E85365-1D5A-47B8-985B-5EB24F574B98}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Harp_01" ID="{A9D96DA0-E672-4E7D-A876-1E4A367C1ED2}" ShortID="775316200">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9C1836C5-92B1-4196-A229-636D6A9E0A57}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Harp" ID="{77F4C030-39F3-4FF8-876E-603F62866ABE}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.144419592337547"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.21662938850632"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.41902817165391"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.19528348046823"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Harp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="422012729"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Harp" ID="{77F4C030-39F3-4FF8-876E-603F62866ABE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Harp_02" ID="{A1442FBC-A3CD-4036-92D8-56D007AC07DF}" ShortID="1005404078">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{532D6505-335E-467E-AFD6-D329147D4B72}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Harp" ID="{DC25A693-88DC-479F-A23D-BEE6B7AFBF41}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.144419592337547"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.21662938850632"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.93543389119816"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.45895491342177"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Harp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="985469354"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Harp" ID="{DC25A693-88DC-479F-A23D-BEE6B7AFBF41}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{6761F7E1-048E-44E5-9049-D4B3BD0C8560}" ShortID="37447886">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Voice_Gender" ID="{3FB7D04F-51BA-4DCC-8D63-BBDC8315FA56}" WorkUnitID="{53B5F049-443C-4808-B7C4-5C05713A24EC}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{BB3676E9-D2EB-49D8-8778-335DE207E1F0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-1200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>1200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Koto" ID="{C4366FEE-E968-44E7-9C7B-F63EC0FB6FBC}" ShortID="992741055">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{24B76CE8-E492-429F-9577-B6B9F02023E8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Koto" ID="{86CD439A-124A-46E9-8A1D-7D5383035D2F}" ShortID="361958499">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5B10188D-83F9-4E5A-B35A-D3C4A0F87787}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Koto" ID="{8905DC4F-6643-4124-AC25-F68A50E5D45A}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0902622452109668"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.144419592337547"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.541573471265801"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.33588148014842"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Koto.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1037275416"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Koto" ID="{8905DC4F-6643-4124-AC25-F68A50E5D45A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Koto_01" ID="{32CF7105-7B63-4E59-908B-1133C5170DDF}" ShortID="181002607">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{06BB3DA0-F1C0-40CF-8747-612CAA17B42C}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Koto" ID="{DD8240F8-BAFD-4CFB-92E1-6B62B5376CF2}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0902622452109668"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.144419592337547"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.13018898697882"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.85228694866656"/>
+													</PropertyList>
+													<Language>English(US)</Language>
+													<AudioFile>Koto.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="587996884"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Koto" ID="{DD8240F8-BAFD-4CFB-92E1-6B62B5376CF2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{8A295309-C7FC-4F02-88E8-60A762C38529}" ShortID="335832617">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Voice_Gender" ID="{3FB7D04F-51BA-4DCC-8D63-BBDC8315FA56}" WorkUnitID="{53B5F049-443C-4808-B7C4-5C05713A24EC}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{81AF4811-C65B-4161-B4E1-DDBBB8C22F2E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-1200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>1200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Organ" ID="{59DF1844-2889-481E-8359-FA98C21E632F}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Guitar" ID="{96ABEA44-05F2-4135-B2A2-54E1480B739B}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Bagpipe" ID="{297DEB44-22F5-4B4C-830A-F3531B49F2A4}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Bouzouki" ID="{BA9ED2C4-D250-4A5C-A342-BBEB672753CC}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Harp" ID="{EB5029DE-D885-4F11-81C5-6127FC95B931}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Koto" ID="{C4366FEE-E968-44E7-9C7B-F63EC0FB6FBC}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Organ" ID="{0A8DEC13-3F83-40B8-A757-FB594DE8402F}"/>
+										<ItemList>
+											<ItemRef Name="Organ" ID="{59DF1844-2889-481E-8359-FA98C21E632F}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Harp" ID="{2A7B8629-A74A-4202-8324-ABC578D94BF9}"/>
+										<ItemList>
+											<ItemRef Name="Harp" ID="{EB5029DE-D885-4F11-81C5-6127FC95B931}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Bagpipe" ID="{8EC3E97C-00B2-4F53-8C9C-BC9CA9FB42AF}"/>
+										<ItemList>
+											<ItemRef Name="Bagpipe" ID="{297DEB44-22F5-4B4C-830A-F3531B49F2A4}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Koto" ID="{8D9B2394-1DF0-434D-986C-28023CBDCF0F}"/>
+										<ItemList>
+											<ItemRef Name="Koto" ID="{C4366FEE-E968-44E7-9C7B-F63EC0FB6FBC}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Guitar" ID="{479FD5B8-58F5-41FF-BFDB-D9F3B6215D8B}"/>
+										<ItemList>
+											<ItemRef Name="Guitar" ID="{96ABEA44-05F2-4135-B2A2-54E1480B739B}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Bouzouki" ID="{1AC5ECBF-3E31-4B10-95CE-FD1D35BCC192}"/>
+										<ItemList>
+											<ItemRef Name="Bouzouki" ID="{BA9ED2C4-D250-4A5C-A342-BBEB672753CC}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>

@@ -211,6 +211,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Instrument_Voice" ID="{4B1C054C-9667-4B1C-8B5F-5A93E05C4051}">
+					<ChildrenList>
+						<Action Name="" ID="{24A11D69-CE6C-40D1-8269-B5EA940E909A}" ShortID="52534934">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Instrument_Voice" ID="{A1C8096A-083E-45A2-886D-72A8EF8CE243}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

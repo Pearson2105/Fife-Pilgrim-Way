@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Play_Scots_Speech
   id: 3597291569
   guid: 734AE36B-C165-4372-A27E-AA68898A433B
-  IsInUserDefinedSoundBank: 1
+  IsInUserDefinedSoundBank: 0

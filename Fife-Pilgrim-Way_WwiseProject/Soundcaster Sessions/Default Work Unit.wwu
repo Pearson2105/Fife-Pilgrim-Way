@@ -3,7 +3,7 @@
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{C18E911E-39C4-418B-B78F-FCA0BC653494}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundcasterSession Name="New Soundcaster Session" ID="{0C820F6A-1546-4A6F-8C88-CAB4938A5640}">
+				<SoundcasterSession Name="New Soundcaster Session" ID="{66F569CB-8A13-4E46-96F2-4C59B05EC1C4}">
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>

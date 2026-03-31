@@ -1,0 +1,316 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3157003241",
+    "Type": "User",
+    "GUID": "{D8FD57E4-B5DD-4F65-A7D4-F44D97F3C311}",
+    "Language": "English(US)",
+    "Hash": "{9480A086-007D-431C-5B19-346C2C805295}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\test",
+    "ShortName": "test",
+    "Path": "English(US)/test.bnk",
+    "Media": [
+     {
+      "Id": "7854584",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guitar.wav",
+      "CachePath": "40/{408FCB7C-DF4A-0B21-96F5-624402E0C057}.wem"
+     },
+     {
+      "Id": "422012729",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Harp.wav",
+      "CachePath": "AC/{AC4428E5-3600-934C-B404-7211B43FA023}.wem"
+     },
+     {
+      "Id": "496575118",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Organ.wav",
+      "CachePath": "43/{43C9F4DB-C361-76DA-088F-1ED6CBC4B3E4}.wem"
+     },
+     {
+      "Id": "587996884",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Koto.wav",
+      "CachePath": "9C/{9CD738F7-4972-91F7-7EA1-7DDAC09DDB03}.wem"
+     },
+     {
+      "Id": "719751144",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bagpipe.wav",
+      "CachePath": "F1/{F1ED3EE9-CD09-44C4-B2F7-8E9A05098C29}.wem"
+     },
+     {
+      "Id": "773391323",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bouzouki.wav",
+      "CachePath": "2F/{2F566BF2-1810-99CE-1962-750D3CE244DA}.wem"
+     },
+     {
+      "Id": "879209774",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guitar.wav",
+      "CachePath": "2B/{2BA4BBA9-1E35-439B-CDD4-4BD007600CED}.wem"
+     },
+     {
+      "Id": "918025919",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Organ.wav",
+      "CachePath": "AF/{AFD19B2A-C90A-DC8D-E3DC-3D8C8C2D9419}.wem"
+     },
+     {
+      "Id": "919005796",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bagpipe.wav",
+      "CachePath": "1B/{1BE35F05-E691-E8BA-9660-1CA75A4A60BC}.wem"
+     },
+     {
+      "Id": "926031194",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Harp.wav",
+      "CachePath": "3E/{3E359314-E138-75D0-52E1-D81CA7E6E781}.wem"
+     },
+     {
+      "Id": "929479274",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bouzouki.wav",
+      "CachePath": "81/{81B43D5B-4463-A6F4-EDFD-8F2174E79613}.wem"
+     },
+     {
+      "Id": "938197383",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bouzouki.wav",
+      "CachePath": "E1/{E10A0BE2-BA20-EA08-1C46-7E72331120B9}.wem"
+     },
+     {
+      "Id": "985469354",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Harp.wav",
+      "CachePath": "C4/{C4B05C82-4D8A-8A5F-F609-06D032552376}.wem"
+     },
+     {
+      "Id": "1037275416",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Koto.wav",
+      "CachePath": "CB/{CB10EF9C-56B2-FED3-B095-9D180994EBFD}.wem"
+     },
+     {
+      "Id": "1064032655",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bagpipe.wav",
+      "CachePath": "7C/{7C2295A1-3817-6FF5-A759-F1FD354EDF2A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1246001926",
+      "Name": "Play_Instrument_Voice",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Instrument_Voice",
+      "GUID": "{4B1C054C-9667-4B1C-8B5F-5A93E05C4051}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25082222",
+      "DurationMax": "0.9207936",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3090570191",
+         "Id": "3296608632",
+         "GUID": "{0A8DEC13-3F83-40B8-A757-FB594DE8402F}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "496575118"
+         },
+         {
+          "Id": "918025919"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3090570191",
+         "Id": "3599861402",
+         "GUID": "{2A7B8629-A74A-4202-8324-ABC578D94BF9}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "422012729"
+         },
+         {
+          "Id": "926031194"
+         },
+         {
+          "Id": "985469354"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3090570191",
+         "Id": "782945713",
+         "GUID": "{8EC3E97C-00B2-4F53-8C9C-BC9CA9FB42AF}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "719751144"
+         },
+         {
+          "Id": "919005796"
+         },
+         {
+          "Id": "1064032655"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3090570191",
+         "Id": "2366098728",
+         "GUID": "{8D9B2394-1DF0-434D-986C-28023CBDCF0F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "587996884"
+         },
+         {
+          "Id": "1037275416"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3090570191",
+         "Id": "3232836819",
+         "GUID": "{479FD5B8-58F5-41FF-BFDB-D9F3B6215D8B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "7854584"
+         },
+         {
+          "Id": "879209774"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3090570191",
+         "Id": "4124853997",
+         "GUID": "{1AC5ECBF-3E31-4B10-95CE-FD1D35BCC192}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "773391323"
+         },
+         {
+          "Id": "929479274"
+         },
+         {
+          "Id": "938197383"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1520455939",
+      "Name": "Voice_Gender",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Voice_Gender",
+      "GUID": "{3FB7D04F-51BA-4DCC-8D63-BBDC8315FA56}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3090570191",
+      "Name": "Voice_Types",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Voice_Types",
+      "GUID": "{CB98CA5F-3247-4E70-AED9-F92111B4BE48}",
+      "Switches": [
+       {
+        "Id": "782945713",
+        "Name": "Bagpipe",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Voice_Types\\Bagpipe",
+        "GUID": "{8EC3E97C-00B2-4F53-8C9C-BC9CA9FB42AF}"
+       },
+       {
+        "Id": "2366098728",
+        "Name": "Koto",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Voice_Types\\Koto",
+        "GUID": "{8D9B2394-1DF0-434D-986C-28023CBDCF0F}"
+       },
+       {
+        "Id": "3232836819",
+        "Name": "Guitar",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Voice_Types\\Guitar",
+        "GUID": "{479FD5B8-58F5-41FF-BFDB-D9F3B6215D8B}"
+       },
+       {
+        "Id": "3296608632",
+        "Name": "Organ",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Voice_Types\\Organ",
+        "GUID": "{0A8DEC13-3F83-40B8-A757-FB594DE8402F}"
+       },
+       {
+        "Id": "3599861402",
+        "Name": "Harp",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Voice_Types\\Harp",
+        "GUID": "{2A7B8629-A74A-4202-8324-ABC578D94BF9}"
+       },
+       {
+        "Id": "4124853997",
+        "Name": "Bouzouki",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Voice_Types\\Bouzouki",
+        "GUID": "{1AC5ECBF-3E31-4B10-95CE-FD1D35BCC192}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2D46688E-21D5-8839-7C6A-42745092A70F}"
+ }
+}
