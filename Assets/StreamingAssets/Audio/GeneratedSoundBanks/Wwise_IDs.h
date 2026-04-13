@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_HORSE_GALLOP = 1037036053U;
         static const AkUniqueID PLAY_HORSE_NEIGH = 1320828253U;
+        static const AkUniqueID PLAY_INSTRUMENT_VOICE = 1246001926U;
         static const AkUniqueID PLAY_MUSIC_SWITCH = 1228139402U;
         static const AkUniqueID PLAY_SCOTS_SPEECH = 3597291569U;
         static const AkUniqueID PLAY_SEA_AMBIENCE = 2350077198U;
@@ -67,11 +68,27 @@ namespace AK
             } // namespace SWITCH
         } // namespace LETTERS
 
+        namespace VOICE_TYPES
+        {
+            static const AkUniqueID GROUP = 3090570191U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID BAGPIPE = 782945713U;
+                static const AkUniqueID BOUZOUKI = 4124853997U;
+                static const AkUniqueID GUITAR = 3232836819U;
+                static const AkUniqueID HARP = 3599861402U;
+                static const AkUniqueID KOTO = 2366098728U;
+                static const AkUniqueID ORGAN = 3296608632U;
+            } // namespace SWITCH
+        } // namespace VOICE_TYPES
+
     } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID VOICE_GENDER = 1520455939U;
+        static const AkUniqueID VOICE_WOBBLE = 1463746203U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
@@ -82,6 +99,7 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID DIALOGUE = 3930136735U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
 

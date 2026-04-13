@@ -33,6 +33,16 @@
 						<Switch Name="Z" ID="{9B83AD4D-6274-4B87-B762-7EE9BD6F6110}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Voice_Types" ID="{CB98CA5F-3247-4E70-AED9-F92111B4BE48}">
+					<ChildrenList>
+						<Switch Name="Organ" ID="{0A8DEC13-3F83-40B8-A757-FB594DE8402F}"/>
+						<Switch Name="Harp" ID="{2A7B8629-A74A-4202-8324-ABC578D94BF9}"/>
+						<Switch Name="Bagpipe" ID="{8EC3E97C-00B2-4F53-8C9C-BC9CA9FB42AF}"/>
+						<Switch Name="Koto" ID="{8D9B2394-1DF0-434D-986C-28023CBDCF0F}"/>
+						<Switch Name="Bouzouki" ID="{1AC5ECBF-3E31-4B10-95CE-FD1D35BCC192}"/>
+						<Switch Name="Guitar" ID="{479FD5B8-58F5-41FF-BFDB-D9F3B6215D8B}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

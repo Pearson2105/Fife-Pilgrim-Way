@@ -1,0 +1,34 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1246001926	Play_Instrument_Voice			\Default Work Unit\Play_Instrument_Voice	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3090570191	Voice_Types			\Default Work Unit\Voice_Types	
+
+Switch	ID	Name	Switch Group			Notes
+	782945713	Bagpipe	Voice_Types			
+	2366098728	Koto	Voice_Types			
+	3232836819	Guitar	Voice_Types			
+	3296608632	Organ	Voice_Types			
+	3599861402	Harp	Voice_Types			
+	4124853997	Bouzouki	Voice_Types			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1520455939	Voice_Gender			\Default Work Unit\Voice_Gender	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7854584	Guitar_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\40\{408FCB7C-DF4A-0B21-96F5-624402E0C057}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Guitar\Guitar_01		89260
+	422012729	Harp_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\AC\{AC4428E5-3600-934C-B404-7211B43FA023}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Harp\Harp_01		137028
+	496575118	Organ_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\43\{43C9F4DB-C361-76DA-088F-1ED6CBC4B3E4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Organ\Organ_01		118808
+	587996884	Koto_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\9C\{9CD738F7-4972-91F7-7EA1-7DDAC09DDB03}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Koto\Koto_01		127476
+	719751144	Bagpipe_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F1\{F1ED3EE9-CD09-44C4-B2F7-8E9A05098C29}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bagpipe\Bagpipe_02		56572
+	773391323	Bouzouki_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\2F\{2F566BF2-1810-99CE-1962-750D3CE244DA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bouzouki\Bouzouki_01		98816
+	879209774	Guitar	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\2B\{2BA4BBA9-1E35-439B-CDD4-4BD007600CED}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Guitar\Guitar		95628
+	918025919	Organ	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\AF\{AFD19B2A-C90A-DC8D-E3DC-3D8C8C2D9419}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Organ\Organ		134736
+	919005796	Bagpipe	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\1B\{1BE35F05-E691-E8BA-9660-1CA75A4A60BC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bagpipe\Bagpipe		45640
+	926031194	Harp	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\3E\{3E359314-E138-75D0-52E1-D81CA7E6E781}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Harp\Harp		117968
+	929479274	Bouzouki_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\81\{81B43D5B-4463-A6F4-EDFD-8F2174E79613}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bouzouki\Bouzouki_02		133844
+	938197383	Bouzouki	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E1\{E10A0BE2-BA20-EA08-1C46-7E72331120B9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bouzouki\Bouzouki		70244
+	985469354	Harp_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\C4\{C4B05C82-4D8A-8A5F-F609-06D032552376}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Harp\Harp_02		92444
+	1037275416	Koto	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\CB\{CB10EF9C-56B2-FED3-B095-9D180994EBFD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Koto\Koto		140212
+	1064032655	Bagpipe_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\7C\{7C2295A1-3817-6FF5-A759-F1FD354EDF2A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bagpipe\Bagpipe_01		47632
+

@@ -10,6 +10,20 @@
 						</Reference>
 					</ReferenceList>
 				</Bus>
+				<Bus Name="Dialogue" ID="{EFF8742C-6F4E-4338-BE57-ACB25E1765C1}">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{DE5D5CF3-B06D-4F5F-86C7-CD9FA6A5350F}" WorkUnitID="{F31E2454-E5FB-46B6-8D11-A9C9549F688E}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

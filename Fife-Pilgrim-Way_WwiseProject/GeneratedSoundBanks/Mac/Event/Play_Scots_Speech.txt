@@ -1,0 +1,37 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3597291569	Play_Scots_Speech			\Default Work Unit\NPC\Play_Scots_Speech	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1683734824	Letters			\Default Work Unit\Letters	
+
+Switch	ID	Name	Switch Group			Notes
+	84696421	Z	Letters			
+	84696422	Y	Letters			
+	84696423	X	Letters			
+	84696424	W	Letters			
+	84696425	V	Letters			
+	84696426	U	Letters			
+	84696427	T	Letters			
+	84696428	S	Letters			
+	84696429	R	Letters			
+	84696430	Q	Letters			
+	84696431	P	Letters			
+	84696432	O	Letters			
+	84696433	N	Letters			
+	84696434	M	Letters			
+	84696435	L	Letters			
+	84696436	K	Letters			
+	84696437	J	Letters			
+	84696438	I	Letters			
+	84696439	H	Letters			
+	84696440	G	Letters			
+	84696441	F	Letters			
+	84696442	E	Letters			
+	84696443	D	Letters			
+	84696444	C	Letters			
+	84696445	B	Letters			
+	84696446	A	Letters			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1520455939	Voice_Gender			\Default Work Unit\Voice_Gender	
+
