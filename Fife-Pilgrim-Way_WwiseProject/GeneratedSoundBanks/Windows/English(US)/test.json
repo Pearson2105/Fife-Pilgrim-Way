@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D8FD57E4-B5DD-4F65-A7D4-F44D97F3C311}",
     "Language": "English(US)",
-    "Hash": "{9480A086-007D-431C-5B19-346C2C805295}",
+    "Hash": "{919F3AA6-503F-220D-371C-46C5E82FBE56}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\test",
     "ShortName": "test",
     "Path": "English(US)/test.bnk",
@@ -21,7 +21,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Guitar.wav",
-      "CachePath": "40/{408FCB7C-DF4A-0B21-96F5-624402E0C057}.wem"
+      "CachePath": "37/{375CC9F7-D2C2-6C19-1A7F-235ABE40901B}.wem"
+     },
+     {
+      "Id": "101589374",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds and Wind.wav",
+      "CachePath": "B2/{B2969F8F-52C7-A1FD-0694-B7066826D9E0}.wem"
+     },
+     {
+      "Id": "161914615",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sea Ambience.wav",
+      "CachePath": "A5/{A5E3746F-86FC-1E71-A545-8F08850688AC}.wem"
      },
      {
       "Id": "422012729",
@@ -29,7 +45,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Harp.wav",
-      "CachePath": "AC/{AC4428E5-3600-934C-B404-7211B43FA023}.wem"
+      "CachePath": "98/{9835565C-C199-9BC3-7F79-904CFDDB445C}.wem"
      },
      {
       "Id": "496575118",
@@ -37,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Organ.wav",
-      "CachePath": "43/{43C9F4DB-C361-76DA-088F-1ED6CBC4B3E4}.wem"
+      "CachePath": "C6/{C6AEF63C-ACEE-999A-460C-3B52D61E1442}.wem"
      },
      {
       "Id": "587996884",
@@ -45,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Koto.wav",
-      "CachePath": "9C/{9CD738F7-4972-91F7-7EA1-7DDAC09DDB03}.wem"
+      "CachePath": "D9/{D9F211AF-CE0D-44C8-2B31-EE178351A615}.wem"
      },
      {
       "Id": "719751144",
@@ -53,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bagpipe.wav",
-      "CachePath": "F1/{F1ED3EE9-CD09-44C4-B2F7-8E9A05098C29}.wem"
+      "CachePath": "04/{04F746E7-DA4E-60EA-EA45-CEFB5653871A}.wem"
      },
      {
       "Id": "773391323",
@@ -61,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bouzouki.wav",
-      "CachePath": "2F/{2F566BF2-1810-99CE-1962-750D3CE244DA}.wem"
+      "CachePath": "0D/{0D2B3FCB-9C1F-6D04-819A-B9F4C4BE0D4D}.wem"
      },
      {
       "Id": "879209774",
@@ -69,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Guitar.wav",
-      "CachePath": "2B/{2BA4BBA9-1E35-439B-CDD4-4BD007600CED}.wem"
+      "CachePath": "31/{31714EB0-E83A-993A-9007-16D12ABEF217}.wem"
      },
      {
       "Id": "918025919",
@@ -77,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Organ.wav",
-      "CachePath": "AF/{AFD19B2A-C90A-DC8D-E3DC-3D8C8C2D9419}.wem"
+      "CachePath": "CD/{CD158816-93A6-B053-DD82-214DF5D17E84}.wem"
      },
      {
       "Id": "919005796",
@@ -85,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bagpipe.wav",
-      "CachePath": "1B/{1BE35F05-E691-E8BA-9660-1CA75A4A60BC}.wem"
+      "CachePath": "FD/{FDA71DF8-6D35-3B64-42F5-5572F2DF2A1D}.wem"
      },
      {
       "Id": "926031194",
@@ -93,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Harp.wav",
-      "CachePath": "3E/{3E359314-E138-75D0-52E1-D81CA7E6E781}.wem"
+      "CachePath": "2F/{2F095FBA-31D0-CBEE-7C61-02838462572F}.wem"
      },
      {
       "Id": "929479274",
@@ -101,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bouzouki.wav",
-      "CachePath": "81/{81B43D5B-4463-A6F4-EDFD-8F2174E79613}.wem"
+      "CachePath": "62/{6289FB4D-4D02-BF93-CEB8-C34029BF87FC}.wem"
      },
      {
       "Id": "938197383",
@@ -109,7 +125,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bouzouki.wav",
-      "CachePath": "E1/{E10A0BE2-BA20-EA08-1C46-7E72331120B9}.wem"
+      "CachePath": "E7/{E70E9B7F-FAED-3471-4153-BBAF22CC429B}.wem"
      },
      {
       "Id": "985469354",
@@ -117,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Harp.wav",
-      "CachePath": "C4/{C4B05C82-4D8A-8A5F-F609-06D032552376}.wem"
+      "CachePath": "73/{7318D683-1075-B596-9788-4DD0BA34129C}.wem"
      },
      {
       "Id": "1037275416",
@@ -125,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Koto.wav",
-      "CachePath": "CB/{CB10EF9C-56B2-FED3-B095-9D180994EBFD}.wem"
+      "CachePath": "CF/{CF3F0DFA-44C8-0003-4E83-B9688C7A2916}.wem"
      },
      {
       "Id": "1064032655",
@@ -133,14 +149,26 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bagpipe.wav",
-      "CachePath": "7C/{7C2295A1-3817-6FF5-A759-F1FD354EDF2A}.wem"
+      "CachePath": "48/{48B0CBD1-96DF-0CB7-255C-9D7503C87479}.wem"
      }
     ],
     "Events": [
      {
+      "Id": "755525525",
+      "Name": "Play_Birds_and_Wind_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Play_Birds_and_Wind_01",
+      "GUID": "{F67D52A3-B184-4A36-990B-498A0B73955D}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "101589374"
+       }
+      ]
+     },
+     {
       "Id": "1246001926",
       "Name": "Play_Instrument_Voice",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Instrument_Voice",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Instrument_Voice",
       "GUID": "{4B1C054C-9667-4B1C-8B5F-5A93E05C4051}",
       "DurationType": "OneShot",
       "DurationMin": "0.25082222",
@@ -253,6 +281,38 @@
         ]
        }
       ]
+     },
+     {
+      "Id": "2350077198",
+      "Name": "Play_Sea_Ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Play_Sea_Ambience",
+      "GUID": "{213A7980-524B-4BDF-A94D-BAA720836903}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "161914615"
+       }
+      ]
+     },
+     {
+      "Id": "2411799799",
+      "Name": "Stop_Birds_and_Wind",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Birds_and_Wind",
+      "GUID": "{10105616-CB0A-4008-A74E-D73C7B9FF3F8}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1561173688",
+      "Name": "Stop_Sea_Ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Sea_Ambience",
+      "GUID": "{D46843DB-4983-448E-A985-6A33E285189B}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "GameParameters": [
@@ -311,6 +371,6 @@
     ]
    }
   ],
-  "FileHash": "{596E5A06-1281-1982-3506-521780A3D09F}"
+  "FileHash": "{6D41F9BD-DF73-868D-7014-6D72F87DA094}"
  }
 }
