@@ -507,7 +507,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1332629072750694282, guid: d5664013d3f2e4644ab7dfa999ca690f, type: 3}
       propertyPath: m_text
-      value: Quit
+      value: Quit Game
       objectReference: {fileID: 0}
     - target: {fileID: 2068258999230009039, guid: d5664013d3f2e4644ab7dfa999ca690f, type: 3}
       propertyPath: m_Pivot.x
@@ -535,7 +535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2068258999230009039, guid: d5664013d3f2e4644ab7dfa999ca690f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 233.9584
+      value: 392.9519
       objectReference: {fileID: 0}
     - target: {fileID: 2068258999230009039, guid: d5664013d3f2e4644ab7dfa999ca690f, type: 3}
       propertyPath: m_SizeDelta.y
@@ -591,7 +591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6815400089387977641, guid: d5664013d3f2e4644ab7dfa999ca690f, type: 3}
       propertyPath: m_Name
-      value: Quit
+      value: QuitGameButton
       objectReference: {fileID: 0}
     - target: {fileID: 8652505093176908849, guid: d5664013d3f2e4644ab7dfa999ca690f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -895,7 +895,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1332629072750694282, guid: d5664013d3f2e4644ab7dfa999ca690f, type: 3}
       propertyPath: m_text
-      value: Options
+      value: Settings
       objectReference: {fileID: 0}
     - target: {fileID: 2068258999230009039, guid: d5664013d3f2e4644ab7dfa999ca690f, type: 3}
       propertyPath: m_Pivot.x
@@ -979,7 +979,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6815400089387977641, guid: d5664013d3f2e4644ab7dfa999ca690f, type: 3}
       propertyPath: m_Name
-      value: Options
+      value: SettingsButton
       objectReference: {fileID: 0}
     - target: {fileID: 8652505093176908849, guid: d5664013d3f2e4644ab7dfa999ca690f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1137,7 +1137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6815400089387977641, guid: d5664013d3f2e4644ab7dfa999ca690f, type: 3}
       propertyPath: m_Name
-      value: Play
+      value: PlayButton
       objectReference: {fileID: 0}
     - target: {fileID: 8652505093176908849, guid: d5664013d3f2e4644ab7dfa999ca690f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1214,11 +1214,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 888282428197233437, guid: 49fdbcddae349884daababe017345713, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 655.8658
+      value: 655
       objectReference: {fileID: 0}
     - target: {fileID: 888282428197233437, guid: 49fdbcddae349884daababe017345713, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 374.7027
+      value: 375
       objectReference: {fileID: 0}
     - target: {fileID: 888282428197233437, guid: 49fdbcddae349884daababe017345713, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1250,11 +1250,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 888282428197233437, guid: 49fdbcddae349884daababe017345713, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.000015259
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 888282428197233437, guid: 49fdbcddae349884daababe017345713, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -187.35
+      value: -190
       objectReference: {fileID: 0}
     - target: {fileID: 888282428197233437, guid: 49fdbcddae349884daababe017345713, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
