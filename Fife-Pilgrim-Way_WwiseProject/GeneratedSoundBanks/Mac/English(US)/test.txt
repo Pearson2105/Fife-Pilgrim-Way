@@ -1,5 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1246001926	Play_Instrument_Voice			\Default Work Unit\Play_Instrument_Voice	
+	755525525	Play_Birds_and_Wind_01			\Default Work Unit\Ambience\Play_Birds_and_Wind_01	
+	1246001926	Play_Instrument_Voice			\Default Work Unit\Music\Play_Instrument_Voice	
+	1561173688	Stop_Sea_Ambience			\Default Work Unit\Stop_Sea_Ambience	
+	2350077198	Play_Sea_Ambience			\Default Work Unit\Ambience\Play_Sea_Ambience	
+	2411799799	Stop_Birds_and_Wind			\Default Work Unit\Stop_Birds_and_Wind	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	3090570191	Voice_Types			\Default Work Unit\Voice_Types	
@@ -16,19 +20,21 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1520455939	Voice_Gender			\Default Work Unit\Voice_Gender	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	7854584	Guitar_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\40\{408FCB7C-DF4A-0B21-96F5-624402E0C057}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Guitar\Guitar_01		89260
-	422012729	Harp_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\AC\{AC4428E5-3600-934C-B404-7211B43FA023}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Harp\Harp_01		137028
-	496575118	Organ_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\43\{43C9F4DB-C361-76DA-088F-1ED6CBC4B3E4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Organ\Organ_01		118808
-	587996884	Koto_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\9C\{9CD738F7-4972-91F7-7EA1-7DDAC09DDB03}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Koto\Koto_01		127476
-	719751144	Bagpipe_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F1\{F1ED3EE9-CD09-44C4-B2F7-8E9A05098C29}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bagpipe\Bagpipe_02		56572
-	773391323	Bouzouki_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\2F\{2F566BF2-1810-99CE-1962-750D3CE244DA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bouzouki\Bouzouki_01		98816
-	879209774	Guitar	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\2B\{2BA4BBA9-1E35-439B-CDD4-4BD007600CED}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Guitar\Guitar		95628
-	918025919	Organ	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\AF\{AFD19B2A-C90A-DC8D-E3DC-3D8C8C2D9419}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Organ\Organ		134736
-	919005796	Bagpipe	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\1B\{1BE35F05-E691-E8BA-9660-1CA75A4A60BC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bagpipe\Bagpipe		45640
-	926031194	Harp	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\3E\{3E359314-E138-75D0-52E1-D81CA7E6E781}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Harp\Harp		117968
-	929479274	Bouzouki_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\81\{81B43D5B-4463-A6F4-EDFD-8F2174E79613}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bouzouki\Bouzouki_02		133844
-	938197383	Bouzouki	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E1\{E10A0BE2-BA20-EA08-1C46-7E72331120B9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bouzouki\Bouzouki		70244
-	985469354	Harp_02	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\C4\{C4B05C82-4D8A-8A5F-F609-06D032552376}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Harp\Harp_02		92444
-	1037275416	Koto	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\CB\{CB10EF9C-56B2-FED3-B095-9D180994EBFD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Koto\Koto		140212
-	1064032655	Bagpipe_01	E:\GitHub\New folder\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\7C\{7C2295A1-3817-6FF5-A759-F1FD354EDF2A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bagpipe\Bagpipe_01		47632
+	7854584	Guitar_01	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\37\{375CC9F7-D2C2-6C19-1A7F-235ABE40901B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Guitar\Guitar_01		89260
+	101589374	Birds and Wind	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B2\{B2969F8F-52C7-A1FD-0694-B7066826D9E0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Birds and Wind		10523910
+	161914615	Sea Ambience	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\A5\{A5E3746F-86FC-1E71-A545-8F08850688AC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Sea Ambience		27736536
+	422012729	Harp_01	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\98\{9835565C-C199-9BC3-7F79-904CFDDB445C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Harp\Harp_01		137028
+	496575118	Organ_01	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\C6\{C6AEF63C-ACEE-999A-460C-3B52D61E1442}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Organ\Organ_01		118808
+	587996884	Koto_01	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\D9\{D9F211AF-CE0D-44C8-2B31-EE178351A615}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Koto\Koto_01		127476
+	719751144	Bagpipe_02	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\04\{04F746E7-DA4E-60EA-EA45-CEFB5653871A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bagpipe\Bagpipe_02		56572
+	773391323	Bouzouki_01	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\0D\{0D2B3FCB-9C1F-6D04-819A-B9F4C4BE0D4D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bouzouki\Bouzouki_01		98816
+	879209774	Guitar	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\31\{31714EB0-E83A-993A-9007-16D12ABEF217}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Guitar\Guitar		95628
+	918025919	Organ	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\CD\{CD158816-93A6-B053-DD82-214DF5D17E84}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Organ\Organ		134736
+	919005796	Bagpipe	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\FD\{FDA71DF8-6D35-3B64-42F5-5572F2DF2A1D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bagpipe\Bagpipe		45640
+	926031194	Harp	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\2F\{2F095FBA-31D0-CBEE-7C61-02838462572F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Harp\Harp		117968
+	929479274	Bouzouki_02	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\62\{6289FB4D-4D02-BF93-CEB8-C34029BF87FC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bouzouki\Bouzouki_02		133844
+	938197383	Bouzouki	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E7\{E70E9B7F-FAED-3471-4153-BBAF22CC429B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bouzouki\Bouzouki		70244
+	985469354	Harp_02	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\73\{7318D683-1075-B596-9788-4DD0BA34129C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Harp\Harp_02		92444
+	1037275416	Koto	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\CF\{CF3F0DFA-44C8-0003-4E83-B9688C7A2916}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Koto\Koto		140212
+	1064032655	Bagpipe_01	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\48\{48B0CBD1-96DF-0CB7-255C-9D7503C87479}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Bagpipe\Bagpipe_01		47632
 
