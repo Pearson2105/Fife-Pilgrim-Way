@@ -5538,33 +5538,6 @@
 										<ActiveSource Name="UI sound 2" ID="{DAACC821-2ED9-4614-AFB2-EFEF22C0CECE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="UI sound 2_02" ID="{8FCA3D5C-057D-4460-A709-0C941A34BCEA}" ShortID="340905023">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="UI sound 2" ID="{18F27EA7-D50E-403B-8BAA-F9C40759A6E5}">
-											<PropertyList>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="5.18683583856486"/>
-												<Property Name="TrimEnd" Type="Real64" Value="6.00815924157341"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>UI sound 2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="891267640"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="UI sound 2" ID="{18F27EA7-D50E-403B-8BAA-F9C40759A6E5}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
