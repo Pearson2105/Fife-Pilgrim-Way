@@ -1,17 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro; // Using TextMeshPro for better quality
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI dialogueText;
     public GameObject dialogueBox;
     
-    [Header("Wwise Config")]
-    public string beepEventName = "Play_Text_Beep"; // Your Wwise Event
-    public string pitchRTPCName = "GenderPitch";
-    public string wobbleRTPCName = "VoiceWobble";
+    [Header("Wwise Global Names")]
+    public string beepEventName = "Play_Text_Beep";
+    public string pitchRTPC = "GenderPitch";
+    public string wobbleRTPC = "VoiceWobble";
 
     private Queue<string> sentences = new Queue<string>();
     private DialogueData currentData;
@@ -19,11 +19,6 @@ public class DialogueManager : MonoBehaviour
     private bool isTyping = false;
     private bool cancelTyping = false;
     private bool active = false;
-
-    void Awake()
-    {
-        if (dialogueBox != null) dialogueBox.SetActive(false);
-    }
 
     void Update()
     {
@@ -36,23 +31,19 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    // This matches the "PlayCard" call in your Cutscene script
-    public void PlayCard(DialogueData data, Animator npcAnimator = null)
+    public void PlayCard(DialogueData data, Animator npcAnimator)
     {
         active = true;
         currentData = data;
         currentAnimator = npcAnimator;
         
-        if (dialogueBox != null) dialogueBox.SetActive(true);
+        dialogueBox.SetActive(true);
         if (currentAnimator != null) currentAnimator.SetBool("isTalking", true);
 
-        // --- WWISE SETUP ---
-        // Set the Switch (e.g., Switch Group "VoiceType", State "Priest")
+        // Set Wwise parameters
         AkSoundEngine.SetSwitch(currentData.switchGroup, currentData.voiceType, gameObject);
-        
-        // Set the RTPCs
-        AkSoundEngine.SetRTPCValue(pitchRTPCName, currentData.genderPitch);
-        AkSoundEngine.SetRTPCValue(wobbleRTPCName, currentData.voiceWobble);
+        AkSoundEngine.SetRTPCValue(pitchRTPC, currentData.genderPitch);
+        AkSoundEngine.SetRTPCValue(wobbleRTPC, currentData.voiceWobble);
 
         sentences.Clear();
         foreach (string s in data.dialogueLines) sentences.Enqueue(s);
@@ -75,31 +66,20 @@ public class DialogueManager : MonoBehaviour
 
         foreach (char letter in sentence.ToCharArray())
         {
-            if (cancelTyping)
-            {
-                dialogueText.text = sentence;
-                break;
-            }
-
+            if (cancelTyping) { dialogueText.text = sentence; break; }
             dialogueText.text += letter;
             letterCount++;
 
-            // BEEP every 2nd letter using Wwise
-            if (letterCount % 2 == 0)
-            {
-                AkSoundEngine.PostEvent(beepEventName, gameObject);
-            }
-
+            if (letterCount % 2 == 0) AkSoundEngine.PostEvent(beepEventName, gameObject);
             yield return new WaitForSeconds(currentData.typingSpeed);
         }
         isTyping = false;
-        cancelTyping = false;
     }
 
     void EndDialogue()
     {
         active = false;
         if (currentAnimator != null) currentAnimator.SetBool("isTalking", false);
-        if (dialogueBox != null) dialogueBox.SetActive(false);
+        dialogueBox.SetActive(false);
     }
 }

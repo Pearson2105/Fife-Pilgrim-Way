@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class DialogueCutscene : MonoBehaviour
 {
-    public Dialogue introCard;        // Changed from DialogueData to Dialogue
-    public DialogueManager manager;    // Drag Dialogue_Manager here
-    public Animator priestAnimator;    // Keep this to control animations
+    public DialogueData introCard;
+    public DialogueManager manager;
+    public Animator priestAnimator;
 
     void Start()
     {
@@ -14,14 +14,10 @@ public class DialogueCutscene : MonoBehaviour
 
     IEnumerator RunAutoStart()
     {
-        // Wait 1 second so the game feels natural before he speaks
         yield return new WaitForSeconds(1.0f);
-        
         if (manager != null && introCard != null)
         {
-            // We changed "PlayCard" to "StartCutsceneDialogue"
-            // We pass the animator so the manager can trigger talk animations
-            manager.StartCutsceneDialogue(introCard, priestAnimator);
+            manager.PlayCard(introCard, priestAnimator);
         }
     }
 }
