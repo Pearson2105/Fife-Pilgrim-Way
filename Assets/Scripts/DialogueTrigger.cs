@@ -2,21 +2,24 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
-    public DialogueData myCard;
+    // CHANGE THIS LINE: from DialogueData to Dialogue
+    public Dialogue dialogue; 
+    
     public DialogueManager manager;
     private Animator myAnimator;
 
     void Start()
     {
         myAnimator = GetComponent<Animator>();
+        if (manager == null) manager = FindFirstObjectByType<DialogueManager>();
     }
 
-    // Triggers when you click the NPC's Collider2D
-    void OnMouseDown()
+    public void TriggerDialogue()
     {
-        if (manager != null && myCard != null)
+        if (manager != null)
         {
-            manager.PlayCard(myCard, myAnimator);
+            // Now this will work because 'dialogue' is the correct type
+            manager.PlayCard(dialogue, myAnimator);
         }
     }
 }

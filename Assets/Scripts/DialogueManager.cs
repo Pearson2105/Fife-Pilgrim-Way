@@ -1,79 +1,105 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
-using UnityEngine.InputSystem; 
+using TMPro; // Using TextMeshPro for better quality
 
 public class DialogueManager : MonoBehaviour
 {
-    [Header("UI References")]
-    public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
-    public GameObject continueIcon; 
+    public GameObject dialogueBox;
+    
+    [Header("Wwise Config")]
+    public string beepEventName = "Play_Text_Beep"; // Your Wwise Event
+    public string pitchRTPCName = "GenderPitch";
+    public string wobbleRTPCName = "VoiceWobble";
 
-    [Header("Wwise Events")]
-    public AK.Wwise.Event playLetterEvent;
-
+    private Queue<string> sentences = new Queue<string>();
+    private DialogueData currentData;
+    private Animator currentAnimator;
     private bool isTyping = false;
-    private Animator activeAnimator;
+    private bool cancelTyping = false;
+    private bool active = false;
 
-    // This is the function the Player script looks for!
-    public bool IsTalking()
+    void Awake()
     {
-        return isTyping;
+        if (dialogueBox != null) dialogueBox.SetActive(false);
     }
 
-    public void PlayCard(DialogueData card, Animator npcAnim)
+    void Update()
     {
-        if (!isTyping)
+        if (!active) return;
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            activeAnimator = npcAnim;
-            StartCoroutine(TypeLines(card));
+            if (isTyping) cancelTyping = true;
+            else DisplayNextSentence();
         }
     }
 
-    IEnumerator TypeLines(DialogueData card)
+    // This matches the "PlayCard" call in your Cutscene script
+    public void PlayCard(DialogueData data, Animator npcAnimator = null)
     {
+        active = true;
+        currentData = data;
+        currentAnimator = npcAnimator;
+        
+        if (dialogueBox != null) dialogueBox.SetActive(true);
+        if (currentAnimator != null) currentAnimator.SetBool("isTalking", true);
+
+        // --- WWISE SETUP ---
+        // Set the Switch (e.g., Switch Group "VoiceType", State "Priest")
+        AkSoundEngine.SetSwitch(currentData.switchGroup, currentData.voiceType, gameObject);
+        
+        // Set the RTPCs
+        AkSoundEngine.SetRTPCValue(pitchRTPCName, currentData.genderPitch);
+        AkSoundEngine.SetRTPCValue(wobbleRTPCName, currentData.voiceWobble);
+
+        sentences.Clear();
+        foreach (string s in data.dialogueLines) sentences.Enqueue(s);
+        DisplayNextSentence();
+    }
+
+    public void DisplayNextSentence()
+    {
+        if (sentences.Count == 0) { EndDialogue(); return; }
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(sentences.Dequeue()));
+    }
+
+    IEnumerator TypeSentence(string sentence)
+    {
+        dialogueText.text = "";
         isTyping = true;
-        
-        if (nameText != null) nameText.text = card.characterName;
+        cancelTyping = false;
+        int letterCount = 0;
 
-        // Wwise Audio Setup
-        AkUnitySoundEngine.SetSwitch("Voice_Types", card.voiceType, gameObject);
-        AkUnitySoundEngine.SetRTPCValue("Voice_Gender", card.genderPitch);
-        
-
-        foreach (string line in card.dialogueLines)
+        foreach (char letter in sentence.ToCharArray())
         {
-            dialogueText.text = ""; 
-            if (continueIcon != null) continueIcon.SetActive(false); 
-            
-            if (activeAnimator != null) activeAnimator.SetBool("isTalking", true);
-
-            int letterCount = 0;
-            foreach (char c in line.ToCharArray())
+            if (cancelTyping)
             {
-                dialogueText.text += c;
-
-                if (char.IsLetterOrDigit(c))
-                {
-                    if (letterCount % 2 == 0) playLetterEvent.Post(gameObject);
-                    letterCount++;
-                }
-                yield return new WaitForSeconds(card.typingSpeed);
+                dialogueText.text = sentence;
+                break;
             }
 
-            if (activeAnimator != null) activeAnimator.SetBool("isTalking", false);
-            if (continueIcon != null) continueIcon.SetActive(true); 
-            
-            // Wait for Space Bar
-            yield return new WaitUntil(() => Keyboard.current.spaceKey.wasPressedThisFrame);
-            yield return new WaitForSeconds(0.1f);
-        }
+            dialogueText.text += letter;
+            letterCount++;
 
-        dialogueText.text = "";
-        if (nameText != null) nameText.text = "";
-        if (continueIcon != null) continueIcon.SetActive(false);
+            // BEEP every 2nd letter using Wwise
+            if (letterCount % 2 == 0)
+            {
+                AkSoundEngine.PostEvent(beepEventName, gameObject);
+            }
+
+            yield return new WaitForSeconds(currentData.typingSpeed);
+        }
         isTyping = false;
-        activeAnimator = null;
+        cancelTyping = false;
+    }
+
+    void EndDialogue()
+    {
+        active = false;
+        if (currentAnimator != null) currentAnimator.SetBool("isTalking", false);
+        if (dialogueBox != null) dialogueBox.SetActive(false);
     }
 }
