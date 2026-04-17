@@ -41,9 +41,9 @@ public class DialogueManager : MonoBehaviour
         if (currentAnimator != null) currentAnimator.SetBool("isTalking", true);
 
         // Set Wwise parameters
-        AkSoundEngine.SetSwitch(currentData.switchGroup, currentData.voiceType, gameObject);
-        AkSoundEngine.SetRTPCValue(pitchRTPC, currentData.genderPitch);
-        AkSoundEngine.SetRTPCValue(wobbleRTPC, currentData.voiceWobble);
+        AkUnitySoundEngine.SetSwitch(currentData.switchGroup, currentData.voiceType, gameObject);
+        AkUnitySoundEngine.SetRTPCValue(pitchRTPC, currentData.genderPitch);
+        AkUnitySoundEngine.SetRTPCValue(wobbleRTPC, currentData.voiceWobble);
 
         sentences.Clear();
         foreach (string s in data.dialogueLines) sentences.Enqueue(s);
@@ -70,7 +70,7 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += letter;
             letterCount++;
 
-            if (letterCount % 2 == 0) AkSoundEngine.PostEvent(beepEventName, gameObject);
+            if (letterCount % 2 == 0) AkUnitySoundEngine.PostEvent(beepEventName, gameObject);
             yield return new WaitForSeconds(currentData.typingSpeed);
         }
         isTyping = false;
