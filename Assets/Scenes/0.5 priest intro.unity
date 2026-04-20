@@ -2192,9 +2192,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'New Text
-
-'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: af36c067eb7e98a40a551e5ce45a0b16, type: 2}
   m_sharedMaterial: {fileID: -6209204705815120020, guid: af36c067eb7e98a40a551e5ce45a0b16, type: 2}
@@ -2260,7 +2258,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 28.84408, y: 12.641178, z: -451.59918, w: -66.787994}
+  m_margin: {x: 28.84408, y: 12.641178, z: -702.3825, w: -66.787994}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2492,8 +2490,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca7e3ac0e4d1d4489df87816388d3cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
-  myCard: {fileID: 11400000, guid: 4c700e8ef2432594986a62d0ab9ffe71, type: 2}
-  manager: {fileID: 1671340278}
 --- !u!4 &1573303826
 Transform:
   m_ObjectHideFlags: 0
@@ -2667,13 +2663,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c88f53017da044640adb29000ea0c91f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
-  nameText: {fileID: 1790260415}
   dialogueText: {fileID: 1306314927}
-  continueIcon: {fileID: 0}
-  playLetterEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4f77fc8272693574787a6729a7caf760, type: 2}
+  dialogueBox: {fileID: 741606372}
+  beepEventName: Play_Instrument_Voice
+  pitchRTPC: Voice_Gender
+  wobbleRTPC: VoiceWobble
 --- !u!4 &1671340279
 Transform:
   m_ObjectHideFlags: 0
@@ -3032,7 +3026,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Priest
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: af36c067eb7e98a40a551e5ce45a0b16, type: 2}
   m_sharedMaterial: {fileID: -6209204705815120020, guid: af36c067eb7e98a40a551e5ce45a0b16, type: 2}
@@ -3856,3 +3850,4 @@ SceneRoots:
   - {fileID: 1575851695}
   - {fileID: 1920510220}
   - {fileID: 630984353}
+  - {fileID: 6207902902483485882}

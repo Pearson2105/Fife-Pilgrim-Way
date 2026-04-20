@@ -1,79 +1,85 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.InputSystem; 
 
 public class DialogueManager : MonoBehaviour
 {
-    [Header("UI References")]
-    public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
-    public GameObject continueIcon; 
+    public GameObject dialogueBox;
+    
+    [Header("Wwise Global Names")]
+    public string beepEventName = "Play_Text_Beep";
+    public string pitchRTPC = "GenderPitch";
+    public string wobbleRTPC = "VoiceWobble";
 
-    [Header("Wwise Events")]
-    public AK.Wwise.Event playLetterEvent;
-
+    private Queue<string> sentences = new Queue<string>();
+    private DialogueData currentData;
+    private Animator currentAnimator;
     private bool isTyping = false;
-    private Animator activeAnimator;
+    private bool cancelTyping = false;
+    private bool active = false;
 
-    // This is the function the Player script looks for!
-    public bool IsTalking()
+    void Update()
     {
-        return isTyping;
-    }
+        if (!active) return;
 
-    public void PlayCard(DialogueData card, Animator npcAnim)
-    {
-        if (!isTyping)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            activeAnimator = npcAnim;
-            StartCoroutine(TypeLines(card));
+            if (isTyping) cancelTyping = true;
+            else DisplayNextSentence();
         }
     }
 
-    IEnumerator TypeLines(DialogueData card)
+    public void PlayCard(DialogueData data, Animator npcAnimator)
     {
-        isTyping = true;
+        active = true;
+        currentData = data;
+        currentAnimator = npcAnimator;
         
-        if (nameText != null) nameText.text = card.characterName;
+        dialogueBox.SetActive(true);
+        if (currentAnimator != null) currentAnimator.SetBool("isTalking", true);
 
-        // Wwise Audio Setup
-        AkUnitySoundEngine.SetSwitch("Voice_Types", card.voiceType, gameObject);
-        AkUnitySoundEngine.SetRTPCValue("Voice_Gender", card.genderPitch);
-        
+        // Set Wwise parameters
+        AkUnitySoundEngine.SetSwitch(currentData.switchGroup, currentData.voiceType, gameObject);
+        AkUnitySoundEngine.SetRTPCValue(pitchRTPC, currentData.genderPitch);
+        AkUnitySoundEngine.SetRTPCValue(wobbleRTPC, currentData.voiceWobble);
 
-        foreach (string line in card.dialogueLines)
-        {
-            dialogueText.text = ""; 
-            if (continueIcon != null) continueIcon.SetActive(false); 
-            
-            if (activeAnimator != null) activeAnimator.SetBool("isTalking", true);
+        sentences.Clear();
+        foreach (string s in data.dialogueLines) sentences.Enqueue(s);
+        DisplayNextSentence();
+    }
 
-            int letterCount = 0;
-            foreach (char c in line.ToCharArray())
-            {
-                dialogueText.text += c;
+    public void DisplayNextSentence()
+    {
+        if (sentences.Count == 0) { EndDialogue(); return; }
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(sentences.Dequeue()));
+    }
 
-                if (char.IsLetterOrDigit(c))
-                {
-                    if (letterCount % 2 == 0) playLetterEvent.Post(gameObject);
-                    letterCount++;
-                }
-                yield return new WaitForSeconds(card.typingSpeed);
-            }
-
-            if (activeAnimator != null) activeAnimator.SetBool("isTalking", false);
-            if (continueIcon != null) continueIcon.SetActive(true); 
-            
-            // Wait for Space Bar
-            yield return new WaitUntil(() => Keyboard.current.spaceKey.wasPressedThisFrame);
-            yield return new WaitForSeconds(0.1f);
-        }
-
+    IEnumerator TypeSentence(string sentence)
+    {
         dialogueText.text = "";
-        if (nameText != null) nameText.text = "";
-        if (continueIcon != null) continueIcon.SetActive(false);
+        isTyping = true;
+        cancelTyping = false;
+        int letterCount = 0;
+
+        foreach (char letter in sentence.ToCharArray())
+        {
+            if (cancelTyping) { dialogueText.text = sentence; break; }
+            dialogueText.text += letter;
+            letterCount++;
+
+            if (letterCount % 2 == 0) AkUnitySoundEngine.PostEvent(beepEventName, gameObject);
+            yield return new WaitForSeconds(currentData.typingSpeed);
+        }
         isTyping = false;
-        activeAnimator = null;
+    }
+
+    void EndDialogue()
+    {
+        active = false;
+        if (currentAnimator != null) currentAnimator.SetBool("isTalking", false);
+        dialogueBox.SetActive(false);
     }
 }
