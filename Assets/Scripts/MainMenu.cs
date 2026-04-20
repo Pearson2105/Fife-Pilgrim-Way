@@ -5,7 +5,9 @@ public class MainMenu : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene("0.5 priest intro");
+        Debug.Log(LevelManager.Instance);
+
+        LevelManager.Instance.LoadScene("0.5 priest intro", "CrossFade");
     }
 
     public void Quit()
