@@ -1,9 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
-	755525525	Play_Birds_and_Wind_01			\Default Work Unit\Ambience\Play_Birds_and_Wind_01	
-	1246001926	Play_Instrument_Voice			\Default Work Unit\Music\Play_Instrument_Voice	
-	1561173688	Stop_Sea_Ambience			\Default Work Unit\Stop_Sea_Ambience	
-	2350077198	Play_Sea_Ambience			\Default Work Unit\Ambience\Play_Sea_Ambience	
-	2411799799	Stop_Birds_and_Wind			\Default Work Unit\Stop_Birds_and_Wind	
+	1246001926	Play_Instrument_Voice			\Default Work Unit\Play_Instrument_Voice	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	3090570191	Voice_Types			\Default Work Unit\Voice_Types	
@@ -21,8 +17,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	7854584	Guitar_01	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\37\{375CC9F7-D2C2-6C19-1A7F-235ABE40901B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Guitar\Guitar_01		89260
-	101589374	Birds and Wind	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B2\{B2969F8F-52C7-A1FD-0694-B7066826D9E0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Birds and Wind		10523910
-	161914615	Sea Ambience	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\A5\{A5E3746F-86FC-1E71-A545-8F08850688AC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Sea Ambience		27736536
 	422012729	Harp_01	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\98\{9835565C-C199-9BC3-7F79-904CFDDB445C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Harp\Harp_01		137028
 	496575118	Organ_01	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\C6\{C6AEF63C-ACEE-999A-460C-3B52D61E1442}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Organ\Organ_01		118808
 	587996884	Koto_01	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\D9\{D9F211AF-CE0D-44C8-2B31-EE178351A615}.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPC\Instrument_Voice\Koto\Koto_01		127476

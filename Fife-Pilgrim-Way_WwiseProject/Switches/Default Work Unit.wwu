@@ -43,6 +43,15 @@
 						<Switch Name="Guitar" ID="{479FD5B8-58F5-41FF-BFDB-D9F3B6215D8B}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Surfaces" ID="{EE6F3101-6D4D-437A-8334-D8E899D58084}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Grass" ID="{77485DF9-C6EB-4634-8F94-7FE49CB067D7}"/>
+						<Switch Name="Stone" ID="{65E5D519-E658-4BF0-8E15-2020AF5BEF82}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

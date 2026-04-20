@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D8FD57E4-B5DD-4F65-A7D4-F44D97F3C311}",
     "Language": "English(US)",
-    "Hash": "{919F3AA6-503F-220D-371C-46C5E82FBE56}",
+    "Hash": "{EFBB51EA-B1FE-1D3D-6185-768FC953EF36}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\test",
     "ShortName": "test",
     "Path": "English(US)/test.bnk",
@@ -22,22 +22,6 @@
       "Location": "Memory",
       "ShortName": "Guitar.wav",
       "CachePath": "37/{375CC9F7-D2C2-6C19-1A7F-235ABE40901B}.wem"
-     },
-     {
-      "Id": "101589374",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Birds and Wind.wav",
-      "CachePath": "B2/{B2969F8F-52C7-A1FD-0694-B7066826D9E0}.wem"
-     },
-     {
-      "Id": "161914615",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Sea Ambience.wav",
-      "CachePath": "A5/{A5E3746F-86FC-1E71-A545-8F08850688AC}.wem"
      },
      {
       "Id": "422012729",
@@ -154,21 +138,9 @@
     ],
     "Events": [
      {
-      "Id": "755525525",
-      "Name": "Play_Birds_and_Wind_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Play_Birds_and_Wind_01",
-      "GUID": "{F67D52A3-B184-4A36-990B-498A0B73955D}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "101589374"
-       }
-      ]
-     },
-     {
       "Id": "1246001926",
       "Name": "Play_Instrument_Voice",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Instrument_Voice",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Instrument_Voice",
       "GUID": "{4B1C054C-9667-4B1C-8B5F-5A93E05C4051}",
       "DurationType": "OneShot",
       "DurationMin": "0.25082222",
@@ -281,38 +253,6 @@
         ]
        }
       ]
-     },
-     {
-      "Id": "2350077198",
-      "Name": "Play_Sea_Ambience",
-      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Play_Sea_Ambience",
-      "GUID": "{213A7980-524B-4BDF-A94D-BAA720836903}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "161914615"
-       }
-      ]
-     },
-     {
-      "Id": "2411799799",
-      "Name": "Stop_Birds_and_Wind",
-      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Birds_and_Wind",
-      "GUID": "{10105616-CB0A-4008-A74E-D73C7B9FF3F8}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "1561173688",
-      "Name": "Stop_Sea_Ambience",
-      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Sea_Ambience",
-      "GUID": "{D46843DB-4983-448E-A985-6A33E285189B}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
      }
     ],
     "GameParameters": [
@@ -371,6 +311,6 @@
     ]
    }
   ],
-  "FileHash": "{0D15DE68-1E1A-6103-9BF2-9972099009EE}"
+  "FileHash": "{15552EB9-8E23-D94A-D2D1-6405F77B409C}"
  }
 }
