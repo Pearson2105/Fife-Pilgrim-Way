@@ -64,17 +64,6 @@
 				</Folder>
 				<Folder Name="Character" ID="{A017DAE2-C125-4B33-8902-A56A3B0496D4}" ShortID="784531918">
 					<ChildrenList>
-						<Event Name="Play_Footsteps" ID="{3559E970-7E94-42E1-A765-914DB5DCE819}">
-							<ChildrenList>
-								<Action Name="" ID="{0EE3B5A9-CCFE-47EB-A570-5D213B5EEB00}" ShortID="560612970">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Footsteps" ID="{E92280E0-BB79-4D4B-B2B8-05B87AC967A9}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Winning" ID="{E5FAF9F1-33E4-4B3E-A42D-E21FAC2BF3B4}">
 							<ChildrenList>
 								<Action Name="" ID="{D774CA89-7F2B-4ADF-A5CD-4C893EDAE40C}" ShortID="794227825">
@@ -92,20 +81,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Dying Sound Lute" ID="{B81F0D5F-A3AB-4CCD-80DD-124EEE906804}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Footsteps" ID="{5FBBDB35-4221-4852-BD14-93272B475D7D}">
-							<ChildrenList>
-								<Action Name="" ID="{5670209F-662C-4F55-ACC6-879CAF08A5B2}" ShortID="187069721">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Footsteps" ID="{E92280E0-BB79-4D4B-B2B8-05B87AC967A9}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -217,6 +192,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Instrument_Voice" ID="{A1C8096A-083E-45A2-886D-72A8EF8CE243}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Footsteps" ID="{572322A6-D55D-4386-B02F-067A740F40F8}">
+					<ChildrenList>
+						<Action Name="" ID="{D9AE24EB-7265-4E7B-8031-FFB04B36A7D6}" ShortID="300543352">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{E92280E0-BB79-4D4B-B2B8-05B87AC967A9}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

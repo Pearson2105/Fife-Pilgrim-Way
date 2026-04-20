@@ -691,190 +691,17 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Stone" ID="{65E5D519-E658-4BF0-8E15-2020AF5BEF82}" WorkUnitID="{B32945B5-6C7F-4BE4-9555-ABF22A045B94}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
 								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Surfaces" ID="{EE6F3101-6D4D-437A-8334-D8E899D58084}" WorkUnitID="{B32945B5-6C7F-4BE4-9555-ABF22A045B94}"/>
+								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Stone" ID="{F2589558-BEC1-46CD-9761-29122BD29261}" ShortID="124935310">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Stone Footsteps" ID="{16B06AFE-9821-4E00-8250-F565BF2603E9}" ShortID="994642801">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Stone Footsteps" ID="{E66CD878-1CAB-4909-BDFA-AD40F73C094E}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0576062222918727"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.336036399699417"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Stone Footsteps.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="185104748"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Stone Footsteps" ID="{E66CD878-1CAB-4909-BDFA-AD40F73C094E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Stone Footsteps_01" ID="{947E825F-1E0B-4842-886D-8EC0D9058D9A}" ShortID="1037957144">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Stone Footsteps" ID="{A1E42746-FF58-437D-9513-F56E597E3816}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0576062222918727"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.931300593718609"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.53616592778327"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Stone Footsteps.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="348335960"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Stone Footsteps" ID="{A1E42746-FF58-437D-9513-F56E597E3816}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Stone Footsteps_02" ID="{B66963E2-3357-4AA6-9785-2836770E8A8F}" ShortID="1003575360">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Stone Footsteps" ID="{02C45842-DF93-4619-8FCF-AA87A493DA82}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0576062222918727"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="2.12182918775065"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.38105718806407"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Stone Footsteps.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="851260214"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Stone Footsteps" ID="{02C45842-DF93-4619-8FCF-AA87A493DA82}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Stone Footsteps_03" ID="{942A39DA-617E-4E23-BD79-6776A53F0DF3}" ShortID="869655923">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Stone Footsteps" ID="{68FB2ED5-8D7C-4F2E-9578-8443EEE9E805}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0576062222918727"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.36996400407455"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.65799511553392"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Stone Footsteps.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="529339914"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Stone Footsteps" ID="{68FB2ED5-8D7C-4F2E-9578-8443EEE9E805}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Stone Footsteps_04" ID="{9D08A3C3-D36D-495E-8A1A-6381725B1051}" ShortID="167431664">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Stone Footsteps" ID="{42FC5B11-E31F-4F75-B555-3591D65FAFFB}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0576062222918727"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="4.67570504269034"/>
-														<Property Name="TrimEnd" Type="Real64" Value="4.95413511710106"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Stone Footsteps.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="546817046"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Stone Footsteps" ID="{42FC5B11-E31F-4F75-B555-3591D65FAFFB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Stone Footsteps_05" ID="{F65D6841-8F42-4AEB-9467-4B20D6378DC7}" ShortID="598145030">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Stone Footsteps" ID="{AB2B7367-1F0D-4C26-9245-BDD4E90D81E1}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.163217629826973"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="5.97184504425747"/>
-														<Property Name="TrimEnd" Type="Real64" Value="6.41349274849517"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Stone Footsteps.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="331557878"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Stone Footsteps" ID="{AB2B7367-1F0D-4C26-9245-BDD4E90D81E1}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Grass" ID="{66C46C79-74AF-46FF-B955-82C0E7EAACFF}" ShortID="162689426">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1118,6 +945,185 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Stone" ID="{F2589558-BEC1-46CD-9761-29122BD29261}" ShortID="124935310">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Stone Footsteps" ID="{16B06AFE-9821-4E00-8250-F565BF2603E9}" ShortID="994642801">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Footsteps" ID="{E66CD878-1CAB-4909-BDFA-AD40F73C094E}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0576062222918727"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.336036399699417"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Stone Footsteps.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="185104748"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Footsteps" ID="{E66CD878-1CAB-4909-BDFA-AD40F73C094E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Footsteps_01" ID="{947E825F-1E0B-4842-886D-8EC0D9058D9A}" ShortID="1037957144">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Footsteps" ID="{A1E42746-FF58-437D-9513-F56E597E3816}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0576062222918727"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.931300593718609"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.53616592778327"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Stone Footsteps.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="348335960"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Footsteps" ID="{A1E42746-FF58-437D-9513-F56E597E3816}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Footsteps_02" ID="{B66963E2-3357-4AA6-9785-2836770E8A8F}" ShortID="1003575360">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Footsteps" ID="{02C45842-DF93-4619-8FCF-AA87A493DA82}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0576062222918727"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.12182918775065"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.38105718806407"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Stone Footsteps.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="851260214"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Footsteps" ID="{02C45842-DF93-4619-8FCF-AA87A493DA82}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Footsteps_03" ID="{942A39DA-617E-4E23-BD79-6776A53F0DF3}" ShortID="869655923">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Footsteps" ID="{68FB2ED5-8D7C-4F2E-9578-8443EEE9E805}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0576062222918727"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.36996400407455"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.65799511553392"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Stone Footsteps.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="529339914"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Footsteps" ID="{68FB2ED5-8D7C-4F2E-9578-8443EEE9E805}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Footsteps_04" ID="{9D08A3C3-D36D-495E-8A1A-6381725B1051}" ShortID="167431664">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Footsteps" ID="{42FC5B11-E31F-4F75-B555-3591D65FAFFB}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0576062222918727"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.67570504269034"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.95413511710106"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Stone Footsteps.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="546817046"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Footsteps" ID="{42FC5B11-E31F-4F75-B555-3591D65FAFFB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Stone Footsteps_05" ID="{F65D6841-8F42-4AEB-9467-4B20D6378DC7}" ShortID="598145030">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E2BDC3EE-47CF-492F-B0E7-6E26116D5243}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41CE0206-23ED-45C4-9B24-04B08B2225F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stone Footsteps" ID="{AB2B7367-1F0D-4C26-9245-BDD4E90D81E1}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.163217629826973"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.97184504425747"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.41349274849517"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Stone Footsteps.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="331557878"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stone Footsteps" ID="{AB2B7367-1F0D-4C26-9245-BDD4E90D81E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -1128,6 +1134,20 @@
 										<ItemRef Name="Grass" ID="{66C46C79-74AF-46FF-B955-82C0E7EAACFF}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Stone" ID="{65E5D519-E658-4BF0-8E15-2020AF5BEF82}"/>
+										<ItemList>
+											<ItemRef Name="Stone" ID="{F2589558-BEC1-46CD-9761-29122BD29261}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Grass" ID="{77485DF9-C6EB-4634-8F94-7FE49CB067D7}"/>
+										<ItemList>
+											<ItemRef Name="Grass" ID="{66C46C79-74AF-46FF-B955-82C0E7EAACFF}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 						<Sound Name="Dying Sound Lute" ID="{B81F0D5F-A3AB-4CCD-80DD-124EEE906804}" ShortID="350297061">

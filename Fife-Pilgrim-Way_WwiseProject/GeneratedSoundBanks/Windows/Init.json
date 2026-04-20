@@ -270,10 +270,30 @@
         "GUID": "{1AC5ECBF-3E31-4B10-95CE-FD1D35BCC192}"
        }
       ]
+     },
+     {
+      "Id": "3714303081",
+      "Name": "Surfaces",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces",
+      "GUID": "{EE6F3101-6D4D-437A-8334-D8E899D58084}",
+      "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Stone",
+        "GUID": "{65E5D519-E658-4BF0-8E15-2020AF5BEF82}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surfaces\\Grass",
+        "GUID": "{77485DF9-C6EB-4634-8F94-7FE49CB067D7}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{D2411E35-1014-EC85-F816-E12583AE2B4A}"
+  "FileHash": "{11D040A2-F897-4DE5-5FB2-86CF49BF83AC}"
  }
 }

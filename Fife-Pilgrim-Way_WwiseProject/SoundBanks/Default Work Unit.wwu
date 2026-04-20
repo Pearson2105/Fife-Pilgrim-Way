@@ -10,6 +10,15 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Character" ID="{A26D566D-4BA8-411E-A3E6-D4C18BDED466}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Footsteps" ID="{572322A6-D55D-4386-B02F-067A740F40F8}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Winning" ID="{E5FAF9F1-33E4-4B3E-A42D-E21FAC2BF3B4}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dying_Sound_Lute" ID="{1A813ED9-2D95-4DC9-9896-90B913EEE60D}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
