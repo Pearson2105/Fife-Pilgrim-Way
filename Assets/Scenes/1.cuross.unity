@@ -6796,6 +6796,7 @@ GameObject:
   - component: {fileID: 205526292}
   - component: {fileID: 205526291}
   - component: {fileID: 205526290}
+  - component: {fileID: 205526294}
   m_Layer: 0
   m_Name: floor
   m_TagString: Untagged
@@ -6897,6 +6898,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1197878658}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &205526294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205526289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04067d2d3964c4352b231cd31fdebbe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Footsteps
+  footstepEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4773ead14b9c742d780fdfdd191c46cc, type: 2}
+  stoneSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5c59edc794e7e4416b89561b0f1e5521, type: 2}
+  grassSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 12b637b69a338465a9483adb84a91e10, type: 2}
+  rb: {fileID: 422541051}
+  movementThreshold: 0.1
+  stepInterval: 0.4
+  currentSurface: Stone
 --- !u!4 &206820800 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3971728358778534718, guid: 8b15813bc6bdade41a4e1f89c5c32b61, type: 3}
@@ -14546,6 +14579,8 @@ GameObject:
   - component: {fileID: 422541051}
   - component: {fileID: 422541050}
   - component: {fileID: 422541056}
+  - component: {fileID: 422541057}
+  - component: {fileID: 422541058}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -14722,6 +14757,46 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &422541057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422541049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04067d2d3964c4352b231cd31fdebbe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  footstepEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4773ead14b9c742d780fdfdd191c46cc, type: 2}
+  stoneSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5c59edc794e7e4416b89561b0f1e5521, type: 2}
+  grassSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 12b637b69a338465a9483adb84a91e10, type: 2}
+  rb: {fileID: 422541051}
+  movementThreshold: 0.1
+  stepInterval: 0.4
+  currentSurface: Stone
+--- !u!81 &422541058
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422541049}
+  m_Enabled: 1
 --- !u!4 &426480901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3971728358778534718, guid: 8b15813bc6bdade41a4e1f89c5c32b61, type: 3}
@@ -34735,6 +34810,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7038908054596017229, guid: 6db2073b403fcc74c84b3584937b8683, type: 3}
   m_PrefabInstance: {fileID: 839745677}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1091928205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1091928206}
+  - component: {fileID: 1091928208}
+  - component: {fileID: 1091928207}
+  m_Layer: 0
+  m_Name: Soundbanks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1091928206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091928205}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1976341132}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1091928207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091928205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0383d673908087d4081a2519f427dd26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkBank
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a6b830ce9cbab474695cc6a9a9f121b3, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &1091928208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091928205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0383d673908087d4081a2519f427dd26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkBank
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8aa4571099585407884f200cb1139697, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1001 &1093634310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50764,6 +50922,7 @@ GameObject:
   - component: {fileID: 1558654208}
   - component: {fileID: 1558654207}
   - component: {fileID: 1558654206}
+  - component: {fileID: 1558654209}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: Untagged
@@ -50889,6 +51048,38 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1558654209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558654204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04067d2d3964c4352b231cd31fdebbe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Footsteps
+  footstepEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4773ead14b9c742d780fdfdd191c46cc, type: 2}
+  stoneSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5c59edc794e7e4416b89561b0f1e5521, type: 2}
+  grassSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 12b637b69a338465a9483adb84a91e10, type: 2}
+  rb: {fileID: 422541051}
+  movementThreshold: 0.1
+  stepInterval: 0.4
+  currentSurface: Stone
 --- !u!1 &1559113589
 GameObject:
   m_ObjectHideFlags: 19
@@ -65725,6 +65916,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3971728358778534718, guid: 8b15813bc6bdade41a4e1f89c5c32b61, type: 3}
   m_PrefabInstance: {fileID: 1413810715}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1976341131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1976341132}
+  m_Layer: 0
+  m_Name: Sound Design
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1976341132
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976341131}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1091928206}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1976829951 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3971728358778534718, guid: 8b15813bc6bdade41a4e1f89c5c32b61, type: 3}
@@ -71940,3 +72163,4 @@ SceneRoots:
   - {fileID: 1078025643}
   - {fileID: 1822322271}
   - {fileID: 154850696}
+  - {fileID: 1976341132}

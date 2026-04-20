@@ -1,0 +1,30 @@
+Event	ID	Name			Wwise Object Path	Notes
+	298480340	Play_Dying_Sound_Lute			\Default Work Unit\Character\Play_Dying_Sound_Lute	
+	1958657586	Play_Winning			\Default Work Unit\Character\Play_Winning	
+	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3714303081	Surfaces			\Default Work Unit\Surfaces	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	Stone	Surfaces			
+	4248645337	Grass	Surfaces			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	103315941	Dying Sound Lute	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\D4\{D4D7EC73-9B0B-6DB0-2B1C-52BD75009EEE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Dying Sound Lute		507492
+	149514148	Grass Footsteps_04	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F2\{F216F416-2361-3F91-03E4-1B00286F21FB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Grass\Grass Footsteps_04		198716
+	174934780	Grass Footsteps	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\26\{265957EC-4997-81B8-D907-B85159B81E44}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Grass\Grass Footsteps		139784
+	185104748	Stone Footsteps	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\67\{67703E8C-8C9C-D6C0-080C-806E4F0B5C3F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Stone\Stone Footsteps		32356
+	331557878	Stone Footsteps_05	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\2B\{2B782BBC-2917-F522-7166-0F50797111A2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Stone\Stone Footsteps_05		42494
+	348335960	Stone Footsteps_01	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\29\{296ABB92-FA56-FD97-17AA-ED4BBF7C0BE1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Stone\Stone Footsteps_01		58164
+	437992250	Grass Footsteps_03	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\75\{75EED762-F737-470D-62D1-309CACAC877B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Grass\Grass Footsteps_03		172524
+	445573981	Grass Footsteps_05	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E4\{E4FAF49E-1AE3-57E3-2270-92863B0FBD55}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Grass\Grass Footsteps_05		218364
+	529339914	Stone Footsteps_03	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B0\{B06B8601-148F-DFF5-A189-725850557DC3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Stone\Stone Footsteps_03		27748
+	546817046	Stone Footsteps_04	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\C2\{C285D4BF-987D-D109-34D9-29AFDDA5DBAB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Stone\Stone Footsteps_04		26824
+	660085615	Grass Footsteps_02	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\6D\{6DB4CC54-6F44-6D29-E678-D0144B691A57}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Grass\Grass Footsteps_02		176892
+	851260214	Stone Footsteps_02	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\2A\{2A0BFBE0-E752-D502-1B65-E48D773D3185}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Stone\Stone Footsteps_02		24982
+	855066329	Grass Footsteps_07	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\27\{278F7E42-2EB5-8539-FDBA-2A94F911B17C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Grass\Grass Footsteps_07		141968
+	875838737	Winning	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\D2\{D2C76212-F615-3CFF-6CD1-FA2E1D2CA32E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Winning		989380
+	968785887	Grass Footsteps_06	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B4\{B4B68D4B-E078-DB2F-237D-0FE2681B110C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Grass\Grass Footsteps_06		165976
+	986191575	Grass Footsteps_01	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\24\{24186C57-6063-3B66-0454-FF4B1437EE31}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Grass\Grass Footsteps_01		183436
+

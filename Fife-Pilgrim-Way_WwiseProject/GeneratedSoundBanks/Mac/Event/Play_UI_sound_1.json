@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{FCC35365-3D24-4F19-A971-316B79DDF947}",
     "Language": "SFX",
-    "Hash": "{D7AE5B22-C66B-0030-5317-1E3167B0F26E}",
+    "Hash": "{DB8F6668-682F-F013-51EE-08DBF575196B}",
     "ObjectPath": "Play_UI_sound_1",
     "ShortName": "Play_UI_sound_1",
     "Path": "Event/Play_UI_sound_1.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{B6DCF04D-2A00-A727-3050-59958D3E496B}"
+  "FileHash": "{8CB22D80-0516-501C-BB65-0EB47748568F}"
  }
 }
