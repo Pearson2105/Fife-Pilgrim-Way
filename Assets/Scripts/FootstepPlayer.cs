@@ -15,7 +15,7 @@ public class FootstepPlayer : MonoBehaviour
 
     void Update()
     {
-        float speed = rb.linearVelocity.magnitude;
+        float speed = rb.velocity.magnitude;
 
         if (speed > movementThreshold)
         {
@@ -44,3 +44,4 @@ public class FootstepPlayer : MonoBehaviour
         Debug.Log("Footstep (Stone) played");
     }
 }
+

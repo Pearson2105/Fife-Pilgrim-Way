@@ -3,13 +3,12 @@ using UnityEngine;
 public class FootstepPlayer : MonoBehaviour
 {
     [Header("Wwise")]
-    public AK.Wwise.Event footstepEvent;      // Play_Footsteps
-    public AK.Wwise.Switch grassSwitch;       // Surfaces: Grass
+    public AK.Wwise.Event footstepEvent;   // This MUST show in Inspector
 
     [Header("Movement Settings")]
-    public Rigidbody rb;                      // Drag your Rigidbody here
-    public float movementThreshold = 0.1f;    // Minimum speed to count as walking
-    public float stepInterval = 0.4f;         // Time between steps
+    public Rigidbody rb;
+    public float movementThreshold = 0.1f;
+    public float stepInterval = 0.4f;
 
     private float stepTimer = 0f;
 
@@ -35,13 +34,14 @@ public class FootstepPlayer : MonoBehaviour
 
     void PlayFootstep()
     {
-        // REQUIRED for Switch Containers
-        grassSwitch.SetValue(gameObject);
-
-        // Play the event
-        footstepEvent.Post(gameObject);
-
-        Debug.Log("Footstep (Grass) played");
+        if (footstepEvent != null)
+        {
+            footstepEvent.Post(gameObject);
+            Debug.Log("Grass footstep played");
+        }
+        else
+        {
+            Debug.LogWarning("Footstep event not assigned!");
+        }
     }
 }
-
