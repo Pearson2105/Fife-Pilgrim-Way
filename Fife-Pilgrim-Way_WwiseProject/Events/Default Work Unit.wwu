@@ -268,6 +268,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Grass" ID="{D85CCE17-79E3-4EBE-BAC8-DFC028581135}">
+					<ChildrenList>
+						<Action Name="" ID="{064F506D-6C53-483E-9A55-DBFBED2BE499}" ShortID="296645717">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grass" ID="{66C46C79-74AF-46FF-B955-82C0E7EAACFF}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Stone" ID="{B7E89EFE-F7FA-4129-B771-33FBBCBDD9E2}">
+					<ChildrenList>
+						<Action Name="" ID="{1F175DEC-5E7D-4CE7-8743-770719592FE9}" ShortID="546678063">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stone" ID="{F2589558-BEC1-46CD-9761-29122BD29261}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

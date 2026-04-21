@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A26D566D-4BA8-411E-A3E6-D4C18BDED466}",
     "Language": "SFX",
-    "Hash": "{53098C91-1702-6F5D-60EC-47BEFB01BC48}",
+    "Hash": "{6BE0645C-A41E-C12A-9B1A-9D6A64CAF2ED}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Character",
     "ShortName": "Character",
     "Path": "Character.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "Dying Sound Lute.wav",
       "CachePath": "D4/{D4D7EC73-9B0B-6DB0-2B1C-52BD75009EEE}.wem"
+     },
+     {
+      "Id": "126852145",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bear.wav",
+      "CachePath": "EE/{EE9E7D9B-D731-203A-1362-52770F379C91}.wem"
      },
      {
       "Id": "149514148",
@@ -64,6 +72,22 @@
       "CachePath": "67/{67703E8C-8C9C-D6C0-080C-806E4F0B5C3F}.wem"
      },
      {
+      "Id": "254597642",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wild Boar.wav",
+      "CachePath": "77/{77E5B661-A33B-8B71-F9E6-3A175102D18F}.wem"
+     },
+     {
+      "Id": "306672692",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bear.wav",
+      "CachePath": "C6/{C6E761B9-2658-DBE8-5452-ACC3BE6B4320}.wem"
+     },
+     {
       "Id": "331557878",
       "Language": "SFX",
       "Streaming": "false",
@@ -72,12 +96,36 @@
       "CachePath": "2B/{2B782BBC-2917-F522-7166-0F50797111A2}.wem"
      },
      {
+      "Id": "331685624",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bear.wav",
+      "CachePath": "E3/{E32A6675-6275-DEF0-A985-7E91166EFF76}.wem"
+     },
+     {
       "Id": "348335960",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Stone Footsteps.wav",
       "CachePath": "29/{296ABB92-FA56-FD97-17AA-ED4BBF7C0BE1}.wem"
+     },
+     {
+      "Id": "363875322",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bear.wav",
+      "CachePath": "22/{22844BF3-D9DF-20BD-8076-665E3E92668B}.wem"
+     },
+     {
+      "Id": "384744663",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bear.wav",
+      "CachePath": "53/{535C14D8-D137-4185-ED02-011176F4122E}.wem"
      },
      {
       "Id": "437992250",
@@ -112,12 +160,28 @@
       "CachePath": "C2/{C285D4BF-987D-D109-34D9-29AFDDA5DBAB}.wem"
      },
      {
+      "Id": "558117256",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bear.wav",
+      "CachePath": "2C/{2CF842DB-6016-FA4E-EA42-E3B2B26C5EBD}.wem"
+     },
+     {
       "Id": "660085615",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grass Footsteps.wav",
       "CachePath": "6D/{6DB4CC54-6F44-6D29-E678-D0144B691A57}.wem"
+     },
+     {
+      "Id": "686703559",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bear.wav",
+      "CachePath": "62/{621A973E-4289-CC0B-A1AB-C3B1B11EE101}.wem"
      },
      {
       "Id": "851260214",
@@ -158,9 +222,52 @@
       "Location": "Memory",
       "ShortName": "Grass Footsteps.wav",
       "CachePath": "24/{24186C57-6063-3B66-0454-FF4B1437EE31}.wem"
+     },
+     {
+      "Id": "1024706273",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bear.wav",
+      "CachePath": "F6/{F6239955-E84F-BFCF-413F-EA8EDB1AC6DB}.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "1996054844",
+      "Name": "Play_Bear",
+      "ObjectPath": "\\Events\\Default Work Unit\\Animals\\Play_Bear",
+      "GUID": "{655667E1-E91F-43B0-9B05-F1912182A9DD}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5363154",
+      "DurationMax": "2.1320295",
+      "MediaRefs": [
+       {
+        "Id": "126852145"
+       },
+       {
+        "Id": "306672692"
+       },
+       {
+        "Id": "331685624"
+       },
+       {
+        "Id": "363875322"
+       },
+       {
+        "Id": "384744663"
+       },
+       {
+        "Id": "558117256"
+       },
+       {
+        "Id": "686703559"
+       },
+       {
+        "Id": "1024706273"
+       }
+      ]
+     },
      {
       "Id": "755525525",
       "Name": "Play_Birds_and_Wind_01",
@@ -262,6 +369,41 @@
       ]
      },
      {
+      "Id": "3198961276",
+      "Name": "Play_Grass",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Grass",
+      "GUID": "{D85CCE17-79E3-4EBE-BAC8-DFC028581135}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.72754973",
+      "DurationMax": "1.1367966",
+      "MediaRefs": [
+       {
+        "Id": "149514148"
+       },
+       {
+        "Id": "174934780"
+       },
+       {
+        "Id": "437992250"
+       },
+       {
+        "Id": "445573981"
+       },
+       {
+        "Id": "660085615"
+       },
+       {
+        "Id": "855066329"
+       },
+       {
+        "Id": "968785887"
+       },
+       {
+        "Id": "986191575"
+       }
+      ]
+     },
+     {
       "Id": "2350077198",
       "Name": "Play_Sea_Ambience",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Play_Sea_Ambience",
@@ -270,6 +412,49 @@
       "MediaRefs": [
        {
         "Id": "161914615"
+       }
+      ]
+     },
+     {
+      "Id": "2702709145",
+      "Name": "Play_Stone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Stone",
+      "GUID": "{B7E89EFE-F7FA-4129-B771-33FBBCBDD9E2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.259228",
+      "DurationMax": "0.6048653",
+      "MediaRefs": [
+       {
+        "Id": "185104748"
+       },
+       {
+        "Id": "331557878"
+       },
+       {
+        "Id": "348335960"
+       },
+       {
+        "Id": "529339914"
+       },
+       {
+        "Id": "546817046"
+       },
+       {
+        "Id": "851260214"
+       }
+      ]
+     },
+     {
+      "Id": "3318202069",
+      "Name": "Play_Wild_Boar",
+      "ObjectPath": "\\Events\\Default Work Unit\\Animals\\Play_Wild_Boar",
+      "GUID": "{12F956E2-5561-4520-8759-AC0336B2A040}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.064768",
+      "DurationMax": "6.064768",
+      "MediaRefs": [
+       {
+        "Id": "254597642"
        }
       ]
      },
@@ -312,6 +497,6 @@
     ]
    }
   ],
-  "FileHash": "{134148BA-7890-F6E7-3F6B-E44AD0B36E99}"
+  "FileHash": "{F46CB6C1-67F7-D6E1-5474-A5C2A4D7516E}"
  }
 }

@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	1996054844	Play_Bear			\Default Work Unit\Animals\Play_Bear	
-

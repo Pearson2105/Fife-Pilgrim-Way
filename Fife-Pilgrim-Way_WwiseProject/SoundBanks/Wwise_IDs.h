@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID PLAY_COMBAT = 513571230U;
         static const AkUniqueID PLAY_DYING_SOUND_LUTE = 298480340U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
+        static const AkUniqueID PLAY_GRASS = 3198961276U;
         static const AkUniqueID PLAY_HORSE_GALLOP = 1037036053U;
         static const AkUniqueID PLAY_HORSE_NEIGH = 1320828253U;
         static const AkUniqueID PLAY_INSTRUMENT_VOICE = 1246001926U;
@@ -25,6 +26,7 @@ namespace AK
         static const AkUniqueID PLAY_PILGRIM_MUSIC = 1318035572U;
         static const AkUniqueID PLAY_SCOTS_SPEECH = 3597291569U;
         static const AkUniqueID PLAY_SEA_AMBIENCE = 2350077198U;
+        static const AkUniqueID PLAY_STONE = 2702709145U;
         static const AkUniqueID PLAY_UI_SOUND_1 = 2794064168U;
         static const AkUniqueID PLAY_UI_SOUND_2 = 2794064171U;
         static const AkUniqueID PLAY_WILD_BOAR = 3318202069U;
