@@ -1,0 +1,121 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3991942870",
+    "Type": "User",
+    "GUID": "{BD2805A3-5A6E-4BC6-9D49-DFE775FFB928}",
+    "Language": "SFX",
+    "Hash": "{4A549287-C4F6-B1C4-C65F-BA348B497054}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
+    "ShortName": "Music",
+    "Path": "Music.bnk",
+    "Media": [
+     {
+      "Id": "709179098",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "gaelic_dawn_relaxing_irish_ballad285924.wav",
+      "CachePath": "F7/{F79AECB0-9069-A194-D678-2DE5918BC4D2}.wem"
+     },
+     {
+      "Id": "905895884",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menu Music wav.wav",
+      "CachePath": "8B/{8B61D545-5504-FCF7-AFBB-6D4B225595E7}.wem"
+     },
+     {
+      "Id": "1047828154",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Combat.wav",
+      "CachePath": "B4/{B4068EEF-E5B4-9BDA-376C-7B09C0355619}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "513571230",
+      "Name": "Play_Combat",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Combat",
+      "GUID": "{1E836175-B811-452B-AABA-363405AFCEFC}",
+      "DurationType": "OneShot",
+      "DurationMin": "231.91512",
+      "DurationMax": "231.91512",
+      "MediaRefs": [
+       {
+        "Id": "1047828154"
+       }
+      ]
+     },
+     {
+      "Id": "1278535812",
+      "Name": "Play_Menu_Music_wav",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Menu_Music_wav",
+      "GUID": "{A8D95C6C-CB6B-47D7-ACCE-7D2BD1FB53F0}",
+      "DurationType": "OneShot",
+      "DurationMin": "71.04",
+      "DurationMax": "71.04",
+      "MediaRefs": [
+       {
+        "Id": "905895884"
+       }
+      ]
+     },
+     {
+      "Id": "1318035572",
+      "Name": "Play_Pilgrim_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Pilgrim_Music",
+      "GUID": "{533175E5-194A-4B97-8463-5EAC0DDEC33B}",
+      "DurationType": "OneShot",
+      "DurationMin": "156.6",
+      "DurationMax": "156.6",
+      "MediaRefs": [
+       {
+        "Id": "709179098"
+       }
+      ]
+     },
+     {
+      "Id": "913896232",
+      "Name": "Stop_Combat",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Combat",
+      "GUID": "{F7C0396D-D139-41E9-AFD5-BC38B7035C1E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "675925678",
+      "Name": "Stop_Menu_Music_wav",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Menu_Music_wav",
+      "GUID": "{7ADA7E54-E3CD-4BBF-975A-50BB2FF0CF39}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2353419370",
+      "Name": "Stop_Pilgrim_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Pilgrim_Music",
+      "GUID": "{DC5FEA36-A298-48CE-BCE7-FE5E75A6A2A0}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{10DC681B-B1D1-2F44-E50B-C39FFC12B813}"
+ }
+}

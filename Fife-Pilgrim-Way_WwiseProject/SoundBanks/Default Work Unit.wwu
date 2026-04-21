@@ -5,7 +5,9 @@
 			<ChildrenList>
 				<SoundBank Name="test" ID="{D8FD57E4-B5DD-4F65-A7D4-F44D97F3C311}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Birds_and_Wind_01" ID="{F67D52A3-B184-4A36-990B-498A0B73955D}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Instrument_Voice" ID="{4B1C054C-9667-4B1C-8B5F-5A93E05C4051}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Sea_Ambience" ID="{213A7980-524B-4BDF-A94D-BAA720836903}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -15,6 +17,18 @@
 						<ObjectRef Name="Play_Footsteps" ID="{572322A6-D55D-4386-B02F-067A740F40F8}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Winning" ID="{E5FAF9F1-33E4-4B3E-A42D-E21FAC2BF3B4}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Dying_Sound_Lute" ID="{1A813ED9-2D95-4DC9-9896-90B913EEE60D}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{BD2805A3-5A6E-4BC6-9D49-DFE775FFB928}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_Combat" ID="{F7C0396D-D139-41E9-AFD5-BC38B7035C1E}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Combat" ID="{1E836175-B811-452B-AABA-363405AFCEFC}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Menu_Music_wav" ID="{A8D95C6C-CB6B-47D7-ACCE-7D2BD1FB53F0}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Pilgrim_Music" ID="{DC5FEA36-A298-48CE-BCE7-FE5E75A6A2A0}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Pilgrim_Music" ID="{533175E5-194A-4B97-8463-5EAC0DDEC33B}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Menu_Music_wav" ID="{7ADA7E54-E3CD-4BBF-975A-50BB2FF0CF39}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

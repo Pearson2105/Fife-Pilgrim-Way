@@ -287,6 +287,21 @@
 							</ObjectLists>
 						</MusicSegment>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Entries">
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{33626803-C663-4E2E-8C3F-B17CA23CBBC2}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Combat" ID="{E4D7C683-8F44-4ADD-85F3-B0559A89728F}" WorkUnitID="{000F2366-3633-49C0-AB8E-BAFDF9B25003}"/>
+											</Reference>
+										</ReferenceList>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>

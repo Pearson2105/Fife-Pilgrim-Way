@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{A26D566D-4BA8-411E-A3E6-D4C18BDED466}",
     "Language": "SFX",
-    "Hash": "{B639E4B7-D40F-8602-58FC-44BBE0BFA8CF}",
+    "Hash": "{53098C91-1702-6F5D-60EC-47BEFB01BC48}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Character",
     "ShortName": "Character",
     "Path": "Character.bnk",
     "Media": [
+     {
+      "Id": "101589374",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds and Wind.wav",
+      "CachePath": "B2/{B2969F8F-52C7-A1FD-0694-B7066826D9E0}.wem"
+     },
      {
       "Id": "103315941",
       "Language": "SFX",
@@ -30,6 +38,14 @@
       "Location": "Memory",
       "ShortName": "Grass Footsteps.wav",
       "CachePath": "F2/{F216F416-2361-3F91-03E4-1B00286F21FB}.wem"
+     },
+     {
+      "Id": "161914615",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sea Ambience.wav",
+      "CachePath": "A5/{A5E3746F-86FC-1E71-A545-8F08850688AC}.wem"
      },
      {
       "Id": "174934780",
@@ -146,6 +162,18 @@
     ],
     "Events": [
      {
+      "Id": "755525525",
+      "Name": "Play_Birds_and_Wind_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Play_Birds_and_Wind_01",
+      "GUID": "{F67D52A3-B184-4A36-990B-498A0B73955D}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "101589374"
+       }
+      ]
+     },
+     {
       "Id": "298480340",
       "Name": "Play_Dying_Sound_Lute",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Play_Dying_Sound_Lute",
@@ -234,6 +262,18 @@
       ]
      },
      {
+      "Id": "2350077198",
+      "Name": "Play_Sea_Ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Play_Sea_Ambience",
+      "GUID": "{213A7980-524B-4BDF-A94D-BAA720836903}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "161914615"
+       }
+      ]
+     },
+     {
       "Id": "1958657586",
       "Name": "Play_Winning",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Play_Winning",
@@ -272,6 +312,6 @@
     ]
    }
   ],
-  "FileHash": "{1B53F5E2-1072-EA30-FAE8-D1E6B6C3D295}"
+  "FileHash": "{134148BA-7890-F6E7-3F6B-E44AD0B36E99}"
  }
 }
