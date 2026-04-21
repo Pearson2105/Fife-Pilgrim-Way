@@ -114,21 +114,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Music" ID="{F8EB5B38-B1CB-4E98-94BE-4A30E2404D08}" ShortID="819034919">
-					<ChildrenList>
-						<Event Name="Play_Music_Switch" ID="{5942155E-9C2B-483F-9E61-C365788FF032}">
-							<ChildrenList>
-								<Action Name="" ID="{04C1D0CE-5756-4299-A742-C94F93DC38AB}" ShortID="587347615">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Music Switch" ID="{149D2C57-B356-43D2-87F1-62B9A6414B9A}" WorkUnitID="{000F2366-3633-49C0-AB8E-BAFDF9B25003}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
 				<Folder Name="UI" ID="{FBB90745-8FC2-4E07-8147-C1A57B61832B}" ShortID="412111096">
 					<ChildrenList>
 						<Event Name="Play_UI_sound_1" ID="{FCC35365-3D24-4F19-A971-316B79DDF947}">
@@ -203,6 +188,81 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Footsteps" ID="{E92280E0-BB79-4D4B-B2B8-05B87AC967A9}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Menu_Music_wav" ID="{A8D95C6C-CB6B-47D7-ACCE-7D2BD1FB53F0}">
+					<ChildrenList>
+						<Action Name="" ID="{4A675931-6E8C-4DA1-A29A-FBE481FC393E}" ShortID="71696417">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu Music wav" ID="{D1C465E7-3AE8-4348-902E-0E88C08ABDBC}" WorkUnitID="{000F2366-3633-49C0-AB8E-BAFDF9B25003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Menu_Music_wav" ID="{7ADA7E54-E3CD-4BBF-975A-50BB2FF0CF39}">
+					<ChildrenList>
+						<Action Name="" ID="{65FBDFC1-14BD-4834-A796-4D0BDB7B33F0}" ShortID="1049172033">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu Music wav" ID="{D1C465E7-3AE8-4348-902E-0E88C08ABDBC}" WorkUnitID="{000F2366-3633-49C0-AB8E-BAFDF9B25003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Pilgrim_Music" ID="{533175E5-194A-4B97-8463-5EAC0DDEC33B}">
+					<ChildrenList>
+						<Action Name="" ID="{83A69294-0367-4C3C-8734-109D77FDC49F}" ShortID="913508163">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pilgrim Music" ID="{6E700845-8BE7-4AC1-BA32-DB6FE5EAA99F}" WorkUnitID="{000F2366-3633-49C0-AB8E-BAFDF9B25003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Pilgrim_Music" ID="{DC5FEA36-A298-48CE-BCE7-FE5E75A6A2A0}">
+					<ChildrenList>
+						<Action Name="" ID="{9124FC05-4577-4E09-998E-9E599DB63804}" ShortID="543655613">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pilgrim Music" ID="{6E700845-8BE7-4AC1-BA32-DB6FE5EAA99F}" WorkUnitID="{000F2366-3633-49C0-AB8E-BAFDF9B25003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Combat" ID="{1E836175-B811-452B-AABA-363405AFCEFC}">
+					<ChildrenList>
+						<Action Name="" ID="{9C7136AC-AD02-48C5-BC91-A511CA4A9F57}" ShortID="730500333">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Combat" ID="{E4D7C683-8F44-4ADD-85F3-B0559A89728F}" WorkUnitID="{000F2366-3633-49C0-AB8E-BAFDF9B25003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Combat" ID="{F7C0396D-D139-41E9-AFD5-BC38B7035C1E}">
+					<ChildrenList>
+						<Action Name="" ID="{7CE6E2DA-8FA8-4D58-AC3C-D0CAF1EB1C2A}" ShortID="802957120">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Combat" ID="{E4D7C683-8F44-4ADD-85F3-B0559A89728F}" WorkUnitID="{000F2366-3633-49C0-AB8E-BAFDF9B25003}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

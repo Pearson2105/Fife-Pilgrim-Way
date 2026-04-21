@@ -15,12 +15,14 @@ namespace AK
     {
         static const AkUniqueID PLAY_BEAR = 1996054844U;
         static const AkUniqueID PLAY_BIRDS_AND_WIND_01 = 755525525U;
+        static const AkUniqueID PLAY_COMBAT = 513571230U;
         static const AkUniqueID PLAY_DYING_SOUND_LUTE = 298480340U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_HORSE_GALLOP = 1037036053U;
         static const AkUniqueID PLAY_HORSE_NEIGH = 1320828253U;
         static const AkUniqueID PLAY_INSTRUMENT_VOICE = 1246001926U;
-        static const AkUniqueID PLAY_MUSIC_SWITCH = 1228139402U;
+        static const AkUniqueID PLAY_MENU_MUSIC_WAV = 1278535812U;
+        static const AkUniqueID PLAY_PILGRIM_MUSIC = 1318035572U;
         static const AkUniqueID PLAY_SCOTS_SPEECH = 3597291569U;
         static const AkUniqueID PLAY_SEA_AMBIENCE = 2350077198U;
         static const AkUniqueID PLAY_UI_SOUND_1 = 2794064168U;
@@ -28,6 +30,9 @@ namespace AK
         static const AkUniqueID PLAY_WILD_BOAR = 3318202069U;
         static const AkUniqueID PLAY_WINNING = 1958657586U;
         static const AkUniqueID PLAY_WOLF = 1523845998U;
+        static const AkUniqueID STOP_COMBAT = 913896232U;
+        static const AkUniqueID STOP_MENU_MUSIC_WAV = 675925678U;
+        static const AkUniqueID STOP_PILGRIM_MUSIC = 2353419370U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -105,6 +110,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID CHARACTER = 436743010U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID TEST = 3157003241U;
     } // namespace BANKS
 

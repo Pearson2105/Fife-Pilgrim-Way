@@ -4002,8 +4002,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1974506593}
+  m_Children: []
   m_Father: {fileID: 1436594373}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -7155,16 +7154,9 @@ MonoBehaviour:
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 5c59edc794e7e4416b89561b0f1e5521, type: 2}
-  grassSwitch:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 12b637b69a338465a9483adb84a91e10, type: 2}
   rb: {fileID: 422541051}
   movementThreshold: 0.1
   stepInterval: 0.4
-  currentSurface: Stone
 --- !u!4 &206820800 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3971728358778534718, guid: 8b15813bc6bdade41a4e1f89c5c32b61, type: 3}
@@ -15153,16 +15145,9 @@ MonoBehaviour:
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 5c59edc794e7e4416b89561b0f1e5521, type: 2}
-  grassSwitch:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 12b637b69a338465a9483adb84a91e10, type: 2}
   rb: {fileID: 422541051}
   movementThreshold: 0.1
   stepInterval: 0.4
-  currentSurface: Stone
 --- !u!81 &422541058
 AudioListener:
   m_ObjectHideFlags: 0
@@ -51992,16 +51977,9 @@ MonoBehaviour:
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 5c59edc794e7e4416b89561b0f1e5521, type: 2}
-  grassSwitch:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 12b637b69a338465a9483adb84a91e10, type: 2}
   rb: {fileID: 422541051}
   movementThreshold: 0.1
   stepInterval: 0.4
-  currentSurface: Stone
 --- !u!1 &1559113589
 GameObject:
   m_ObjectHideFlags: 19
@@ -52031,6 +52009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d0d71238b38a4a38b35b955fbf5c019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::nTools.PrefabPainter.PrefabPainterSceneSettings
+  parentForPrefabs: {fileID: 0}
 --- !u!4 &1559113591
 Transform:
   m_ObjectHideFlags: 19
@@ -73501,3 +73480,5 @@ SceneRoots:
   - {fileID: 1822322271}
   - {fileID: 154850696}
   - {fileID: 1976341132}
+  - {fileID: 1576487639}
+  - {fileID: 1609031967}

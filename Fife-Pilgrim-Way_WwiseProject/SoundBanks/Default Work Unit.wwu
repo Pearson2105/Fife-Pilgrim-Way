@@ -19,6 +19,18 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Music" ID="{BD2805A3-5A6E-4BC6-9D49-DFE775FFB928}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_Combat" ID="{F7C0396D-D139-41E9-AFD5-BC38B7035C1E}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Combat" ID="{1E836175-B811-452B-AABA-363405AFCEFC}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Menu_Music_wav" ID="{A8D95C6C-CB6B-47D7-ACCE-7D2BD1FB53F0}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Pilgrim_Music" ID="{DC5FEA36-A298-48CE-BCE7-FE5E75A6A2A0}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Pilgrim_Music" ID="{533175E5-194A-4B97-8463-5EAC0DDEC33B}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Menu_Music_wav" ID="{7ADA7E54-E3CD-4BBF-975A-50BB2FF0CF39}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
