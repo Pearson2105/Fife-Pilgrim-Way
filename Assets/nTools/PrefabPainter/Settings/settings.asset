@@ -2686,7 +2686,7 @@ MonoBehaviour:
     brushes:
     - name: SM_large_spruce
       settings:
-        brushRadius: 0.01
+        brushRadius: 14.3
         brushSpacing: 5
         brushOverlapCheckMode: 0
         brushOverlapDistance: 0.5
@@ -2996,12 +2996,12 @@ MonoBehaviour:
       - gameObject: {fileID: 0}
       - gameObject: {fileID: 0}
       selectedSlot: 0
-      selected: 1
+      selected: 0
       colorTag: 0
       customPreviewImage: {fileID: 0}
     - name: SM_large_spruce_1
       settings:
-        brushRadius: 0.01
+        brushRadius: 11
         brushSpacing: 4.44
         brushOverlapCheckMode: 0
         brushOverlapDistance: 0.5
@@ -4261,7 +4261,7 @@ MonoBehaviour:
       customPreviewImage: {fileID: 0}
     - name: SM_pine_3
       settings:
-        brushRadius: 1
+        brushRadius: 9.2
         brushSpacing: 3.65
         brushOverlapCheckMode: 0
         brushOverlapDistance: 0.5
@@ -4571,7 +4571,7 @@ MonoBehaviour:
       - gameObject: {fileID: 0}
       - gameObject: {fileID: 0}
       selectedSlot: 0
-      selected: 0
+      selected: 1
       colorTag: 0
       customPreviewImage: {fileID: 0}
     - name: SM_small_spruce
@@ -6798,7 +6798,7 @@ MonoBehaviour:
     levelsInWhite: 255
     levelsOutBlack: 0
     levelsOutWhite: 255
-  activeTab: 6
+  activeTab: 4
   paintOnSelected: 0
   paintLayers:
     serializedVersion: 2
