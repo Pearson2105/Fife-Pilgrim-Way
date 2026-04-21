@@ -67388,6 +67388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1976341132}
+  - component: {fileID: 1976341133}
   m_Layer: 0
   m_Name: Sound Design
   m_TagString: Untagged
@@ -67412,6 +67413,22 @@ Transform:
   - {fileID: 1789275504}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1976341133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976341131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a7cf0664f6d4e899ce1bacebbbf35b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  ambienceEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d4ec4c04bfdad410e850d49beaec6f8f, type: 2}
 --- !u!4 &1976829951 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3971728358778534718, guid: 8b15813bc6bdade41a4e1f89c5c32b61, type: 3}
