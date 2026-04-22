@@ -19442,35 +19442,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &1151175515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1151175508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 059cba241dbd54c409fedd58ea10add7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkEvent
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 0d1fe3b37207a4cd0b96fe2ca9f140bf, type: 2}
-  useCallbacks: 0
-  stopSoundOnDestroy: 1
-  Callbacks: []
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
 --- !u!114 &1151175516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19495,6 +19466,21 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &1151175518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151175508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbc946aa7ab6b4cd6b8694c8563e624e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  eventName: Play_Wild_Boar
+  interval: 6
+  randomness: 2
 --- !u!4 &1155871411 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6215317277412589316, guid: 231e02f67db138f4db3f48da52e0c225, type: 3}
@@ -28057,7 +28043,7 @@ PrefabInstance:
       addedObject: {fileID: 1151175516}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88be62c153c6b6747b05413f3e7993a8, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1151175515}
+      addedObject: {fileID: 1151175518}
   m_SourcePrefab: {fileID: 100100000, guid: 88be62c153c6b6747b05413f3e7993a8, type: 3}
 --- !u!1001 &1780246922
 PrefabInstance:
