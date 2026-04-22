@@ -904,6 +904,17 @@
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A0DFF375-6F3F-4D37-A2DB-A49C5C5806D1}\x64_HiddenCategories" Type="string" Value="AgAAAAAAAABIRFIATUlESQA="/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A0DFF375-6F3F-4D37-A2DB-A49C5C5806D1}\x64_InspectedObject" Type="string" Value=""/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A0DFF375-6F3F-4D37-A2DB-A49C5C5806D1}\x64_RecentCategories" Type="string" Value="AAAAAAAAAAA="/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\CurrentSearch" Type="string" Value=""/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\RecentCategoriesTopCount" Type="int32" Value="0"/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\ValueColumnWidth" Type="int32" Value="140"/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\VisualOptions" Type="int32" Value="2"/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\x64_CollapsedGroups" Type="string" Value="AAAAAAAAAAA="/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\x64_CollapsedGroupsAllMode" Type="string" Value="AAAAAAAAAAA="/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\x64_ExpandedGroups" Type="string" Value="AAAAAAAAAAA="/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\x64_ExpandedGroupsAllMode" Type="string" Value="AAAAAAAAAAA="/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\x64_HiddenCategories" Type="string" Value="AgAAAAAAAABIRFIATUlESQA="/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\x64_InspectedObject" Type="string" Value=""/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\x64_RecentCategories" Type="string" Value="AAAAAAAAAAA="/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A45AAC64-78D1-46A7-88FA-F242B38651B4}\CurrentSearch" Type="string" Value=""/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A45AAC64-78D1-46A7-88FA-F242B38651B4}\RecentCategoriesTopCount" Type="int32" Value="0"/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{A45AAC64-78D1-46A7-88FA-F242B38651B4}\ValueColumnWidth" Type="int32" Value="140"/>
@@ -1993,6 +2004,17 @@
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A0DFF375-6F3F-4D37-A2DB-A49C5C5806D1}\x64_HiddenCategories" Type="string" Value="AgAAAAAAAABIRFIATUlESQA="/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A0DFF375-6F3F-4D37-A2DB-A49C5C5806D1}\x64_InspectedObject" Type="string" Value="4IAi6Xm7S02yuAW4eslnqQ=="/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A0DFF375-6F3F-4D37-A2DB-A49C5C5806D1}\x64_RecentCategories" Type="string" Value="BgAAAAAAAABBbGwAQWR2YW5jZWQAUG9zaXRpb25pbmcAQ29udmVyc2lvbgBSb3V0aW5nAEdlbmVyYWwA"/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\CurrentSearch" Type="string" Value=""/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\RecentCategoriesTopCount" Type="int32" Value="0"/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\ValueColumnWidth" Type="int32" Value="140"/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\VisualOptions" Type="int32" Value="2"/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\x64_CollapsedGroups" Type="string" Value="AAAAAAAAAAA="/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\x64_CollapsedGroupsAllMode" Type="string" Value="AAAAAAAAAAA="/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\x64_ExpandedGroups" Type="string" Value="AAAAAAAAAAA="/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\x64_ExpandedGroupsAllMode" Type="string" Value="AAAAAAAAAAA="/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\x64_HiddenCategories" Type="string" Value="AgAAAAAAAABIRFIATUlESQA="/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\x64_InspectedObject" Type="string" Value=""/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A15B4DAD-EA43-4038-97B9-3E2FC8579E21}\x64_RecentCategories" Type="string" Value="AAAAAAAAAAA="/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A45AAC64-78D1-46A7-88FA-F242B38651B4}\CurrentSearch" Type="string" Value=""/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A45AAC64-78D1-46A7-88FA-F242B38651B4}\RecentCategoriesTopCount" Type="int32" Value="0"/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{A45AAC64-78D1-46A7-88FA-F242B38651B4}\ValueColumnWidth" Type="int32" Value="140"/>

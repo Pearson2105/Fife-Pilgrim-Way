@@ -10,13 +10,13 @@
   <LoadSoundEngineInEditMode>true</LoadSoundEngineInEditMode>
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
-  <WwiseInstallationPathMac />
+  <WwiseInstallationPathMac>/Users/rosemarydavidson/Desktop/Wwise2024.1.9.8920/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows>E:\Wwise2024.1.9.8920</WwiseInstallationPathWindows>
   <WwiseProjectPath>../Fife-Pilgrim-Way_WwiseProject/Fife-Pilgrim-Way_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>
-  <InstallationWasRequested>false</InstallationWasRequested>
+  <InstallationWasRequested>true</InstallationWasRequested>
   <UseGitRepository>true</UseGitRepository>
   <PackageSource>https://github.com/audiokinetic/WwiseUnityAddressables.git#v24.1.9</PackageSource>
   <AddressableBankFolder>WwiseData/Bank</AddressableBankFolder>

@@ -3162,9 +3162,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 223455543}
-  - component: {fileID: 223455542}
-  - component: {fileID: 223455541}
-  - component: {fileID: 223455540}
+  - component: {fileID: 223455546}
+  - component: {fileID: 223455545}
+  - component: {fileID: 223455544}
   m_Layer: 0
   m_Name: Sound Design
   m_TagString: Untagged
@@ -3172,7 +3172,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &223455540
+--- !u!4 &223455543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223455539}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -179.7363, y: 0, z: -407.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &223455544
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3197,7 +3212,7 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
---- !u!114 &223455541
+--- !u!114 &223455545
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3222,7 +3237,7 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
---- !u!114 &223455542
+--- !u!114 &223455546
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3247,21 +3262,6 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
---- !u!4 &223455543
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223455539}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -179.7363, y: 0, z: -407.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &225166404 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5188133209194681901, guid: cb9b3dd8aac6c164f91fca3ce64be609, type: 3}
@@ -19442,6 +19442,59 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1151175515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151175508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 059cba241dbd54c409fedd58ea10add7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkEvent
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0d1fe3b37207a4cd0b96fe2ca9f140bf, type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+--- !u!114 &1151175516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151175508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e1c104b6938cb419b79ee8a3e6527f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!4 &1155871411 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6215317277412589316, guid: 231e02f67db138f4db3f48da52e0c225, type: 3}
@@ -27999,6 +28052,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88be62c153c6b6747b05413f3e7993a8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1151175513}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88be62c153c6b6747b05413f3e7993a8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1151175516}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88be62c153c6b6747b05413f3e7993a8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1151175515}
   m_SourcePrefab: {fileID: 100100000, guid: 88be62c153c6b6747b05413f3e7993a8, type: 3}
 --- !u!1001 &1780246922
 PrefabInstance:
