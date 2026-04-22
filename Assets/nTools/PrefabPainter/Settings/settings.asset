@@ -2996,12 +2996,12 @@ MonoBehaviour:
       - gameObject: {fileID: 0}
       - gameObject: {fileID: 0}
       selectedSlot: 0
-      selected: 0
+      selected: 1
       colorTag: 0
       customPreviewImage: {fileID: 0}
     - name: SM_large_spruce_1
       settings:
-        brushRadius: 15.4
+        brushRadius: 2.7
         brushSpacing: 4.44
         brushOverlapCheckMode: 0
         brushOverlapDistance: 0.5
@@ -3311,7 +3311,7 @@ MonoBehaviour:
       - gameObject: {fileID: 0}
       - gameObject: {fileID: 0}
       selectedSlot: 0
-      selected: 1
+      selected: 0
       colorTag: 0
       customPreviewImage: {fileID: 0}
     - name: SM_medium_spruce
@@ -6802,10 +6802,10 @@ MonoBehaviour:
   paintOnSelected: 0
   paintLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 64
   ignoreLayers:
     serializedVersion: 2
-    m_Bits: 32
+    m_Bits: 33
   placeUnder: 2
   overwritePrefabLayer: 1
   prefabPlaceLayer: 5
