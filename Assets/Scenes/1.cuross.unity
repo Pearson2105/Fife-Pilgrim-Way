@@ -7148,7 +7148,7 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4773ead14b9c742d780fdfdd191c46cc, type: 2}
-  stoneSwitch:
+  surfaceSwitch:
     idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
@@ -15139,12 +15139,12 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4773ead14b9c742d780fdfdd191c46cc, type: 2}
-  stoneSwitch:
+  surfaceSwitch:
     idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 5c59edc794e7e4416b89561b0f1e5521, type: 2}
+    WwiseObjectReference: {fileID: 0}
   rb: {fileID: 422541051}
   movementThreshold: 0.1
   stepInterval: 0.4
@@ -52001,12 +52001,12 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4773ead14b9c742d780fdfdd191c46cc, type: 2}
-  stoneSwitch:
+  surfaceSwitch:
     idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 5c59edc794e7e4416b89561b0f1e5521, type: 2}
+    WwiseObjectReference: {fileID: 0}
   rb: {fileID: 422541051}
   movementThreshold: 0.1
   stepInterval: 0.4
@@ -58681,6 +58681,56 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6db2073b403fcc74c84b3584937b8683, type: 3}
+--- !u!1 &1728479981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1728479983}
+  - component: {fileID: 1728479982}
+  m_Layer: 0
+  m_Name: AudioInitialiser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1728479982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728479981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c03b99b1e1834a10819a2121f1b83e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  surfaceSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!4 &1728479983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728479981}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1729416312
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73647,3 +73697,4 @@ SceneRoots:
   - {fileID: 1976341132}
   - {fileID: 1576487639}
   - {fileID: 1609031967}
+  - {fileID: 1728479983}
