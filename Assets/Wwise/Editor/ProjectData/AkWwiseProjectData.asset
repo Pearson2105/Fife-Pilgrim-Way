@@ -523,8 +523,8 @@ MonoBehaviour:
         guid: e256f912615520458759ac0336b2a040
       Path: Events/Default Work Unit/Animals/Play_Wild_Boar
       maxAttenuation: 0
-      maxDuration: 6.064768
-      minDuration: 6.064768
+      maxDuration: 2.054196
+      minDuration: 1.0571941
     - name: Play_Winning
       guid: f1f9fae5e4333e4ba42de21fac2bf3b4
       id: 1958657586
