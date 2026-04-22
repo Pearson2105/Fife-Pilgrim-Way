@@ -2,19 +2,22 @@ using UnityEngine;
 
 public class FootstepPlayer : MonoBehaviour
 {
-    [Header("Wwise")]
-    public AK.Wwise.Event footstepEvent;      // Play_Footsteps
-    public AK.Wwise.Switch stoneSwitch;       // Surfaces: Stone
+    [Header("Wwise Settings")]
+    public AK.Wwise.Event footstepEvent; // This defines 'footstepEvent'
+    public AK.Wwise.Switch surfaceSwitch; 
 
     [Header("Movement Settings")]
-    public Rigidbody rb;                      // Drag your Rigidbody here
-    public float movementThreshold = 0.1f;    // Minimum speed to count as walking
-    public float stepInterval = 0.4f;         // Time between steps
+    public Rigidbody rb;
+    public float movementThreshold = 0.1f;
+    public float stepInterval = 0.4f;
 
     private float stepTimer = 0f;
 
     void Update()
     {
+        // Unity 6 uses linearVelocity for Rigidbodies
+        if (rb == null) return;
+
         float speed = rb.linearVelocity.magnitude;
 
         if (speed > movementThreshold)
@@ -35,13 +38,21 @@ public class FootstepPlayer : MonoBehaviour
 
     void PlayFootstep()
     {
-        // REQUIRED for Switch Containers
-        stoneSwitch.SetValue(gameObject);
+        // 1. Set the surface (Stone or Grass)
+        if (surfaceSwitch != null && surfaceSwitch.IsValid())
+        {
+            surfaceSwitch.SetValue(gameObject);
+        }
 
-        // Play the event
-        footstepEvent.Post(gameObject);
-
-        Debug.Log("Footstep (Stone) played");
+        // 2. Play the event
+        if (footstepEvent != null && footstepEvent.IsValid())
+        {
+            footstepEvent.Post(gameObject);
+            Debug.Log("Playing Footstep on: " + surfaceSwitch.Name);
+        }
+        else
+        {
+            Debug.LogError("FootstepEvent is missing! Check the Inspector.");
+        }
     }
 }
-
