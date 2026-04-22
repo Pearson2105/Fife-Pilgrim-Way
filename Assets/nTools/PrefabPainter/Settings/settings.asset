@@ -2996,12 +2996,12 @@ MonoBehaviour:
       - gameObject: {fileID: 0}
       - gameObject: {fileID: 0}
       selectedSlot: 0
-      selected: 1
+      selected: 0
       colorTag: 0
       customPreviewImage: {fileID: 0}
     - name: SM_large_spruce_1
       settings:
-        brushRadius: 3.2
+        brushRadius: 15.4
         brushSpacing: 4.44
         brushOverlapCheckMode: 0
         brushOverlapDistance: 0.5
@@ -3311,7 +3311,7 @@ MonoBehaviour:
       - gameObject: {fileID: 0}
       - gameObject: {fileID: 0}
       selectedSlot: 0
-      selected: 0
+      selected: 1
       colorTag: 0
       customPreviewImage: {fileID: 0}
     - name: SM_medium_spruce
