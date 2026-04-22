@@ -3001,7 +3001,7 @@ MonoBehaviour:
       customPreviewImage: {fileID: 0}
     - name: SM_large_spruce_1
       settings:
-        brushRadius: 3.2
+        brushRadius: 15.4
         brushSpacing: 4.44
         brushOverlapCheckMode: 0
         brushOverlapDistance: 0.5
