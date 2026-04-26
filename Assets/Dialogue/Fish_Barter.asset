@@ -15,7 +15,7 @@ MonoBehaviour:
   characterName: 
   dialogueLines:
   - Tell you what... Roll a 15 or higher!
-  voiceType: 
+  voiceType: Organ
   switchGroup: VoiceType
   genderPitch: 0
   voiceWobble: 0
