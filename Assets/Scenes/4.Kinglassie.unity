@@ -6096,7 +6096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b3e704111f5c4a4c8bdda8ca05543a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  levelToLoad: St Andrews
+  levelToLoad: 5.St Andrews
   confirmationPanel: {fileID: 1655852835}
 --- !u!1001 &234648841
 PrefabInstance:
@@ -32758,7 +32758,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1192171139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45607,7 +45607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b3e704111f5c4a4c8bdda8ca05543a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelLoader
-  levelToLoad: Lochore
+  levelToLoad: 3.Lochore
   confirmationPanel: {fileID: 1192171138}
 --- !u!4 &1739814121 stripped
 Transform:

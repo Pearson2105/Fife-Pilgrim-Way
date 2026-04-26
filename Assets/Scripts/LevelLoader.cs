@@ -3,30 +3,50 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-    public string levelToLoad;
-    public GameObject confirmationPanel; // Drag your UI panel here
+    [Header("Settings")]
+    public string levelToLoad; // Name of the scene
+    public GameObject confirmationPanel; // Drag your UI Panel here
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            // Show the popup and pause the game
-            confirmationPanel.SetActive(true);
-            Time.timeScale = 0f; 
+            OpenConfirmation();
         }
     }
 
-    // Call this from the "Yes" button
+    public void OpenConfirmation()
+    {
+        // 1. Show the UI
+        if (confirmationPanel != null) confirmationPanel.SetActive(true);
+
+        // 2. Unlock the mouse and show it
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        // 3. Freeze the game
+        Time.timeScale = 0f;
+    }
+
     public void ConfirmLoad()
     {
-        Time.timeScale = 1f; // Reset time
+        // Reset time before loading to prevent issues
+        Time.timeScale = 1f;
+        
+        // Load the scene
         SceneManager.LoadScene(levelToLoad);
     }
 
-    // Call this from the "No" button
     public void CancelLoad()
     {
-        confirmationPanel.SetActive(false);
-        Time.timeScale = 1f; // Resume the game
+        // 1. Hide the UI
+        if (confirmationPanel != null) confirmationPanel.SetActive(false);
+
+        // 2. Relock the mouse (assuming your player script handles the locking)
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
+        // 3. Resume the game
+        Time.timeScale = 1f;
     }
 }
