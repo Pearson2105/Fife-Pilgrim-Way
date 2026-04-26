@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b921ed4c7800784cb4c90661492a9b3, type: 3}
-  m_Name: FIshSeller_Data
+  m_Name: Fish_Price
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
-  characterName: Fish Seller
+  characterName: 
   dialogueLines:
-  - Hello traveller! I'm selling fish. Are you interested?
   - That is 3 pound Scots!... oh, you don't seem to have any money.
-  - Roll a 15 or higher to barter!
-  voiceType: Organ
+  voiceType: 
   switchGroup: VoiceType
   genderPitch: 0
   voiceWobble: 0
