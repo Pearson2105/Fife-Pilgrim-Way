@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -13,7 +10,7 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        if(Keyboard.current.escapeKey.wasPressedThisFrame)
+        if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
             if (GameIsPaused)
             {
@@ -29,8 +26,10 @@ public class PauseMenu : MonoBehaviour
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
@@ -39,8 +38,10 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenuUI.SetActive(true);
         pauseMenuUI.transform.SetAsLastSibling();
+
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+
         Time.timeScale = 0f;
         GameIsPaused = true;
     }

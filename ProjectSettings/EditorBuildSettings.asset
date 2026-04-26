@@ -6,14 +6,29 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/1.cuross.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
     path: Assets/MainMenu.unity
-    guid: 57d3d6704ad279743b3010582377a7ce
+    guid: 39cefffc07ac1544b9d12bd1965fe823
+  - enabled: 1
+    path: Assets/Scenes/0.MainMenu.unity
+    guid: 9f12256535048854eac1d4a897fb779c
   - enabled: 1
     path: Assets/Scenes/0.5 priest intro.unity
     guid: 66a142c34731dec46bc7960dff4ef714
+  - enabled: 1
+    path: Assets/Scenes/1.cuross.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/2.Dunfermline.unity
+    guid: 84aac570772724457acc58494bacf6bf
+  - enabled: 1
+    path: Assets/Scenes/3.Lochore.unity
+    guid: ac2138f5ce0c74799b066b668a845cc3
+  - enabled: 1
+    path: Assets/Scenes/4.Kinglassie.unity
+    guid: fe38b66d770b54ab9a605f21a2f3fe8b
+  - enabled: 1
+    path: Assets/Scenes/5.St Andrews.unity
+    guid: 3a41135b94b3f4f0dacc2b87412d7fb0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
