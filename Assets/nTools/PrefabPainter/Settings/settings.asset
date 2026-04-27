@@ -6822,7 +6822,7 @@ MonoBehaviour:
         pinFixedScale: 0
         pinFixedScaleValue: {x: 1, y: 1, z: 1}
         placeEulerAngles: {x: 0, y: 0, z: 0}
-        placeScale: 1
+        placeScale: 0.7
         throwRadius: 1
         throwSpacing: 1
         throwHeight: 3
@@ -7137,7 +7137,7 @@ MonoBehaviour:
         pinFixedScale: 0
         pinFixedScaleValue: {x: 1, y: 1, z: 1}
         placeEulerAngles: {x: 0, y: 0, z: 0}
-        placeScale: 1
+        placeScale: 0.7
         throwRadius: 1
         throwSpacing: 1
         throwHeight: 3
@@ -7452,7 +7452,7 @@ MonoBehaviour:
         pinFixedScale: 0
         pinFixedScaleValue: {x: 1, y: 1, z: 1}
         placeEulerAngles: {x: 0, y: 0, z: 0}
-        placeScale: 0.72
+        placeScale: 0.7
         throwRadius: 1
         throwSpacing: 1
         throwHeight: 3
@@ -7767,7 +7767,7 @@ MonoBehaviour:
         pinFixedScale: 0
         pinFixedScaleValue: {x: 1, y: 1, z: 1}
         placeEulerAngles: {x: 0, y: 0, z: 0}
-        placeScale: 1
+        placeScale: 0.7
         throwRadius: 1
         throwSpacing: 1
         throwHeight: 3
@@ -8075,7 +8075,7 @@ MonoBehaviour:
   pinSnapScale: 0
   placeAngleStep: 15
   placeScaleStep: 8.85
-  eraseBrushRadius: 5
+  eraseBrushRadius: 2.5
   eraseByLayer: 1
   eraseLayers:
     serializedVersion: 2
