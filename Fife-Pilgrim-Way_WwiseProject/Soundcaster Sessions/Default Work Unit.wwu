@@ -4,6 +4,12 @@
 		<WorkUnit Name="Default Work Unit" ID="{C18E911E-39C4-418B-B78F-FCA0BC653494}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="New Soundcaster Session" ID="{66F569CB-8A13-4E46-96F2-4C59B05EC1C4}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Footsteps" ID="{E92280E0-BB79-4D4B-B2B8-05B87AC967A9}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>

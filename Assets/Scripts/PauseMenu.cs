@@ -1,9 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -11,6 +9,13 @@ public class PauseMenu : MonoBehaviour
 
     public GameObject pauseMenuUI;
     public GameObject settingsPanel;
+
+    [Header("Transition")]
+    public string mainMenuSceneName = "0.MainMenu";
+    public string transitionName = "CrossFade";
+
+    [Header("Camera")]
+    public PlayerMovement cameraController;   // Changed to specific type
 
     void Update()
     {
@@ -35,10 +40,13 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenuUI.SetActive(false);
         settingsPanel.SetActive(false);
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         Time.timeScale = 1f;
         GameIsPaused = false;
+
+        if (cameraController != null)
+            cameraController.enabled = true;
     }
 
     void Pause()
@@ -50,6 +58,9 @@ public class PauseMenu : MonoBehaviour
         Cursor.visible = true;
         Time.timeScale = 0f;
         GameIsPaused = true;
+
+        if (cameraController != null)
+            cameraController.enabled = false;
     }
 
     public void OpenSettings()
@@ -68,7 +79,24 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         GameIsPaused = false;
-        SceneManager.LoadScene("0.MainMenu");
+
+        if (cameraController != null)
+        {
+            cameraController.enabled = false;
+        }
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        if (LevelManager.Instance != null)
+        {
+            LevelManager.Instance.LoadScene(mainMenuSceneName, transitionName);
+        }
+        else
+        {
+            Debug.LogWarning("LevelManager not found, loading scene directly.");
+            UnityEngine.SceneManagement.SceneManager.LoadScene(mainMenuSceneName);
+        }
     }
 
     public void Quit()

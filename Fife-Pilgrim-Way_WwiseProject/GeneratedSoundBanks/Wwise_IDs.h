@@ -27,8 +27,8 @@ namespace AK
         static const AkUniqueID PLAY_SCOTS_SPEECH = 3597291569U;
         static const AkUniqueID PLAY_SEA_AMBIENCE = 2350077198U;
         static const AkUniqueID PLAY_STONE = 2702709145U;
-        static const AkUniqueID PLAY_UI_SOUND_1 = 2794064168U;
-        static const AkUniqueID PLAY_UI_SOUND_2 = 2794064171U;
+        static const AkUniqueID PLAY_UI = 2044747472U;
+        static const AkUniqueID PLAY_WELL = 1053086726U;
         static const AkUniqueID PLAY_WILD_BOAR = 3318202069U;
         static const AkUniqueID PLAY_WINNING = 1958657586U;
         static const AkUniqueID PLAY_WOLF = 1523845998U;
