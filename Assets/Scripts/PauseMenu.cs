@@ -10,12 +10,17 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
 
     public GameObject pauseMenuUI;
+    public GameObject settingsPanel;
 
     void Update()
     {
-        if(Keyboard.current.escapeKey.wasPressedThisFrame)
+        if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
-            if (GameIsPaused)
+            if (settingsPanel.activeSelf)
+            {
+                CloseSettings();
+            }
+            else if (GameIsPaused)
             {
                 Resume();
             }
@@ -29,6 +34,7 @@ public class PauseMenu : MonoBehaviour
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
+        settingsPanel.SetActive(false);
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         Time.timeScale = 1f;
@@ -38,11 +44,24 @@ public class PauseMenu : MonoBehaviour
     void Pause()
     {
         pauseMenuUI.SetActive(true);
+        settingsPanel.SetActive(false);
         pauseMenuUI.transform.SetAsLastSibling();
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         Time.timeScale = 0f;
         GameIsPaused = true;
+    }
+
+    public void OpenSettings()
+    {
+        settingsPanel.SetActive(true);
+        pauseMenuUI.SetActive(false);
+    }
+
+    public void CloseSettings()
+    {
+        settingsPanel.SetActive(false);
+        pauseMenuUI.SetActive(true);
     }
 
     public void MainMenu()
