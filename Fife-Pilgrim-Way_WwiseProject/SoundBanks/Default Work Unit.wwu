@@ -16,6 +16,7 @@
 						<ObjectRef Name="Play_Footsteps" ID="{572322A6-D55D-4386-B02F-067A740F40F8}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Bear" ID="{655667E1-E91F-43B0-9B05-F1912182A9DD}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wild_Boar" ID="{12F956E2-5561-4520-8759-AC0336B2A040}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI" ID="{2E0E732C-705D-4929-BCBA-493964370DDC}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Birds_and_Wind_01" ID="{F67D52A3-B184-4A36-990B-498A0B73955D}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Winning" ID="{E5FAF9F1-33E4-4B3E-A42D-E21FAC2BF3B4}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Sea_Ambience" ID="{213A7980-524B-4BDF-A94D-BAA720836903}" WorkUnitID="{3579F144-97C7-4693-9A84-541C271BEB20}" Origin="Manual" Filter="7"/>

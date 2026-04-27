@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A26D566D-4BA8-411E-A3E6-D4C18BDED466}",
     "Language": "SFX",
-    "Hash": "{49A3C3E7-1429-B051-0A28-F5058D62E874}",
+    "Hash": "{615A2115-E64F-C03C-63D5-CFFC6CA9FC70}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Character",
     "ShortName": "Character",
     "Path": "Character.bnk",
@@ -85,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Stream.wav",
-      "CachePath": "F9/{F9061AAE-57C5-A984-1F9D-F63EECD1F047}.wem"
+      "CachePath": "2F/{2F7D0746-CF4F-02B0-2644-30DF4AAAFFD2}.wem"
      },
      {
       "Id": "306672692",
@@ -136,6 +136,14 @@
       "CachePath": "53/{535C14D8-D137-4185-ED02-011176F4122E}.wem"
      },
      {
+      "Id": "419175076",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI sound 1.wav",
+      "CachePath": "9B/{9BF5A356-C52D-3438-338B-03A34E2CE078}.wem"
+     },
+     {
       "Id": "437992250",
       "Language": "SFX",
       "Streaming": "false",
@@ -184,12 +192,36 @@
       "CachePath": "6D/{6DB4CC54-6F44-6D29-E678-D0144B691A57}.wem"
      },
      {
+      "Id": "670057780",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI sound 1.wav",
+      "CachePath": "4B/{4BCEA2A9-133A-1E68-49B2-833D6019580E}.wem"
+     },
+     {
+      "Id": "682223682",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI sound 2.wav",
+      "CachePath": "9D/{9DEF1647-4427-675E-632B-FC17400910BA}.wem"
+     },
+     {
       "Id": "686703559",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bear.wav",
       "CachePath": "62/{621A973E-4289-CC0B-A1AB-C3B1B11EE101}.wem"
+     },
+     {
+      "Id": "737303506",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI sound 1.wav",
+      "CachePath": "DF/{DFA2436B-A74D-0509-2FF0-24DBAC8D84F4}.wem"
      },
      {
       "Id": "851260214",
@@ -453,6 +485,29 @@
       ]
      },
      {
+      "Id": "2044747472",
+      "Name": "Play_UI",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI",
+      "GUID": "{2E0E732C-705D-4929-BCBA-493964370DDC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.16069354",
+      "DurationMax": "0.5129996",
+      "MediaRefs": [
+       {
+        "Id": "419175076"
+       },
+       {
+        "Id": "670057780"
+       },
+       {
+        "Id": "682223682"
+       },
+       {
+        "Id": "737303506"
+       }
+      ]
+     },
+     {
       "Id": "1053086726",
       "Name": "Play_Well",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Well",
@@ -517,6 +572,6 @@
     ]
    }
   ],
-  "FileHash": "{A221DE3A-39DC-3552-1868-0B3563CB96C0}"
+  "FileHash": "{78CD7CB9-8EC0-1CE4-8497-4308BB623A1A}"
  }
 }
