@@ -114,32 +114,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="UI" ID="{FBB90745-8FC2-4E07-8147-C1A57B61832B}" ShortID="412111096">
-					<ChildrenList>
-						<Event Name="Play_UI_sound_1" ID="{FCC35365-3D24-4F19-A971-316B79DDF947}">
-							<ChildrenList>
-								<Action Name="" ID="{DCD25B01-9B10-4E32-975D-ACA097320069}" ShortID="133811366">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI sound 1" ID="{202B26BA-AB01-47E7-A39D-02154E0AA14F}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_UI_sound_2" ID="{98077629-57A2-4804-ABDA-1CAFFE42CA49}">
-							<ChildrenList>
-								<Action Name="" ID="{F73E7D2E-2FE7-4D23-A049-63FAD7E95CF2}" ShortID="1056638319">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI sound 2" ID="{921548D1-677A-42E7-AB60-88B35D7892FD}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
 				<Folder Name="NPC" ID="{B293C224-4628-40F7-BE30-C75746CD9DB9}" ShortID="497129281">
 					<ChildrenList>
 						<Event Name="Play_Scots_Speech" ID="{734AE36B-C165-4372-A27E-AA68898A433B}">
@@ -296,6 +270,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Well" ID="{36C52874-8AC6-4AAA-B832-FC4F68487FA3}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI" ID="{2E0E732C-705D-4929-BCBA-493964370DDC}">
+					<ChildrenList>
+						<Action Name="" ID="{54AB2BFB-9656-4BCF-949B-94F6B6CD3286}" ShortID="915272390">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI" ID="{5064119B-5D3B-42BD-99F5-8012A0B51CDE}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
