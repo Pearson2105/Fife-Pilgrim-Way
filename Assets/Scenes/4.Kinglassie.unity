@@ -32870,7 +32870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -54087,13 +54087,37 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2450848241419123027, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1832177708}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3730152103838136153, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2080105288}
   m_SourcePrefab: {fileID: 100100000, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
 --- !u!224 &2080105286 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2450848241419123027, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
   m_PrefabInstance: {fileID: 2080105285}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2080105287 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3730152103838136153, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
+  m_PrefabInstance: {fileID: 2080105285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2080105288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080105287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1f27a0c823b4cd59bb77a724e86c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CanvasSoundManager
+  uiClickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a0b94d880a387441e941d3d9b4d34a6d, type: 2}
 --- !u!4 &2080730801 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4569137207720047107, guid: bd66de853ec9476488337ac3f67dbf4b, type: 3}

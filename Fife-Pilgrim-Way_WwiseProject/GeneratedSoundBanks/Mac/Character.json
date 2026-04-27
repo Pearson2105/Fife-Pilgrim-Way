@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A26D566D-4BA8-411E-A3E6-D4C18BDED466}",
     "Language": "SFX",
-    "Hash": "{615A2115-E64F-C03C-63D5-CFFC6CA9FC70}",
+    "Hash": "{548C8AF1-251B-D84D-ACC8-9D6F457C7668}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Character",
     "ShortName": "Character",
     "Path": "Character.bnk",
@@ -272,6 +272,18 @@
       "CachePath": "F6/{F6239955-E84F-BFCF-413F-EA8EDB1AC6DB}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "86245554",
+       "Name": "Attack_Remover",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Attack_Remover",
+       "GUID": "{174E7B9A-A16F-4CA7-86D0-530212B5A6AA}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "1996054844",
@@ -318,7 +330,14 @@
        {
         "Id": "101589374"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "86245554"
+        }
+       ]
+      }
      },
      {
       "Id": "298480340",
@@ -572,6 +591,6 @@
     ]
    }
   ],
-  "FileHash": "{78CD7CB9-8EC0-1CE4-8497-4308BB623A1A}"
+  "FileHash": "{9F49B64E-7B99-2273-5E59-056429CE5602}"
  }
 }

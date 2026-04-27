@@ -779,8 +779,32 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3730152103838136153, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1504807965}
   m_SourcePrefab: {fileID: 100100000, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
+--- !u!1 &1504807964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3730152103838136153, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
+  m_PrefabInstance: {fileID: 1504807963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1504807965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504807964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1f27a0c823b4cd59bb77a724e86c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CanvasSoundManager
+  uiClickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a0b94d880a387441e941d3d9b4d34a6d, type: 2}
 --- !u!1 &1988546922
 GameObject:
   m_ObjectHideFlags: 0

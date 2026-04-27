@@ -18,6 +18,9 @@ Switch	ID	Name	Switch Group			Notes
 	1216965916	Stone	Surfaces			
 	4248645337	Grass	Surfaces			
 
+Effect plug-ins	ID	Name	Type				Notes
+	86245554	Attack_Remover	Wwise Compressor			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	101589374	Birds and Wind	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\B2\{B2969F8F-52C7-A1FD-0694-B7066826D9E0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Birds and Wind		10523910
 	103315941	Dying Sound Lute	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\D4\{D4D7EC73-9B0B-6DB0-2B1C-52BD75009EEE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Dying Sound Lute		507492
