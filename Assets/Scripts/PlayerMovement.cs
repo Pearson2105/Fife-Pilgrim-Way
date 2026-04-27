@@ -29,6 +29,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        // Combined Check: Only rotate if game is NOT paused AND cursor is LOCKED
+        if (Time.timeScale > 0 && Cursor.lockState == CursorLockMode.Locked)
         // Only allow camera rotation when game is not paused
         if (Time.timeScale > 0 && !PauseMenu.GameIsPaused)
         {
@@ -45,6 +47,8 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        // Combined Check: Only move if game is NOT paused AND cursor is LOCKED
+        if (Time.timeScale > 0 && Cursor.lockState == CursorLockMode.Locked)
         // Only allow movement when game is not paused
         if (Time.timeScale > 0 && !PauseMenu.GameIsPaused)
         {
@@ -54,6 +58,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            // If the game is paused OR the dialogue is open, stop the player from sliding
             // Stop horizontal movement when paused (keep gravity/Y velocity)
             rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
         }
