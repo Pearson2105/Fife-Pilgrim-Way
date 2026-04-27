@@ -8,10 +8,11 @@ public class FactZone : MonoBehaviour
     public DialogueManager manager;
 
     [Header("NPC UI (Optional)")]
-    public GameObject choiceButtons; // Can be left EMPTY
-    public GameObject rollButton;    // Can be left EMPTY
+    public GameObject choiceButtons; 
+    public GameObject rollButton;    
 
     [Header("Content")]
+    public string buildingName; // <--- Type the building name here!
     [TextArea(3, 10)]
     public string historicalFact;
 
@@ -30,7 +31,6 @@ public class FactZone : MonoBehaviour
         if (manager == null || !isPlayerInside || isTransitioning)
             return;
 
-        // Open / close fact
         if (Input.GetKeyDown(KeyCode.E))
         {
             ToggleFact();
@@ -49,9 +49,15 @@ public class FactZone : MonoBehaviour
         if (!manager.dialogueBox.activeSelf)
         {
             manager.dialogueBox.SetActive(true);
+            
+            // --- NEW: Set the Name Label to the building name ---
+            if (manager.nameLabel != null)
+            {
+                manager.nameLabel.text = buildingName;
+            }
+
             manager.dialogueText.text = historicalFact;
 
-            // Reset text alpha
             SetTextAlpha(1f);
 
             if (choiceButtons != null) choiceButtons.SetActive(false);
@@ -63,7 +69,6 @@ public class FactZone : MonoBehaviour
         else
         {
             manager.dialogueBox.SetActive(false);
-
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
@@ -72,10 +77,8 @@ public class FactZone : MonoBehaviour
     IEnumerator FadeAndTransition()
     {
         isTransitioning = true;
-
         Debug.Log("STARTING FADE + TRANSITION");
 
-        // Safety checks
         if (manager.dialogueText == null)
         {
             Debug.LogError("Dialogue Text is NULL!");
@@ -83,27 +86,21 @@ public class FactZone : MonoBehaviour
         }
 
         float elapsed = 0f;
-
         Color startColor = manager.dialogueText.color;
 
         while (elapsed < textFadeDuration)
         {
             elapsed += Time.deltaTime;
-
             float alpha = Mathf.Lerp(startColor.a, 0f, elapsed / textFadeDuration);
-
             SetTextAlpha(alpha);
-
             yield return null;
         }
 
         SetTextAlpha(0f);
 
-        // Hide UI after fade
         if (manager.dialogueBox != null)
             manager.dialogueBox.SetActive(false);
 
-        // Scene transition
         if (LevelManager.Instance != null)
         {
             Debug.Log("LOADING SCENE: " + nextSceneName);
@@ -139,9 +136,12 @@ public class FactZone : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInside = false;
-
             if (manager != null && manager.dialogueBox != null)
                 manager.dialogueBox.SetActive(false);
+            
+            // Re-lock cursor if player walks away while it's open
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
 
             Debug.Log("Player exited FactZone");
         }

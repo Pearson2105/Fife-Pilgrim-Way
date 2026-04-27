@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b921ed4c7800784cb4c90661492a9b3, type: 3}
   m_Name: Fish_Price
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
-  characterName: 
+  characterName: Fish Vendor
   dialogueLines:
   - That is 3 pound Scots!... oh, you don't seem to have any money.
   voiceType: Organ
