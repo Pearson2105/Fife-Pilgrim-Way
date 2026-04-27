@@ -7,11 +7,13 @@ public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI dialogueText;
     public GameObject dialogueBox;
-    
+
     [Header("Wwise Global Names")]
     public string beepEventName = "Play_Text_Beep";
     public string pitchRTPC = "GenderPitch";
     public string wobbleRTPC = "VoiceWobble";
+
+    public System.Action OnDialogueFinished;
 
     private Queue<string> sentences = new Queue<string>();
     private DialogueData currentData;
@@ -36,23 +38,32 @@ public class DialogueManager : MonoBehaviour
         active = true;
         currentData = data;
         currentAnimator = npcAnimator;
-        
-        dialogueBox.SetActive(true);
-        if (currentAnimator != null) currentAnimator.SetBool("isTalking", true);
 
-        // Set Wwise parameters
+        dialogueBox.SetActive(true);
+
+        if (currentAnimator != null)
+            currentAnimator.SetBool("isTalking", true);
+
         AkUnitySoundEngine.SetSwitch(currentData.switchGroup, currentData.voiceType, gameObject);
         AkUnitySoundEngine.SetRTPCValue(pitchRTPC, currentData.genderPitch);
         AkUnitySoundEngine.SetRTPCValue(wobbleRTPC, currentData.voiceWobble);
 
         sentences.Clear();
-        foreach (string s in data.dialogueLines) sentences.Enqueue(s);
+
+        foreach (string s in data.dialogueLines)
+            sentences.Enqueue(s);
+
         DisplayNextSentence();
     }
 
     public void DisplayNextSentence()
     {
-        if (sentences.Count == 0) { EndDialogue(); return; }
+        if (sentences.Count == 0)
+        {
+            EndDialogue();
+            return;
+        }
+
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentences.Dequeue()));
     }
@@ -66,20 +77,33 @@ public class DialogueManager : MonoBehaviour
 
         foreach (char letter in sentence.ToCharArray())
         {
-            if (cancelTyping) { dialogueText.text = sentence; break; }
+            if (cancelTyping)
+            {
+                dialogueText.text = sentence;
+                break;
+            }
+
             dialogueText.text += letter;
             letterCount++;
 
-            if (letterCount % 2 == 0) AkUnitySoundEngine.PostEvent(beepEventName, gameObject);
+            if (letterCount % 2 == 0)
+                AkUnitySoundEngine.PostEvent(beepEventName, gameObject);
+
             yield return new WaitForSeconds(currentData.typingSpeed);
         }
+
         isTyping = false;
     }
 
     void EndDialogue()
     {
         active = false;
-        if (currentAnimator != null) currentAnimator.SetBool("isTalking", false);
+
+        if (currentAnimator != null)
+            currentAnimator.SetBool("isTalking", false);
+
         dialogueBox.SetActive(false);
+
+        OnDialogueFinished?.Invoke();
     }
 }

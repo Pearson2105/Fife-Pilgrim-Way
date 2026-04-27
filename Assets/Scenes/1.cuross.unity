@@ -74252,6 +74252,10 @@ PrefabInstance:
       propertyPath: manager
       value: 
       objectReference: {fileID: 424954306}
+    - target: {fileID: 4432099356430381064, guid: 06f364c0d6b8a4843ab3cb919d3167f3, type: 3}
+      propertyPath: historicalFact
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7891334338674987400, guid: 06f364c0d6b8a4843ab3cb919d3167f3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -362.23
