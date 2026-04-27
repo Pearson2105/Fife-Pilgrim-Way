@@ -24675,6 +24675,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 123497002774628602, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_Color.b
+      value: 0.27450982
+      objectReference: {fileID: 0}
+    - target: {fileID: 123497002774628602, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4156863
+      objectReference: {fileID: 0}
+    - target: {fileID: 123497002774628602, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 295583830884465871, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 295583830884465871, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 862891588124377084, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -24755,6 +24775,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1611442399542594377, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134599494316404955, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_Color.b
+      value: 0.27058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134599494316404955, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_Color.g
+      value: 0.41176474
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134599494316404955, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_Color.r
+      value: 0.52156866
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421776420613262692, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_Value
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433874428617455755, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433874428617455755, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433874428617455755, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3330187403337921911, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -24766,6 +24818,34 @@ PrefabInstance:
     - target: {fileID: 5776042850427486455, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
       propertyPath: m_Name
       value: PauseMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310743386776844780, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_Color.b
+      value: 0.28627452
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310743386776844780, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_Color.g
+      value: 0.43137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310743386776844780, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_Color.r
+      value: 0.56078434
+      objectReference: {fileID: 0}
+    - target: {fileID: 8077083369899921270, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_Color.b
+      value: 0.27450982
+      objectReference: {fileID: 0}
+    - target: {fileID: 8077083369899921270, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4156863
+      objectReference: {fileID: 0}
+    - target: {fileID: 8077083369899921270, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324415003678852721, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8516818195049995300, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
       propertyPath: cameraController
