@@ -1,15 +1,34 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
+using System.Collections;
 
 public class LevelLoader : MonoBehaviour
 {
-    [Header("Settings")]
-    public string levelToLoad; // Name of the scene
-    public GameObject confirmationPanel; // Drag your UI Panel here
+    [Header("UI & Transition Settings")]
+    public string levelToLoad;
+    public GameObject confirmationPanel;
+    
+    [Header("Transition Components")]
+    public CanvasGroup curtainCanvasGroup; // The Black Screen Image
+    public CanvasGroup videoCanvasGroup;  // The CanvasGroup on the Video object
+    public VideoPlayer transitionVideo;   // The Video Player component
+
+    private bool isPlayerInRange = false;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")) isPlayerInRange = true;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player")) isPlayerInRange = false;
+    }
+
+    private void Update()
+    {
+        if (isPlayerInRange && Input.GetKeyDown(KeyCode.Q) && Time.timeScale > 0)
         {
             OpenConfirmation();
         }
@@ -17,36 +36,62 @@ public class LevelLoader : MonoBehaviour
 
     public void OpenConfirmation()
     {
-        // 1. Show the UI
         if (confirmationPanel != null) confirmationPanel.SetActive(true);
-
-        // 2. Unlock the mouse and show it
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-
-        // 3. Freeze the game
         Time.timeScale = 0f;
     }
 
     public void ConfirmLoad()
     {
-        // Reset time before loading to prevent issues
         Time.timeScale = 1f;
-        
-        // Load the scene
+        confirmationPanel.SetActive(false);
+        StartCoroutine(TransitionRoutine());
+    }
+
+    private IEnumerator TransitionRoutine()
+    {
+        // 1. Fade to Black (Curtain)
+        yield return Fade(curtainCanvasGroup, 0f, 1f, 1.0f);
+
+        // 2. Play Video
+        if (transitionVideo != null)
+        {
+            // Ensure video object is active and visible
+            transitionVideo.gameObject.SetActive(true);
+            if (videoCanvasGroup != null) videoCanvasGroup.alpha = 1f;
+
+            transitionVideo.Play();
+            
+            // Wait for video length
+            yield return new WaitForSeconds((float)transitionVideo.clip.length);
+            
+            // Cleanup
+            if (videoCanvasGroup != null) videoCanvasGroup.alpha = 0f;
+            transitionVideo.gameObject.SetActive(false);
+        }
+
+        // 3. Load next scene
         SceneManager.LoadScene(levelToLoad);
+    }
+
+    private IEnumerator Fade(CanvasGroup cg, float start, float end, float duration)
+    {
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            cg.alpha = Mathf.Lerp(start, end, elapsed / duration);
+            yield return null;
+        }
+        cg.alpha = end;
     }
 
     public void CancelLoad()
     {
-        // 1. Hide the UI
         if (confirmationPanel != null) confirmationPanel.SetActive(false);
-
-        // 2. Relock the mouse (assuming your player script handles the locking)
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-
-        // 3. Resume the game
         Time.timeScale = 1f;
     }
 }
