@@ -203,6 +203,11 @@
 						<MusicSegment Name="Pilgrim Music" ID="{6E700845-8BE7-4AC1-BA32-DB6FE5EAA99F}" ShortID="1015140173">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="156600"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

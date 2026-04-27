@@ -53,9 +53,9 @@
 						<Effect Name="Attack_Remover" ID="{174E7B9A-A16F-4CA7-86D0-530212B5A6AA}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 							<PropertyList>
 								<Property Name="AttackTime" Type="Real32" Value="0.001"/>
-								<Property Name="Ratio" Type="Real32" Value="20"/>
-								<Property Name="ReleaseTime" Type="Real32" Value="0.5"/>
-								<Property Name="Threshold" Type="Real32" Value="-25"/>
+								<Property Name="Ratio" Type="Real32" Value="10.4"/>
+								<Property Name="ReleaseTime" Type="Real32" Value="0"/>
+								<Property Name="Threshold" Type="Real32" Value="-53.2"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Pumping_and_Breathing_1" ID="{87BE3270-3D27-45BB-9E46-7F2D9380F523}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
