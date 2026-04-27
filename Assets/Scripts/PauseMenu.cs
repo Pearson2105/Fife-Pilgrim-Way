@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -14,6 +13,9 @@ public class PauseMenu : MonoBehaviour
     [Header("Transition")]
     public string mainMenuSceneName = "0.MainMenu";
     public string transitionName = "CrossFade";
+
+    [Header("Camera")]
+    public PlayerMovement cameraController;   // Changed to specific type
 
     void Update()
     {
@@ -38,10 +40,13 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenuUI.SetActive(false);
         settingsPanel.SetActive(false);
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         Time.timeScale = 1f;
         GameIsPaused = false;
+
+        if (cameraController != null)
+            cameraController.enabled = true;
     }
 
     void Pause()
@@ -53,6 +58,9 @@ public class PauseMenu : MonoBehaviour
         Cursor.visible = true;
         Time.timeScale = 0f;
         GameIsPaused = true;
+
+        if (cameraController != null)
+            cameraController.enabled = false;
     }
 
     public void OpenSettings()
@@ -71,6 +79,14 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         GameIsPaused = false;
+
+        if (cameraController != null)
+        {
+            cameraController.enabled = false;
+        }
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
 
         if (LevelManager.Instance != null)
         {
