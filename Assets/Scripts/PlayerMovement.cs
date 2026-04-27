@@ -28,8 +28,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // Add this check: Only rotate if time is moving
-        if (Time.timeScale > 0)
+        // Combined Check: Only rotate if game is NOT paused AND cursor is LOCKED
+        if (Time.timeScale > 0 && Cursor.lockState == CursorLockMode.Locked)
         {
             // --- MOUSE LOOK (ROTATION) ---
             transform.Rotate(Vector3.up * lookInput.x * lookSensitivity);
@@ -41,8 +41,8 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Add this check: Only move if time is moving
-        if (Time.timeScale > 0)
+        // Combined Check: Only move if game is NOT paused AND cursor is LOCKED
+        if (Time.timeScale > 0 && Cursor.lockState == CursorLockMode.Locked)
         {
             // --- MOVEMENT (VELOCITY) ---
             Vector3 moveDir = (transform.forward * moveInput.y + transform.right * moveInput.x).normalized;
@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            // Optional: If paused, stop the movement so you don't keep sliding
+            // If the game is paused OR the dialogue is open, stop the player from sliding
             rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
         }
     }
