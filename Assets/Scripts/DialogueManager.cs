@@ -86,7 +86,7 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += letter;
             letterCount++;
 
-            if (letterCount % 2 == 0)
+            if (letterCount % 3 == 0)
                 AkUnitySoundEngine.PostEvent(beepEventName, gameObject);
 
             yield return new WaitForSeconds(currentData.typingSpeed);
