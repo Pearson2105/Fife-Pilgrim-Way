@@ -14,15 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   characterName: Priest
   dialogueLines:
-  - Traveller, you stand at the threshold of a sacred journey. The Fife Pilgrim Way
-    is no simple road, it is a path walked by the faithful.
-  - You will cross glens, kirks, and the resting places of those who sought peace.
-    Walk with humility, and the land will welcome you.
-  - Take this blessing and may your steps be steady, your heart be clear, and may
-    the saints watch over you during your faithful journey.
-  - Go now, and may your pilgrimage bring you closer to truth than when you first
-    set foot upon this holy ground.
+  - "Peace be with you, traveler. Drop your pack, you\u2019ve carried it far enough."
+  - "You look like someone who has seen the better part of sixty miles. From the
+    Abbey to the Sea, through the mud and the hills, that\u2019s no small feat."
+  - Whatever you were looking for when you left the West, or whatever you needed
+    to leave behind, I hope you found it in the silence of the miles.
+  - "Take a breath. Let the sea air wash off the dust of the road. You\u2019ve finished
+    your walk, pilgrim."
+  - Now, carry that stillness back home with you.
   voiceType: Organ
+  switchGroup: VoiceType
   genderPitch: -2400
   voiceWobble: 3
   typingSpeed: 0.2
