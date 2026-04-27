@@ -5,6 +5,7 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
+    public TextMeshProUGUI nameLabel;
     public TextMeshProUGUI dialogueText;
     public GameObject dialogueBox;
 

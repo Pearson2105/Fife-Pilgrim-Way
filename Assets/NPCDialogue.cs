@@ -23,19 +23,19 @@ public class NPCDialogue : MonoBehaviour
     }
 
     void StartDialogue() {
-        isDialogueActive = true;
-        manager.dialogueBox.SetActive(true);
-        
-        // FORCING THE TEXT: This stops the "H" glitch
-        manager.dialogueText.text = introCard.dialogueLines[0];
+    isDialogueActive = true;
+    manager.dialogueBox.SetActive(true);
+    
+    // grabs the name you typed in the ScriptableObject card
+    manager.nameLabel.text = introCard.characterName;
 
-        choiceButtons.SetActive(true);
-        rollButton.SetActive(false);
-
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-    }
-
+    manager.dialogueText.text = introCard.dialogueLines[0];
+    
+    choiceButtons.SetActive(true);
+    rollButton.SetActive(false);
+    Cursor.lockState = CursorLockMode.None;
+    Cursor.visible = true;
+}
     public void OnPlayerSayYes() {
         choiceButtons.SetActive(false);
         manager.dialogueText.text = priceCard.dialogueLines[0];
