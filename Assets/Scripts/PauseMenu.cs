@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -11,6 +10,10 @@ public class PauseMenu : MonoBehaviour
 
     public GameObject pauseMenuUI;
     public GameObject settingsPanel;
+
+    [Header("Transition")]
+    public string mainMenuSceneName = "0.MainMenu";
+    public string transitionName = "CrossFade";
 
     void Update()
     {
@@ -68,7 +71,16 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         GameIsPaused = false;
-        SceneManager.LoadScene("0.MainMenu");
+
+        if (LevelManager.Instance != null)
+        {
+            LevelManager.Instance.LoadScene(mainMenuSceneName, transitionName);
+        }
+        else
+        {
+            Debug.LogWarning("LevelManager not found, loading scene directly.");
+            UnityEngine.SceneManagement.SceneManager.LoadScene(mainMenuSceneName);
+        }
     }
 
     public void Quit()
