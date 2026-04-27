@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A26D566D-4BA8-411E-A3E6-D4C18BDED466}",
     "Language": "SFX",
-    "Hash": "{540E80B9-C011-D37A-0B1E-91F6D10B7E64}",
+    "Hash": "{49A3C3E7-1429-B051-0A28-F5058D62E874}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Character",
     "ShortName": "Character",
     "Path": "Character.bnk",
@@ -77,7 +77,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Wild Boar.wav",
-      "CachePath": "77/{77E7CA2A-6BDB-4784-0EE8-DFFAC5E7CEEE}.wem"
+      "CachePath": "49/{4907B8D9-5165-7580-4B22-B565894E9AE4}.wem"
+     },
+     {
+      "Id": "300616506",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stream.wav",
+      "CachePath": "F9/{F9061AAE-57C5-A984-1F9D-F63EECD1F047}.wem"
      },
      {
       "Id": "306672692",
@@ -445,6 +453,18 @@
       ]
      },
      {
+      "Id": "1053086726",
+      "Name": "Play_Well",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Well",
+      "GUID": "{7426E09E-A560-4F68-B0E2-7E9B7197CC9E}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "300616506"
+       }
+      ]
+     },
+     {
       "Id": "3318202069",
       "Name": "Play_Wild_Boar",
       "ObjectPath": "\\Events\\Default Work Unit\\Animals\\Play_Wild_Boar",
@@ -497,6 +517,6 @@
     ]
    }
   ],
-  "FileHash": "{884BED68-1917-8444-D750-4EEE37A89878}"
+  "FileHash": "{D60DF7F0-99FF-A34F-DD8B-93F617AC6935}"
  }
 }

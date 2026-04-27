@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	298480340	Play_Dying_Sound_Lute			\Default Work Unit\Character\Play_Dying_Sound_Lute	
 	755525525	Play_Birds_and_Wind_01			\Default Work Unit\Ambience\Play_Birds_and_Wind_01	
+	1053086726	Play_Well			\Default Work Unit\Play_Well	
 	1958657586	Play_Winning			\Default Work Unit\Character\Play_Winning	
 	1996054844	Play_Bear			\Default Work Unit\Animals\Play_Bear	
 	2350077198	Play_Sea_Ambience			\Default Work Unit\Ambience\Play_Sea_Ambience	
@@ -24,7 +25,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	161914615	Sea Ambience	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\A5\{A5E3746F-86FC-1E71-A545-8F08850688AC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Sea Ambience		27736536
 	174934780	Grass Footsteps	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\26\{265957EC-4997-81B8-D907-B85159B81E44}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Grass\Grass Footsteps		139784
 	185104748	Stone Footsteps	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\67\{67703E8C-8C9C-D6C0-080C-806E4F0B5C3F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Stone\Stone Footsteps		32356
-	254597642	Wild Boar	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\77\{77E7CA2A-6BDB-4784-0EE8-DFFAC5E7CEEE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Wild_Boar\Wild Boar		235056
+	254597642	Wild Boar	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\49\{4907B8D9-5165-7580-4B22-B565894E9AE4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Wild_Boar\Wild Boar		235056
+	300616506	Well	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\F9\{F9061AAE-57C5-A984-1F9D-F63EECD1F047}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Well		1092088
 	306672692	Bear_05	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\C6\{C6E761B9-2658-DBE8-5452-ACC3BE6B4320}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Bear\Bear_05		276632
 	331557878	Stone Footsteps_05	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\2B\{2B782BBC-2917-F522-7166-0F50797111A2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Stone\Stone Footsteps_05		42494
 	331685624	Bear_07	Y:\Desktop\Fife-Pilgrim-Way\Fife-Pilgrim-Way_WwiseProject\.cache\E3\{E32A6675-6275-DEF0-A985-7E91166EFF76}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Bear\Bear_07		271100

@@ -290,6 +290,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Well" ID="{7426E09E-A560-4F68-B0E2-7E9B7197CC9E}">
+					<ChildrenList>
+						<Action Name="" ID="{A96E041E-0533-46BA-BB72-A4E6A2221F09}" ShortID="928198537">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Well" ID="{36C52874-8AC6-4AAA-B832-FC4F68487FA3}" WorkUnitID="{CAA84BB3-6226-46AA-8CEB-560A0A1D4CCD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
