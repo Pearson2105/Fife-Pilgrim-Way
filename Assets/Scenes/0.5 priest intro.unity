@@ -1037,12 +1037,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1567,18 +1567,18 @@ RectTransform:
   m_GameObject: {fileID: 741606372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7279692, y: 1.3841475, z: 0.98586}
+  m_LocalScale: {x: 1.4901245, y: 2.8332958, z: 2.0180168}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1306314926}
   - {fileID: 1790260414}
   m_Father: {fileID: 607169592}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 37}
-  m_SizeDelta: {x: 0, y: 100}
-  m_Pivot: {x: 0.5, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 236.66}
+  m_SizeDelta: {x: 982, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &741606374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2302,7 +2302,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 28.84408, y: 12.641178, z: -702.3825, w: -66.787994}
+  m_margin: {x: 28.84408, y: 12.641178, z: -475.29785, w: -66.787994}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2665,6 +2665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c88f53017da044640adb29000ea0c91f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
+  nameLabel: {fileID: 0}
   dialogueText: {fileID: 1306314927}
   dialogueBox: {fileID: 741606372}
   beepEventName: Play_Instrument_Voice
@@ -3833,6 +3834,22 @@ PrefabInstance:
       propertyPath: cameraController
       value: 
       objectReference: {fileID: 961739750}
+    - target: {fileID: 9103170317093587333, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9103170317093587333, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9103170317093587333, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 9103170317093587333, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3846,6 +3863,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1786320920474236824, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9a407cf87a5ccf74397fddaf66c1a635, type: 3}
     - target: {fileID: 2450848241419123027, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3929,6 +3950,22 @@ PrefabInstance:
     - target: {fileID: 3730152103838136153, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
       propertyPath: m_Name
       value: Map
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348114247671774564, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348114247671774564, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348114247671774564, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348114247671774564, guid: f4eb916dcb581da4bb80aa3104e8d2a2, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
