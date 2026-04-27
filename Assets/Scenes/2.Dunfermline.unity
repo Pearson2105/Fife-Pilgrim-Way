@@ -7008,7 +7008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7369,7 +7369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelLoader
   levelToLoad: 4.Kinglassie
   confirmationPanel: {fileID: 323275299}
-  curtainCanvasGroup: {fileID: 1432531770}
+  curtainCanvasGroup: {fileID: 710282310}
   videoCanvasGroup: {fileID: 2082546831}
   transitionVideo: {fileID: 2082546830}
 --- !u!1 &344118431
@@ -14040,6 +14040,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+--- !u!225 &710282310 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 8607918717108824836, guid: 7b28dc7a69cd89a47a50e8022f64c771, type: 3}
+  m_PrefabInstance: {fileID: 710282309}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &713028713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20642,7 +20647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelLoader
   levelToLoad: 1.cuross
   confirmationPanel: {fileID: 1760824626}
-  curtainCanvasGroup: {fileID: 1432531770}
+  curtainCanvasGroup: {fileID: 710282310}
   videoCanvasGroup: {fileID: 1856140272}
   transitionVideo: {fileID: 1856140271}
 --- !u!1001 &984747198
@@ -37633,7 +37638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
