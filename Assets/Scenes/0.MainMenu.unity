@@ -187,6 +187,7 @@ GameObject:
   - component: {fileID: 216027736}
   - component: {fileID: 216027738}
   - component: {fileID: 216027737}
+  - component: {fileID: 216027739}
   m_Layer: 5
   m_Name: Settings
   m_TagString: Untagged
@@ -252,6 +253,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 216027735}
   m_CullTransparentMesh: 1
+--- !u!114 &216027739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216027735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1f27a0c823b4cd59bb77a724e86c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CanvasSoundManager
+  uiClickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a0b94d880a387441e941d3d9b4d34a6d, type: 2}
 --- !u!1 &350152724
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +593,7 @@ GameObject:
   - component: {fileID: 1246814113}
   - component: {fileID: 1246814115}
   - component: {fileID: 1246814114}
+  - component: {fileID: 1246814116}
   m_Layer: 5
   m_Name: Quit Game
   m_TagString: Untagged
@@ -641,6 +659,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1246814112}
   m_CullTransparentMesh: 1
+--- !u!114 &1246814116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246814112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1f27a0c823b4cd59bb77a724e86c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CanvasSoundManager
+  uiClickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a0b94d880a387441e941d3d9b4d34a6d, type: 2}
 --- !u!1 &1350987182
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +686,7 @@ GameObject:
   - component: {fileID: 1350987185}
   - component: {fileID: 1350987183}
   - component: {fileID: 1350987186}
+  - component: {fileID: 1350987187}
   m_Layer: 0
   m_Name: Sound Design
   m_TagString: Untagged
@@ -717,6 +752,31 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: e1149e1b299084748a0be1772724ba52, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &1350987187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350987182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0383d673908087d4081a2519f427dd26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkBank
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8aa4571099585407884f200cb1139697, type: 2}
   decodeBank: 0
   overrideLoadSetting: 0
   loadAsynchronous: 0
@@ -935,6 +995,7 @@ GameObject:
   - component: {fileID: 1423538290}
   - component: {fileID: 1423538292}
   - component: {fileID: 1423538291}
+  - component: {fileID: 1423538293}
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -1000,6 +1061,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423538289}
   m_CullTransparentMesh: 1
+--- !u!114 &1423538293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423538289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1f27a0c823b4cd59bb77a724e86c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CanvasSoundManager
+  uiClickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a0b94d880a387441e941d3d9b4d34a6d, type: 2}
 --- !u!1001 &1451116442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1448,6 +1525,7 @@ GameObject:
   - component: {fileID: 1903516128}
   - component: {fileID: 1903516127}
   - component: {fileID: 1903516131}
+  - component: {fileID: 1903516132}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1553,6 +1631,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 838cb6e70a9b1304fb20361b630d0843, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
+--- !u!114 &1903516132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903516126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1f27a0c823b4cd59bb77a724e86c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CanvasSoundManager
+  uiClickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a0b94d880a387441e941d3d9b4d34a6d, type: 2}
 --- !u!224 &1905713396 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2068258999230009039, guid: d5664013d3f2e4644ab7dfa999ca690f, type: 3}
