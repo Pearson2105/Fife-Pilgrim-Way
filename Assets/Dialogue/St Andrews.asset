@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b921ed4c7800784cb4c90661492a9b3, type: 3}
+  m_Name: St Andrews
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  characterName: Priest
+  dialogueLines:
+  - Traveller, you stand at the threshold of a sacred journey. The Fife Pilgrim Way
+    is no simple road, it is a path walked by the faithful.
+  - You will cross glens, kirks, and the resting places of those who sought peace.
+    Walk with humility, and the land will welcome you.
+  - Take this blessing and may your steps be steady, your heart be clear, and may
+    the saints watch over you during your faithful journey.
+  - Go now, and may your pilgrimage bring you closer to truth than when you first
+    set foot upon this holy ground.
+  voiceType: Organ
+  genderPitch: -2400
+  voiceWobble: 3
+  typingSpeed: 0.2
